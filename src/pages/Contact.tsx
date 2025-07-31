@@ -312,7 +312,7 @@ const Contact = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://wa.me/6281234567890?text=Hello%20Gizi%20Laut%2C%20I'm%20interested%20in%20your%20aquaculture%20products" 
+                href="https://api.whatsapp.com/send/?phone=6282329653189&text&type=phone_number&app_absent=0" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -320,7 +320,7 @@ const Contact = () => {
                   WhatsApp Us Now
                 </Button>
               </a>
-              <a href="mailto:info@gizilaut.com">
+              <a href="mailto:gizilaut.id@gmail.com">
                 <Button size="lg" variant="outline" className="text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20">
                   Send Email
                 </Button>
