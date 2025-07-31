@@ -56,7 +56,7 @@ const Contact = () => {
                     Get instant support and product information
                   </p>
                   <a 
-                    href="https://wa.me/6281234567890?text=Hello%20Gizi%20Laut%2C%20I'm%20interested%20in%20your%20aquaculture%20products" 
+                    href="https://api.whatsapp.com/send/?phone=6282329653189&text&type=phone_number&app_absent=0" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
@@ -68,7 +68,7 @@ const Contact = () => {
                     </Button>
                   </a>
                   <p className="text-xs text-muted-foreground mt-2">
-                    +62 812-3456-7890
+                    +62 823-2965-3189
                   </p>
                 </CardContent>
               </Card>
@@ -99,7 +99,7 @@ const Contact = () => {
                     </Button>
                   </a>
                   <p className="text-xs text-muted-foreground mt-2">
-                    info@gizilaut.com
+                    gizilaut.id@gmail.com
                   </p>
                 </CardContent>
               </Card>
@@ -157,7 +157,7 @@ const Contact = () => {
                     Shop with buyer protection guarantee
                   </p>
                   <a 
-                    href="https://tokopedia.com/gizilaut" 
+                    href="https://tk.tokopedia.com/ZSSBR3dUT/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
