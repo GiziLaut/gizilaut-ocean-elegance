@@ -139,7 +139,7 @@ const Contact = () => {
               <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 bg-green-600 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
-                    <img src="/tokopedia_icon.png" alt="Tokopedia" className="w-8 h-8" />
+                    <img src="/tokopedia_icon.png" alt="Tokopedia" className="w-10 h-10" />
                   </div>
                   <CardTitle className="text-xl text-green-700">Tokopedia</CardTitle>
                   <CardDescription>
@@ -156,7 +156,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                   >
                     <Button variant="outline" className="w-full border-green-600 text-green-700 hover:bg-green-50">
-                      <img src="/tokopedia_icon.png" alt="Tokopedia" className="w-4 h-4 mr-2" />
+                      <img src="/tokopedia_icon.png" alt="Tokopedia" className="w-6 h-6 mr-4" />
                       Visit Store
                     </Button>
                   </a>
