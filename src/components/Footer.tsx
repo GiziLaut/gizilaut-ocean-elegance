@@ -11,7 +11,7 @@ const Footer = () => {
               <img
                 src="/Logo Gizi Laut_no text"
                 alt="Gizi Laut Logo"
-                className="w-8 h-8 rounded-full animate-float"
+                className="w-8 h-8 object-contain animate-float"
               />
               <span className="text-xl font-bold text-gradient-ocean">Gizi Laut</span>
             </div>
