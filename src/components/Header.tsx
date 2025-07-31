@@ -19,7 +19,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-8 h-8 bg-gradient-ocean rounded-full animate-float"></div>
+            <img
+              src="/Logo Gizi Laut_no text"
+              alt="Gizi Laut Logo"
+              className="w-8 h-8 rounded-full animate-float"
+            />
             <span className="text-xl font-bold text-gradient-ocean">Gizi Laut</span>
           </Link>
 

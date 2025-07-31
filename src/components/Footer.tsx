@@ -8,7 +8,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-ocean rounded-full animate-float"></div>
+              <img
+                src="/Logo Gizi Laut_no text"
+                alt="Gizi Laut Logo"
+                className="w-8 h-8 rounded-full animate-float"
+              />
               <span className="text-xl font-bold text-gradient-ocean">Gizi Laut</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
