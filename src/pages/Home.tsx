@@ -1,0 +1,176 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import Layout from "@/components/Layout";
+import { Link } from "react-router-dom";
+
+const Home = () => {
+  return (
+    <Layout>
+      {/* Hero Section */}
+      <section className="relative bg-gradient-ocean text-white overflow-hidden">
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+          <div className="max-w-4xl mx-auto text-center space-y-8">
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+              Premium Aquaculture
+              <span className="block text-white/90">Nutrition Solutions</span>
+            </h1>
+            <p className="text-xl lg:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
+              Providing specialized feed for shrimp and fish farming with quality nutrition 
+              for sustainable marine farming success.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link to="/products">
+                <Button size="lg" variant="coral" className="text-lg px-8 py-4">
+                  View Our Products
+                </Button>
+              </Link>
+              <Link to="/contact">
+                <Button size="lg" variant="outline" className="text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20">
+                  Contact Us
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="wave-divider"></div>
+      </section>
+
+      {/* Featured Products */}
+      <section className="py-16 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4 mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
+              Our Premium Products
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Specialized nutrition solutions designed for optimal growth and health in aquaculture
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-ocean rounded-full mx-auto mb-4 animate-float"></div>
+                <CardTitle className="text-2xl text-gradient-ocean">Pakan Benur</CardTitle>
+                <CardDescription className="text-base">
+                  Premium shrimp fry feed for optimal early-stage development
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-muted-foreground mb-6">
+                  Specially formulated nutrition for shrimp larvae and post-larvae growth phases.
+                </p>
+                <Link to="/products#pakan-benur">
+                  <Button variant="wave" className="w-full">
+                    Learn More
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+
+            <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-depth rounded-full mx-auto mb-4 animate-float" style={{animationDelay: '0.5s'}}></div>
+                <CardTitle className="text-2xl text-gradient-ocean">Pakan Benih Ikan</CardTitle>
+                <CardDescription className="text-base">
+                  High-quality fish fry feed for healthy growth
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-muted-foreground mb-6">
+                  Complete nutrition solution for fish fry and juvenile development stages.
+                </p>
+                <Link to="/products#pakan-benih-ikan">
+                  <Button variant="wave" className="w-full">
+                    Learn More
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="py-16 lg:py-24 bg-gradient-wave">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4 mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
+              Why Choose Gizi Laut?
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              We are committed to providing the best nutrition solutions for your aquaculture needs
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center space-y-4">
+              <div className="w-16 h-16 bg-primary-light rounded-full mx-auto flex items-center justify-center shadow-ocean">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold">Premium Quality</h3>
+              <p className="text-muted-foreground">
+                Our feeds are made with the highest quality ingredients for optimal nutrition
+              </p>
+            </div>
+
+            <div className="text-center space-y-4">
+              <div className="w-16 h-16 bg-primary-light rounded-full mx-auto flex items-center justify-center shadow-ocean">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold">Fast Growth</h3>
+              <p className="text-muted-foreground">
+                Scientifically proven formulas that promote rapid and healthy growth
+              </p>
+            </div>
+
+            <div className="text-center space-y-4">
+              <div className="w-16 h-16 bg-primary-light rounded-full mx-auto flex items-center justify-center shadow-ocean">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold">Sustainable</h3>
+              <p className="text-muted-foreground">
+                Environmentally responsible production methods for sustainable aquaculture
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 lg:py-24 bg-gradient-ocean text-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="max-w-3xl mx-auto space-y-8">
+            <h2 className="text-3xl lg:text-4xl font-bold">
+              Ready to Boost Your Aquaculture Success?
+            </h2>
+            <p className="text-xl text-white/90">
+              Get in touch with us today to learn more about our premium nutrition solutions
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link to="/contact">
+                <Button size="lg" variant="coral" className="text-lg px-8 py-4">
+                  Contact Us Today
+                </Button>
+              </Link>
+              <Link to="/products">
+                <Button size="lg" variant="outline" className="text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20">
+                  Browse Products
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Layout>
+  );
+};
+
+export default Home;
