@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <img
-                src="/Logo Gizi Laut_no text"
+                src="/Logo Gizi Laut_no text.png"
                 alt="Gizi Laut Logo"
-                className="w-8 h-8 object-contain animate-float"
+                className="w-28 h-10 object-contain animate-float"
               />
               <span className="text-xl font-bold text-gradient-ocean">Gizi Laut</span>
             </div>

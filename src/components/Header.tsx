@@ -20,9 +20,9 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <img
-              src="/Logo Gizi Laut_no text"
+              src="/Logo Gizi Laut_no text.png"
               alt="Gizi Laut Logo"
-              className="w-8 h-8 rounded-full animate-float"
+              className="w-28 h-10 object-contain animate-float"
             />
             <span className="text-xl font-bold text-gradient-ocean">Gizi Laut</span>
           </Link>
