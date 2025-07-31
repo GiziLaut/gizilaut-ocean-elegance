@@ -108,9 +108,7 @@ const Contact = () => {
               <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 bg-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
-                    <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2L2 7v10c0 5.55 3.84 10 10 10s10-4.45 10-10V7l-10-5z"/>
-                    </svg>
+                    <img src="/shopee_icon.png" alt="Shopee" className="w-8 h-8" />
                   </div>
                   <CardTitle className="text-xl text-orange-600">Shopee</CardTitle>
                   <CardDescription>
@@ -127,9 +125,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                   >
                     <Button variant="outline" className="w-full border-orange-500 text-orange-600 hover:bg-orange-50">
-                      <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2L2 7v10c0 5.55 3.84 10 10 10s10-4.45 10-10V7l-10-5z"/>
-                      </svg>
+                      <img src="/shopee_icon.png" alt="Shopee" className="w-4 h-4 mr-2" />
                       Visit Store
                     </Button>
                   </a>
@@ -143,9 +139,7 @@ const Contact = () => {
               <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 bg-green-600 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
-                    <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                    </svg>
+                    <img src="/tokopedia_icon.png" alt="Tokopedia" className="w-8 h-8" />
                   </div>
                   <CardTitle className="text-xl text-green-700">Tokopedia</CardTitle>
                   <CardDescription>
@@ -162,9 +156,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                   >
                     <Button variant="outline" className="w-full border-green-600 text-green-700 hover:bg-green-50">
-                      <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                      </svg>
+                      <img src="/tokopedia_icon.png" alt="Tokopedia" className="w-4 h-4 mr-2" />
                       Visit Store
                     </Button>
                   </a>
