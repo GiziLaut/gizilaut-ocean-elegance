@@ -157,7 +157,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">
                 <Button size="lg" variant="coral" className="text-lg px-8 py-4">
-                  Contact Us Today
+                  Contact Us Now
                 </Button>
               </Link>
               <Link to="/products">
