@@ -32,7 +32,7 @@ const Footer = () => {
             <h3 className="font-semibold text-foreground">Contact Info</h3>
             <div className="space-y-3">
               <a 
-                href="https://wa.me/6281234567890" 
+                href="https://wa.me/6282329653189" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
@@ -43,13 +43,13 @@ const Footer = () => {
                 <span>WhatsApp</span>
               </a>
               <a 
-                href="mailto:info@gizilaut.com" 
+                href="mailto:gizilaut.id@gmail.com" 
                 className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 7.89a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span>info@gizilaut.com</span>
+                <span>gizilaut.id@gmail.com</span>
               </a>
             </div>
           </div>
