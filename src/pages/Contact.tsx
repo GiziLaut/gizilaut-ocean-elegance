@@ -29,10 +29,10 @@ const Contact = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
-                Multiple Ways to Reach Us
+                Pilih Cara Anda Terhubung dengan Kami
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Choose your preferred method to connect with us for fast and reliable customer service
+                Dapatkan Layanan Pelanggan Cepat & Andal Serta Pilih Metode Komunikasi Pilihan Anda
               </p>
             </div>
 
@@ -181,7 +181,7 @@ const Contact = () => {
                 Hubungi kami melalui platform online shop Gizi Laut pilihan Anda, untuk layanan pelanggan cepat dan terpercaya!
               </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-center place-items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 justify-center">
 
               {/* Shopee */}
               <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
@@ -255,26 +255,26 @@ const Contact = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center space-y-4 mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
-                Business Information
+                Informasi Bisnis
               </h2>
               <p className="text-lg text-muted-foreground">
-                Important details about our service hours and response times
+                Jadwal Layanan dan Respons Kami: Informasi Penting untuk Anda
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <Card className="border-0 shadow-ocean">
                 <CardHeader>
-                  <CardTitle className="text-xl text-center">Business Hours</CardTitle>
+                  <CardTitle className="text-xl text-center">Hari Kerja</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Monday - Friday</span>
-                    <span className="font-medium">8:00 AM - 6:00 PM</span>
+                    <span className="font-medium">8:00 AM - 18:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Saturday</span>
-                    <span className="font-medium">8:00 AM - 4:00 PM</span>
+                    <span className="font-medium">8:00 AM - 16:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Sunday</span>
@@ -282,7 +282,7 @@ const Contact = () => {
                   </div>
                   <div className="pt-2 border-t border-border">
                     <p className="text-sm text-muted-foreground">
-                      *All times are in Western Indonesia Time (WIB)
+                      *Waktu Indonesia bagian Barat (WIB)
                     </p>
                   </div>
                 </CardContent>
@@ -290,7 +290,7 @@ const Contact = () => {
 
               <Card className="border-0 shadow-ocean">
                 <CardHeader>
-                  <CardTitle className="text-xl text-center">Response Times</CardTitle>
+                  <CardTitle className="text-xl text-center">Waktu Balas</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex justify-between">
@@ -303,7 +303,7 @@ const Contact = () => {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Marketplace</span>
-                    <span className="font-medium">Within 4 hours</span>
+                    <span className="font-medium">Within 1 hour</span>
                   </div>
                   <div className="pt-2 border-t border-border">
                     <p className="text-sm text-muted-foreground">
@@ -333,36 +333,36 @@ const Contact = () => {
             <div className="space-y-6">
               <Card className="border shadow-wave">
                 <CardHeader>
-                  <CardTitle className="text-lg">What are your minimum order quantities?</CardTitle>
+                  <CardTitle className="text-lg">Pakan di Gizi Laut aman gak sih buat benur atau benih ikan?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We offer flexible ordering options starting from 1kg for sample orders. 
-                    For commercial quantities, we recommend 25kg or more for better pricing.
+                    Aman dong! Semua produk yang kami jual udah dipakai banyak pembudidaya 
+                    dan berasal dari brand yang punya reputasi bagus. Jadi kamu gak perlu khawatir soal kualitasnya.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="border shadow-wave">
                 <CardHeader>
-                  <CardTitle className="text-lg">Do you provide delivery services?</CardTitle>
+                  <CardTitle className="text-lg">Minimal order-nya berapa ya? Bisa beli eceran?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Yes, we provide delivery throughout Indonesia. Shipping costs and times 
-                    vary by location. Contact us for specific delivery quotes to your area.
+                    Bisa banget! Kalau mau beli eceran, lebih hemat lewat olshop kayak Tokopedia atau Shopee karena sering ada promo. 
+                    Tapi kalau kamu butuh dalam jumlah besar, bisa langsung lewat WhatsApp atau kontak mana pun yang nyaman buat kamu.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="border shadow-wave">
                 <CardHeader>
-                  <CardTitle className="text-lg">Can I get technical support for feeding programs?</CardTitle>
+                  <CardTitle className="text-lg">Bisa dibantu milih pakan yang cocok?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Absolutely! Our aquaculture specialists provide free consultation on feeding 
-                    programs, growth optimization, and farm management best practices.
+                    Tentu! Kalau kamu bingung harus pakai pakan apa buat jenis benur atau ikan tertentu, langsung aja tanya kami. 
+                    Tim Gizi Laut siap bantu kasih rekomendasi yang sesuai kebutuhanmu.
                   </p>
                 </CardContent>
               </Card>
