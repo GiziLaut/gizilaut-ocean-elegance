@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-1">
               <img
                 src="/Logo Gizi Laut_no text.png"
                 alt="Gizi Laut Logo"
@@ -17,7 +17,8 @@ const Footer = () => {
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Providing premium aquaculture nutrition solutions for sustainable marine farming.
-              
+            </p>
+            <p className="text-muted-foreground text-sm leading-relaxed">
               #GrowWithNutrition
             </p>
           </div>
