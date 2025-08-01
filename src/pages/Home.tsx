@@ -55,7 +55,7 @@ const Home = () => {
                   <img
                     src="/Udang Gizi Laut Transparent.png"
                     alt="Pakan Benur"
-                    className="w-20 h-20 object-cover rounded-full mx-auto mb-4 animate-float"
+                    className="w-30 h-30 object-cover rounded-full mx-auto mb-4 animate-float"
                   />
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benur</CardTitle>
                 <CardDescription className="text-base">
@@ -79,7 +79,7 @@ const Home = () => {
                 <img
                     src="/ikan Gizi Laut Transparent.png"
                     alt="Pakan Benur"
-                    className="w-20 h-20 object-cover rounded-full mx-auto mb-4 animate-float"
+                    className="w-30 h-30 object-cover rounded-full mx-auto mb-4 animate-float"
                   />
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benih Ikan</CardTitle>
                 <CardDescription className="text-base">
