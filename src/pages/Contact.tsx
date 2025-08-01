@@ -17,8 +17,7 @@ const Contact = () => {
               Contact Us
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Get in touch with our aquaculture nutrition experts for product inquiries, 
-              consultations, and support
+              Kami menyediakan pakan lengkap untuk fase tumbuh kembang benur dan benih ikan Anda.
             </p>
           </div>
         </div>
@@ -110,7 +109,7 @@ const Contact = () => {
                   <div className="w-16 h-16 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
                     <img src="/Instagram_icon" alt="Instagram" className="w-8 h-8" />
                   </div>
-                  <CardTitle className="text-xl text-pink-600">Shopee</CardTitle>
+                  <CardTitle className="text-xl text-pink-600">Instagram</CardTitle>
                   <CardDescription>
                     Social media account
                   </CardDescription>
@@ -138,10 +137,10 @@ const Contact = () => {
               {/* Tiktok */}
               <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
                 <CardHeader className="text-center pb-4">
-                  <div className="w-16 h-16 bg-black-600 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
+                  <div className="w-16 h-16 bg-black rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
                     <img src="/tiktok_icon.png" alt="TikTok" className="w-10 h-10" />
                   </div>
-                  <CardTitle className="text-xl text-black-700">TikTok</CardTitle>
+                  <CardTitle className="text-xl text-black">TikTok</CardTitle>
                   <CardDescription>
                     Social media account
                   </CardDescription>
@@ -155,13 +154,13 @@ const Contact = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
-                    <Button variant="outline" className="w-full border-black-600 text-blck-700 hover:bg-gray-100">
+                    <Button variant="outline" className="w-full border-black text-blck hover:bg-gray-100">
                       <img src="/tiktok_icon.png" alt="TikTok" className="w-6 h-6 mr-4" />
                       Visit Account
                     </Button>
                   </a>
                   <p className="text-xs text-muted-foreground mt-2">
-                    Official Gizi Laut Store
+                    Official Gizi Laut Account
                   </p>
                 </CardContent>
               </Card>
@@ -182,7 +181,7 @@ const Contact = () => {
                 Hubungi kami melalui platform online shop Gizi Laut pilihan Anda, untuk layanan pelanggan cepat dan terpercaya!
               </p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
 
               {/* Shopee */}
               <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
