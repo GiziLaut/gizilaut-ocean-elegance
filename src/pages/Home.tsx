@@ -52,7 +52,11 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
               <CardHeader className="text-center pb-4">
-                <div className="w-20 h-20 bg-gradient-ocean rounded-full mx-auto mb-4 animate-float"></div>
+                  <img
+                    src="/Udang Gizi Laut Transparent.png"
+                    alt="Pakan Benur"
+                    className="w-20 h-20 object-cover rounded-full mx-auto mb-4 animate-float"
+                  />
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benur</CardTitle>
                 <CardDescription className="text-base">
                   Nutrisi Terbaik Benur Fondasi Tumbuh Kembang Optimal Sejak Dini.
@@ -72,7 +76,11 @@ const Home = () => {
 
             <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
               <CardHeader className="text-center pb-4">
-                <div className="w-20 h-20 bg-gradient-depth rounded-full mx-auto mb-4 animate-float" style={{animationDelay: '0.5s'}}></div>
+                <img
+                    src="/Udang Gizi Laut Transparent.png"
+                    alt="Pakan Benur"
+                    className="w-20 h-20 object-cover rounded-full mx-auto mb-4 animate-float"
+                  />
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benih Ikan</CardTitle>
                 <CardDescription className="text-base">
                   Pakan Benih Ikan Berkualitas serta Rahasia pertumbuhan cepat dan benih sehat!
@@ -97,7 +105,7 @@ const Home = () => {
       <section className="py-16 lg:py-24 bg-gradient-wave">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean -mb-2">
               Mengapa Gizi Laut?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
