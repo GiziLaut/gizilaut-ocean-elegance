@@ -150,43 +150,18 @@ const Blog = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Stay Updated
+              Butuh Saran Pakan Yang Tepat?
             </h2>
             <p className="text-xl text-white/90">
-              Get the latest aquaculture insights, tips, and product updates delivered to your inbox
+              Kami selalu siap memberi saran personal untuk kebutuhan pakan benur dan ikan Anda, demi kesuksesan budidaya.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white/50"
-              />
-              <Button variant="coral" className="px-8 py-3">
-                Subscribe
-              </Button>
+              <Link to="/contact">
+                <Button size="lg" variant="ocean" className="text-lg px-8 py-4">
+                  Contact Our Experts
+                </Button>
+              </Link>
             </div>
-            <p className="text-sm text-white/70">
-              No spam, unsubscribe at any time
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 lg:py-24 bg-gradient-wave">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="max-w-3xl mx-auto space-y-8">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
-              Need Expert Advice?
-            </h2>
-            <p className="text-xl text-muted-foreground">
-              Our aquaculture specialists are here to help you succeed with personalized guidance
-            </p>
-            <Link to="/contact">
-              <Button size="lg" variant="ocean" className="text-lg px-8 py-4">
-                Contact Our Experts
-              </Button>
-            </Link>
           </div>
         </div>
       </section>

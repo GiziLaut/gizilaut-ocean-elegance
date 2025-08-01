@@ -102,7 +102,7 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-10 lg:py-16 overflow-visible scroll-mt-24 bg-gradient-wave">
+      <section className="py-16 lg:py-20 overflow-visible scroll-mt-24 bg-gradient-wave">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean leading-tight">
