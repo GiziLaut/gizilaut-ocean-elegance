@@ -107,7 +107,7 @@ const Contact = () => {
               <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
-                    <img src="/Instagram_icon" alt="Instagram" className="w-8 h-8" />
+                    <img src="/Instagram_icon.png" alt="Instagram" className="w-8 h-8" />
                   </div>
                   <CardTitle className="text-xl text-pink-600">Instagram</CardTitle>
                   <CardDescription>
@@ -124,7 +124,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                   >
                     <Button variant="outline" className="w-full border-pink-500 text-pink-600 hover:bg-pink-50">
-                      <img src="/Instagram_icon" alt="Instagram" className="w-4 h-4 mr-2" />
+                      <img src="/Instagram_icon.png" alt="Instagram" className="w-4 h-4 mr-2" />
                       Visit Account
                     </Button>
                   </a>
@@ -181,7 +181,7 @@ const Contact = () => {
                 Hubungi kami melalui platform online shop Gizi Laut pilihan Anda, untuk layanan pelanggan cepat dan terpercaya!
               </p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-center place-items-center">
 
               {/* Shopee */}
               <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
