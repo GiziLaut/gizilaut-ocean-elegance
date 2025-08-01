@@ -17,6 +17,8 @@ const Footer = () => {
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Providing premium aquaculture nutrition solutions for sustainable marine farming.
+              
+              #GrowWithNutrition
             </p>
           </div>
 

@@ -16,8 +16,9 @@ const Home = () => {
               <span className="block text-white/90">Nutrition Solutions</span>
             </h1>
             <p className="text-xl lg:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
-              Providing specialized feed for shrimp and fish farming with quality nutrition 
-              for sustainable marine farming success.
+              Kami menyediakan pakan spesialis untuk budidaya udang dan ikan, dengan nutrisi berkualitas 
+              tinggi yang dirancang khusus untuk mendukung pertumbuhan optimal 
+              dan keberlanjutan usaha akuakultur di laut Anda.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/products">
@@ -41,10 +42,10 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
-              Our Premium Products
+              Produk Premium Kami
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Specialized nutrition solutions designed for optimal growth and health in aquaculture
+              Nutrisi Khusus Akuakultur yang Dirancang untuk tumbuh kembang & kesehatan maksimal pembenihan Anda!
             </p>
           </div>
 
@@ -54,16 +55,16 @@ const Home = () => {
                 <div className="w-20 h-20 bg-gradient-ocean rounded-full mx-auto mb-4 animate-float"></div>
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benur</CardTitle>
                 <CardDescription className="text-base">
-                  Premium shrimp fry feed for optimal early-stage development
+                  Nutrisi Terbaik Benur Fondasi Tumbuh Kembang Optimal Sejak Dini.
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-muted-foreground mb-6">
-                  Specially formulated nutrition for shrimp larvae and post-larvae growth phases.
+                  Nutrisi Formulasi Khusus Untuk Maksimalkan Tumbuh Kembang Larva & Post-Larva Udang!
                 </p>
                 <Link to="/products#pakan-benur">
                   <Button variant="wave" className="w-full">
-                    Learn More
+                    Pelajari Lebih Lanjut
                   </Button>
                 </Link>
               </CardContent>
@@ -74,16 +75,16 @@ const Home = () => {
                 <div className="w-20 h-20 bg-gradient-depth rounded-full mx-auto mb-4 animate-float" style={{animationDelay: '0.5s'}}></div>
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benih Ikan</CardTitle>
                 <CardDescription className="text-base">
-                  High-quality fish fry feed for healthy growth
+                  Pakan Benih Ikan Berkualitas serta Rahasia pertumbuhan cepat dan benih sehat!
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-muted-foreground mb-6">
-                  Complete nutrition solution for fish fry and juvenile development stages.
+                  Solusi Nutrisi Lengkap Untuk tumbuh kembang optimal benih dan juvenil ikan Anda!
                 </p>
                 <Link to="/products#pakan-benih-ikan">
                   <Button variant="wave" className="w-full">
-                    Learn More
+                    Pelajari Lebih Lanjut
                   </Button>
                 </Link>
               </CardContent>
@@ -97,10 +98,10 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
-              Why Choose Gizi Laut?
+              Mengapa Gizi Laut?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We are committed to providing the best nutrition solutions for your aquaculture needs
+              Komitmen kami Menyediakan solusi nutrisi akuakultur terbaik untuk setiap kebutuhan Anda!
             </p>
           </div>
 
@@ -111,9 +112,9 @@ const Home = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold">Premium Quality</h3>
+              <h3 className="text-xl font-semibold">Kualitas Premium</h3>
               <p className="text-muted-foreground">
-                Our feeds are made with the highest quality ingredients for optimal nutrition
+                Pakan kami, dibuat dengan bahan baku premium, hadirkan nutrisi optimal untuk.
               </p>
             </div>
 
@@ -123,9 +124,9 @@ const Home = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold">Fast Growth</h3>
+              <h3 className="text-xl font-semibold">Pertumbuhan Cepat</h3>
               <p className="text-muted-foreground">
-                Scientifically proven formulas that promote rapid and healthy growth
+                Formula teruji ilmiah serta Mendorong pertumbuhan cepat, sehat, dan optimal!
               </p>
             </div>
 
@@ -135,9 +136,9 @@ const Home = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold">Sustainable</h3>
+              <h3 className="text-xl font-semibold">Berkelanjutan</h3>
               <p className="text-muted-foreground">
-                Environmentally responsible production methods for sustainable aquaculture
+                Kami berkomitmen pada pakan dan nutrisi yang ramah lingkungan, demi akuakultur yang lestari.
               </p>
             </div>
           </div>
@@ -149,20 +150,20 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Ready to Boost Your Aquaculture Success?
+              Siap Tingkatkan Kesuksesan Akuakultur Anda?
             </h2>
             <p className="text-xl text-white/90">
-              Get in touch with us today to learn more about our premium nutrition solutions
+              Ingin tahu lebih banyak tentang solusi nutrisi premium kami? Yuk, segera hubungi kami!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">
                 <Button size="lg" variant="coral" className="text-lg px-8 py-4">
-                  Contact Us Now
+                  Hubungi Kami
                 </Button>
               </Link>
               <Link to="/products">
                 <Button size="lg" variant="outline" className="text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20">
-                  Browse Products
+                  Lihat Produk
                 </Button>
               </Link>
             </div>
