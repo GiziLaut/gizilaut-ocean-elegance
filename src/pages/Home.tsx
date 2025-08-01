@@ -55,7 +55,7 @@ const Home = () => {
                   <img
                     src="/Udang Gizi Laut Transparent.png"
                     alt="Pakan Benur"
-                    className="w-22 h-22 object-cover rounded-full mx-auto mb-4 animate-float"
+                    className="w-21 h-21 object-cover rounded-full mx-auto mb-4 animate-float"
                   />
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benur</CardTitle>
                 <CardDescription className="text-base">
@@ -79,7 +79,7 @@ const Home = () => {
                 <img
                     src="/ikan Gizi Laut Transparent.png"
                     alt="Pakan Benur"
-                    className="w-22 h-22 object-cover rounded-full mx-auto mb-4 animate-float"
+                    className="w-21 h-21 object-cover rounded-full mx-auto mb-4 animate-float"
                   />
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benih Ikan</CardTitle>
                 <CardDescription className="text-base">
@@ -102,10 +102,10 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16 lg:py-24 bg-gradient-wave">
+      <section className="py-10 lg:py-16 overflow-visible scroll-mt-24 bg-gradient-wave">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean pt-6 leading-[1.2]">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean leading-tight">
               Mengapa Gizi Laut?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
