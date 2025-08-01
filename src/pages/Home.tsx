@@ -77,7 +77,7 @@ const Home = () => {
             <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
               <CardHeader className="text-center pb-4">
                 <img
-                    src="/Udang Gizi Laut Transparent.png"
+                    src="/ikan Gizi Laut Transparent.png"
                     alt="Pakan Benur"
                     className="w-20 h-20 object-cover rounded-full mx-auto mb-4 animate-float"
                   />
@@ -105,7 +105,7 @@ const Home = () => {
       <section className="py-16 lg:py-24 bg-gradient-wave">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean -mb-2">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean pt-2">
               Mengapa Gizi Laut?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
