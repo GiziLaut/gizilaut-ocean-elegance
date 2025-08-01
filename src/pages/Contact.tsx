@@ -104,6 +104,86 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
+              {/* Instagram */}
+              <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
+                <CardHeader className="text-center pb-4">
+                  <div className="w-16 h-16 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
+                    <img src="/Instagram_icon" alt="Instagram" className="w-8 h-8" />
+                  </div>
+                  <CardTitle className="text-xl text-pink-600">Shopee</CardTitle>
+                  <CardDescription>
+                    Social media account
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <p className="text-muted-foreground mb-4 text-sm">
+                    Kunjungi dan follow social media kami
+                  </p>
+                  <a 
+                    href="https://www.instagram.com/gizilaut.id?igsh=cmkxZ3VtcWt2NG55" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="outline" className="w-full border-pink-500 text-pink-600 hover:bg-pink-50">
+                      <img src="/Instagram_icon" alt="Instagram" className="w-4 h-4 mr-2" />
+                      Visit Account
+                    </Button>
+                  </a>
+                  <p className="text-xs text-muted-foreground mt-2">
+                    Official Gizi Laut Account
+                  </p>
+                </CardContent>
+              </Card>
+
+              {/* Tiktok */}
+              <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
+                <CardHeader className="text-center pb-4">
+                  <div className="w-16 h-16 bg-black-600 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
+                    <img src="/tiktok_icon.png" alt="TikTok" className="w-10 h-10" />
+                  </div>
+                  <CardTitle className="text-xl text-black-700">TikTok</CardTitle>
+                  <CardDescription>
+                    Social media account
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <p className="text-muted-foreground mb-4 text-sm">
+                    Kunjungi dan follow social media kami
+                  </p>
+                  <a 
+                    href="https://www.tiktok.com/@gizilaut.id?_t=ZS-8yVhEKoWGk3&_r=1" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="outline" className="w-full border-black-600 text-blck-700 hover:bg-gray-100">
+                      <img src="/tiktok_icon.png" alt="TikTok" className="w-6 h-6 mr-4" />
+                      Visit Account
+                    </Button>
+                  </a>
+                  <p className="text-xs text-muted-foreground mt-2">
+                    Official Gizi Laut Store
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       {/* Market Place */}
+      <section className="py-16 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center space-y-4 mb-16">
+              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
+                Jelajahi Toko Online Kami Sekarang!
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Hubungi kami melalui platform online shop Gizi Laut pilihan Anda, untuk layanan pelanggan cepat dan terpercaya!
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
               {/* Shopee */}
               <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
                 <CardHeader className="text-center pb-4">
@@ -297,10 +377,10 @@ const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Ready to Get Started?
+              Siap untuk Mulai?
             </h2>
             <p className="text-xl text-white/90">
-              Contact us today for product information, pricing, or expert consultation
+              Hubungi kami sekarang untuk informasi produk, harga dan pengiriman
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
@@ -309,7 +389,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
               >
                 <Button size="lg" variant="coral" className="text-lg px-8 py-4">
-                  WhatsApp Us Now
+                  WhatsApp Sekarang
                 </Button>
               </a>
               <a href="mailto:gizilaut.id@gmail.com">
