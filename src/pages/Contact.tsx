@@ -52,7 +52,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-muted-foreground mb-4 text-sm">
-                    Info Produk & Bantuan Cepat
+                    Info Produk & Bantuan Cepat Segera Hubungi
                   </p>
                   <a 
                     href="https://api.whatsapp.com/send/?phone=6282329653189&text&type=phone_number&app_absent=0" 
@@ -87,7 +87,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-muted-foreground mb-4 text-sm">
-                    Ajukan Pertanyaan Detail Produk
+                    Ajukan Pertanyaan Terkait Detail Produk
                   </p>
                   <a href="mailto:info@gizilaut.com?subject=Product%20Inquiry&body=Hello%20Gizi%20Laut%20team%2C%0A%0AI'm%20interested%20in%20learning%20more%20about%20your%20aquaculture%20products.%0A%0APlease%20provide%20information%20about%3A%0A-%20Product%20catalog%0A-%20Pricing%0A-%20Availability%0A%0AThank%20you%21">
                     <Button variant="outline" className="w-full border-blue-500 text-blue-600 hover:bg-blue-50">
@@ -191,7 +191,7 @@ const Contact = () => {
                   </div>
                   <CardTitle className="text-xl text-orange-600">Shopee</CardTitle>
                   <CardDescription>
-                    Browse and purchase online
+                    Trusted marketplace platform
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="text-center">
@@ -227,7 +227,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-muted-foreground mb-4 text-sm">
-                    Shop with buyer protection guarantee
+                    Shop our products with secure payment
                   </p>
                   <a 
                     href="https://tk.tokopedia.com/ZSSBR3dUT/" 

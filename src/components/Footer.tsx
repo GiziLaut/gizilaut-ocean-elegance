@@ -16,7 +16,7 @@ const Footer = () => {
               <span className="text-xl font-bold text-gradient-ocean">Gizi Laut</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Providing premium aquaculture nutrition solutions for sustainable marine farming.
+              Solusi Nutrisi Akuakultur Premium untuk Keberlanjutan Budidaya Laut Baik untuk Benur Udang dan Benih Ikan.
             </p>
             <p className="text-muted-foreground text-sm leading-relaxed">
               #GrowWithNutrition

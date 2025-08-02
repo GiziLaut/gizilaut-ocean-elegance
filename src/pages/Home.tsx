@@ -122,7 +122,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-semibold">Kualitas Premium</h3>
               <p className="text-muted-foreground">
-                Pakan kami, dibuat dengan bahan baku premium, hadirkan nutrisi optimal untuk.
+                Pakan kami merupakan pakan dengan kualitas premium yang di tujukan untuk benur udang dan benih ikan.
               </p>
             </div>
 
