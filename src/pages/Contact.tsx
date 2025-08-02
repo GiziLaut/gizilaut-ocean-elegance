@@ -13,7 +13,7 @@ const Contact = () => {
       <section className="bg-gradient-wave py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gradient-ocean">
+            <h1 className="text-4xl lg:text-5xl font-bold text-gradient-ocean leading-[1.3] pb-2">
               Hubungi Kami
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center space-y-4 mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
+              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean leading-[1.3] pb-2">
                 Pilih Cara Anda Terhubung dengan Kami
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -174,7 +174,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center space-y-4 mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
+              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean leading-[1.3] pb-2">
                 Jelajahi Toko Online Kami Sekarang!
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -254,7 +254,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center space-y-4 mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
+              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean leading-[1.3] pb-2">
                 Informasi Bisnis
               </h2>
               <p className="text-lg text-muted-foreground">
@@ -322,7 +322,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center space-y-4 mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
+              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean leading-[1.3] pb-2">
                 FAQ (Pertanyaan yang Sering Diajukan)
               </h2>
               <p className="text-lg text-muted-foreground">

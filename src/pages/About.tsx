@@ -84,7 +84,7 @@ const About = () => {
               {/* Our Advantage */}
               <div className="bg-gradient-wave rounded-2xl p-8 lg:p-12">
                 <div className="space-y-6">
-                  <h2 className="text-3xl font-bold text-gradient-ocean text-center">Daya Saing Kami</h2>
+                  <h2 className="text-3xl font-bold text-gradient-ocean text-center leading-[1.3] pb-2">Daya Saing Kami</h2>
                   <div className="grid md:grid-cols-3 gap-8">
                     <div className="text-center space-y-4">
                       <div className="w-16 h-16 bg-primary rounded-full mx-auto flex items-center justify-center shadow-ocean">
