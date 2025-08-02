@@ -13,7 +13,7 @@ const About = () => {
       <section className="bg-gradient-wave py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gradient-ocean leading-tight">
+            <h1 className="text-4xl lg:text-5xl font-bold text-gradient-ocean leading-[1.3] pb-2">
               Tentang Gizi Laut
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
