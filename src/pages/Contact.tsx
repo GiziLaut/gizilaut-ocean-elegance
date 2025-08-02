@@ -47,12 +47,12 @@ const Contact = () => {
                   </div>
                   <CardTitle className="text-xl text-green-600">WhatsApp</CardTitle>
                   <CardDescription>
-                    Quick messaging and voice calls
+                    Pesan Cepat & Panggilan Suara
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-muted-foreground mb-4 text-sm">
-                    Get instant support and product information
+                    Info Produk & Bantuan Cepat
                   </p>
                   <a 
                     href="https://api.whatsapp.com/send/?phone=6282329653189&text&type=phone_number&app_absent=0" 
@@ -82,12 +82,12 @@ const Contact = () => {
                   </div>
                   <CardTitle className="text-xl text-blue-600">Email</CardTitle>
                   <CardDescription>
-                    Professional inquiries and detailed questions
+                    Pertanyaan Detail & Profesional
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-muted-foreground mb-4 text-sm">
-                    Send us detailed product inquiries
+                    Ajukan Pertanyaan Detail Produk
                   </p>
                   <a href="mailto:info@gizilaut.com?subject=Product%20Inquiry&body=Hello%20Gizi%20Laut%20team%2C%0A%0AI'm%20interested%20in%20learning%20more%20about%20your%20aquaculture%20products.%0A%0APlease%20provide%20information%20about%3A%0A-%20Product%20catalog%0A-%20Pricing%0A-%20Availability%0A%0AThank%20you%21">
                     <Button variant="outline" className="w-full border-blue-500 text-blue-600 hover:bg-blue-50">
@@ -111,7 +111,7 @@ const Contact = () => {
                   </div>
                   <CardTitle className="text-xl text-pink-600">Instagram</CardTitle>
                   <CardDescription>
-                    Social media account
+                    Akun Sosial Media
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="text-center">
@@ -142,7 +142,7 @@ const Contact = () => {
                   </div>
                   <CardTitle className="text-xl text-black">TikTok</CardTitle>
                   <CardDescription>
-                    Social media account
+                    Akun Sosial Media
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="text-center">
