@@ -84,10 +84,10 @@ const Blog = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold text-gradient-ocean">
-              Aquaculture Insights
+              Inovasi & Wawasan Budidaya
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Expert knowledge, tips, and best practices for successful aquaculture farming
+              Pengetahuan, Tips, dan Praktik Terbaik Budidaya Akuakultur
             </p>
           </div>
         </div>
@@ -158,7 +158,7 @@ const Blog = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
               <Link to="/contact">
                 <Button size="lg" variant="ocean" className="text-lg px-8 py-4">
-                  Contact Our Experts
+                  Hubungi Kami
                 </Button>
               </Link>
             </div>

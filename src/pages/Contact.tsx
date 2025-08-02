@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold text-gradient-ocean">
-              Contact Us
+              Hubungi Kami
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Kami menyediakan pakan lengkap untuk fase tumbuh kembang benur dan benih ikan Anda.
@@ -323,10 +323,10 @@ const Contact = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center space-y-4 mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
-                Frequently Asked Questions
+                FAQ (Pertanyaan yang Sering Diajukan)
               </h2>
               <p className="text-lg text-muted-foreground">
-                Quick answers to common inquiries
+                Jawaban Cepat untuk Pertanyaan Umum
               </p>
             </div>
 

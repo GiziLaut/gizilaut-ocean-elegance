@@ -14,10 +14,10 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold text-gradient-ocean">
-              About Gizi Laut
+              Tentang Gizi Laut
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Your trusted partner in aquaculture nutrition and sustainable marine farming solutions
+              Mitra Andalan Anda dalam Menyediakan Solusi Pakan Akuakultur dan Budidaya Laut Berkelanjutan.
             </p>
           </div>
         </div>
@@ -30,13 +30,16 @@ const About = () => {
             <div className="space-y-12">
               {/* Who We Are */}
               <div className="space-y-6">
-                <h2 className="text-3xl font-bold text-gradient-ocean">Who We Are</h2>
+                <h2 className="text-3xl font-bold text-gradient-ocean">Gizi Laut hadir sebagai teman seperjuangan para hatchery di Indonesia.</h2>
                 <div className="prose prose-lg max-w-none text-muted-foreground">
                   <p className="text-lg leading-relaxed">
-                    Gizi Laut is a premier aquaculture nutrition company dedicated to providing high-quality 
-                    feed solutions for the marine farming industry. Founded with a passion for sustainable 
-                    aquaculture, we specialize in developing and manufacturing premium nutrition products 
-                    that promote healthy growth and optimal development in aquatic species.
+                    Kami percaya bahwa pertumbuhan benur dan ikan yang sehat dimulai dari satu hal paling dasar: gizi yang tepat.
+                    Dengan menyediakan pakan benur dan pakan ikan berkualitas tinggi dan harga yang bersaing, 
+                    kami ingin membantu Anda menghasilkan udang dan ikan terbaik—dari awal yang kecil hingga panen yang besar.
+                    Produk kami lengkap, pelayanan kami tanggap, dan visi kami jelas:
+                    menjadi penyedia pakan benur dan ikan terbesar di Indonesia.
+                    Di tengah industri yang menuntut ketepatan dan ketahanan, Gizi Laut bukan sekadar penjual—kami rekan seperjalanan Anda. 
+                    Karena kami pun sedang bertumbuh, sama seperti Anda.
                   </p>
                   <p className="text-lg leading-relaxed">
                     Our company name "Gizi Laut" translates to "Marine Nutrition," reflecting our core mission 
