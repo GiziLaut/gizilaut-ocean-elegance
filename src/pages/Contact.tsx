@@ -269,16 +269,16 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Monday - Friday</span>
+                    <span className="text-muted-foreground">Senin - Jumat</span>
                     <span className="font-medium">8:00 AM - 18:00 PM</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Saturday</span>
+                    <span className="text-muted-foreground">Sabtu</span>
                     <span className="font-medium">8:00 AM - 16:00 PM</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Sunday</span>
-                    <span className="font-medium">Closed</span>
+                    <span className="text-muted-foreground">Minggu</span>
+                    <span className="font-medium">Tutup</span>
                   </div>
                   <div className="pt-2 border-t border-border">
                     <p className="text-sm text-muted-foreground">
@@ -295,19 +295,19 @@ const Contact = () => {
                 <CardContent className="space-y-3">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">WhatsApp</span>
-                    <span className="font-medium">Within 1 hour</span>
+                    <span className="font-medium">≥ 1 Jam</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Email</span>
-                    <span className="font-medium">Within 24 hours</span>
+                    <span className="font-medium">≥ 24 Jam</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Marketplace</span>
-                    <span className="font-medium">Within 1 hour</span>
+                    <span className="text-muted-foreground">Online Shop</span>
+                    <span className="font-medium">≥ 1 Jam</span>
                   </div>
                   <div className="pt-2 border-t border-border">
                     <p className="text-sm text-muted-foreground">
-                      *Response times during business hours only
+                      *Respon balasan akan di berikan selama jam kerja
                     </p>
                   </div>
                 </CardContent>
@@ -393,7 +393,7 @@ const Contact = () => {
               </a>
               <a href="mailto:gizilaut.id@gmail.com">
                 <Button size="lg" variant="outline" className="text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20">
-                  Send Email
+                  Kirim Email
                 </Button>
               </a>
             </div>

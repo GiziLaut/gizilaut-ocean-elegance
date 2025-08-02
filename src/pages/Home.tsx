@@ -105,7 +105,7 @@ const Home = () => {
       <section className="py-16 lg:py-20 overflow-visible scroll-mt-24 bg-gradient-wave">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean leading-tight">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean leading-[1.3] pb-2">
               Mengapa Gizi Laut?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
