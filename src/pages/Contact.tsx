@@ -295,15 +295,15 @@ const Contact = () => {
                 <CardContent className="space-y-3">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">WhatsApp</span>
-                    <span className="font-medium">≥ 1 Jam</span>
+                    <span className="font-medium">≤ 1 Jam</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Email</span>
-                    <span className="font-medium">≥ 24 Jam</span>
+                    <span className="font-medium">≤ 24 Jam</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Online Shop</span>
-                    <span className="font-medium">≥ 1 Jam</span>
+                    <span className="font-medium">≤ 1 Jam</span>
                   </div>
                   <div className="pt-2 border-t border-border">
                     <p className="text-sm text-muted-foreground">
