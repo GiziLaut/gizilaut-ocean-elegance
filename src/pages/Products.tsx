@@ -1,15 +1,61 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const Products = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
+
+  const pakanBenurImages = [
+    "Algamac.png", "Aqua Plus mysis 1.png", "Aqua Plus PL 150 1.png", "Aqua plus zoea1.png", "Artemac No 0.png",
+    "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia Mackay.png", "Artemia Sanders.png",
+    "Eguchi BP.png", "Elbazin 1 box.png", "Epac No 0.png", "ET-600 (1 Bag).png", "Frippak 1 CAR.png",
+    "Frippak 2 CD.png", "Frippak PL + 150.png", "Frippak PL + 300.png", "Japonicus 0.png", "Lansy MPL FINAL.png",
+    "Lansy PL.png", "Lansy ZM.png", "LHF 2.png", "Mackay Spirulina.png", "Micro feed no 3.png",
+    "RDN - ULTRA DIET 0.png", "Rotemia.png", "rotoffer.png", "Sanocare.png"
+  ];
+
+  const pakanIkanImages = [
+    "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia Mackay.png", "Artemia Sanders.png",
+    "Eguchi BP.png", "Elbazin 1 box.png", "LHF 2.png", "Otohime A.png", "Otohime B1.png", "Otohime B2.png",
+    "Otohime C1.png", "Otohime S1.png", "Otohime S2.png", "Rotemia.png", "rotoffer.png", "Sanocare.png"
+  ];
+
+  const renderCarousel = (images: string[], folder: string) => (
+    <Swiper
+      modules={[Navigation, Pagination]}
+      navigation
+      pagination={{ clickable: true }}
+      spaceBetween={16}
+      slidesPerView={2}
+      breakpoints={{
+        640: { slidesPerView: 3 },
+        1024: { slidesPerView: 4 },
+      }}
+    >
+      {images.map((img, index) => (
+        <SwiperSlide key={index}>
+          <div className="p-2">
+            <img
+              src={`/${folder}/${img}`}
+              alt={img.replace(".png", "")}
+              className="rounded-xl shadow-md w-full h-auto"
+            />
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
 
   return (
     <Layout
@@ -22,29 +68,16 @@ const Products = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-8 max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold text-gradient-ocean">
-              Premium Aquaculture Products
+              Produk Berkualitas Akuakultur
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Our specialized nutrition solutions are designed to maximize growth, health, and sustainability 
-              in your aquaculture operations.
+              Our specialized nutrition solutions are designed to maximize growth, health, and sustainability in your aquaculture operations.
             </p>
-            
-            {/* Product Category Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-              <Button 
-                size="lg" 
-                variant="ocean" 
-                onClick={() => scrollToSection('pakan-benur')}
-                className="text-lg px-8 py-4"
-              >
+              <Button size="lg" variant="ocean" onClick={() => scrollToSection("pakan-benur")} className="text-lg px-8 py-4">
                 Pakan Benur
               </Button>
-              <Button 
-                size="lg" 
-                variant="wave" 
-                onClick={() => scrollToSection('pakan-benih-ikan')}
-                className="text-lg px-8 py-4"
-              >
+              <Button size="lg" variant="wave" onClick={() => scrollToSection("pakan-benih-ikan")} className="text-lg px-8 py-4">
                 Pakan Benih Ikan
               </Button>
             </div>
@@ -52,191 +85,45 @@ const Products = () => {
         </div>
       </section>
 
-      {/* Pakan Benur Section */}
+      {/* Pakan Benur */}
       <section id="pakan-benur" className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center space-y-4 mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
-                Pakan Benur
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Premium nutrition for shrimp fry (benur) designed for optimal early-stage development
-              </p>
-            </div>
-
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* Product Image Placeholder */}
-              <div className="relative">
-                <div className="aspect-square bg-gradient-ocean rounded-2xl shadow-deep flex items-center justify-center">
-                  <div className="text-center text-white space-y-4">
-                    <div className="w-24 h-24 bg-white/20 rounded-full mx-auto flex items-center justify-center">
-                      <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                      </svg>
-                    </div>
-                    <h3 className="text-2xl font-bold">Pakan Benur</h3>
-                    <p className="text-white/80">Premium Shrimp Feed</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Product Details */}
-              <div className="space-y-6">
-                <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">Product Features</h3>
-                  <ul className="space-y-3 text-muted-foreground">
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>High protein content for rapid growth</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Essential amino acids for healthy development</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Vitamins and minerals for immunity</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Easy digestibility for young shrimp</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Water-stable formula</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="space-y-4">
-                  <h4 className="text-xl font-semibold text-foreground">Available Sizes</h4>
-                  <div className="grid grid-cols-2 gap-4">
-                    <Card className="border shadow-wave">
-                      <CardContent className="p-4 text-center">
-                        <div className="text-lg font-semibold text-primary">1 kg</div>
-                        <div className="text-sm text-muted-foreground">Small scale</div>
-                      </CardContent>
-                    </Card>
-                    <Card className="border shadow-wave">
-                      <CardContent className="p-4 text-center">
-                        <div className="text-lg font-semibold text-primary">25 kg</div>
-                        <div className="text-sm text-muted-foreground">Commercial</div>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </div>
-
-                <Link to="/contact">
-                  <Button size="lg" variant="ocean" className="w-full sm:w-auto">
-                    Get Quote for Pakan Benur
-                  </Button>
-                </Link>
-              </div>
-            </div>
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">Pakan Benur</h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Premium nutrition for shrimp fry (benur) designed for optimal early-stage development
+            </p>
           </div>
+          {renderCarousel(pakanBenurImages, "Pakan Benur")}
         </div>
       </section>
 
-      {/* Pakan Benih Ikan Section */}
+      {/* Pakan Benih Ikan */}
       <section id="pakan-benih-ikan" className="py-16 lg:py-24 bg-gradient-wave">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center space-y-4 mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">
-                Pakan Benih Ikan
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                High-quality fish fry feed formulated for healthy growth and development
-              </p>
-            </div>
-
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* Product Details */}
-              <div className="space-y-6 lg:order-2">
-                <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">Product Features</h3>
-                  <ul className="space-y-3 text-muted-foreground">
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Balanced nutrition for fish fry</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Enhanced with growth promoters</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Optimal protein-to-fat ratio</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Micro-pelleted for easy consumption</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Disease resistance support</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="space-y-4">
-                  <h4 className="text-xl font-semibold text-foreground">Available Sizes</h4>
-                  <div className="grid grid-cols-2 gap-4">
-                    <Card className="border shadow-wave">
-                      <CardContent className="p-4 text-center">
-                        <div className="text-lg font-semibold text-primary">1 kg</div>
-                        <div className="text-sm text-muted-foreground">Small scale</div>
-                      </CardContent>
-                    </Card>
-                    <Card className="border shadow-wave">
-                      <CardContent className="p-4 text-center">
-                        <div className="text-lg font-semibold text-primary">25 kg</div>
-                        <div className="text-sm text-muted-foreground">Commercial</div>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </div>
-
-                <Link to="/contact">
-                  <Button size="lg" variant="wave" className="w-full sm:w-auto">
-                    Get Quote for Pakan Benih Ikan
-                  </Button>
-                </Link>
-              </div>
-
-              {/* Product Image Placeholder */}
-              <div className="relative lg:order-1">
-                <div className="aspect-square bg-gradient-depth rounded-2xl shadow-deep flex items-center justify-center">
-                  <div className="text-center text-white space-y-4">
-                    <div className="w-24 h-24 bg-white/20 rounded-full mx-auto flex items-center justify-center">
-                      <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                      </svg>
-                    </div>
-                    <h3 className="text-2xl font-bold">Pakan Benih Ikan</h3>
-                    <p className="text-white/80">Premium Fish Feed</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">Pakan Benih Ikan</h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              High-quality fish fry feed formulated for healthy growth and development
+            </p>
           </div>
+          {renderCarousel(pakanIkanImages, "Pakan Ikan")}
         </div>
       </section>
 
-      {/* Contact CTA */}
+      {/* CTA */}
       <section className="py-16 lg:py-24 bg-gradient-ocean text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Need Custom Solutions?
+              Butuh Solusi Pakan yang Tepat?
             </h2>
             <p className="text-xl text-white/90">
-              Contact us for custom nutrition solutions tailored to your specific aquaculture needs
+              Hubungi Kami untuk Solusi Nutrisi Khusus sesuai Kebutuhan Akuakultur Anda
             </p>
             <Link to="/contact">
               <Button size="lg" variant="coral" className="text-lg px-8 py-4">
-                Contact Our Experts
+                Hubungi WhatsApp Kami
               </Button>
             </Link>
           </div>
