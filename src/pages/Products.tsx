@@ -17,18 +17,18 @@ const Products = () => {
   };
 
   const pakanBenurImages = [
-    "Algamac.png", "Aqua Plus mysis 1.png", "Aqua Plus PL 150 1.png", "Aqua plus zoea1.png", "Artemac No 0.png",
+    "Algamac.png", "Aqua plus mysis 1.png", "Aqua Plus PL 150 1.png", "Aqua plus zoea1.png", "Artemac No 0.png",
     "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia Mackay.png", "Artemia Sanders.png",
     "Eguchi BP.png", "Elbazin 1 box.png", "Epac No 0.png", "ET-600 (1 Bag).png", "Frippak 1 CAR.png",
     "Frippak 2 CD.png", "Frippak PL + 150.png", "Frippak PL + 300.png", "Japonicus 0.png", "Lansy MPL FINAL.png",
     "Lansy PL.png", "Lansy ZM.png", "LHF 2.png", "Mackay Spirulina.png", "Micro feed no 3.png",
-    "RDN - ULTRA DIET 0.png", "Rotemia.png", "rotoffer.png", "Sanocare.png"
+    "RDN Ultra diet 0.png", "Rotemia.png", "rotofier.png", "Sanocare.png"
   ];
 
   const pakanIkanImages = [
     "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia Mackay.png", "Artemia Sanders.png",
     "Eguchi BP.png", "Elbazin 1 box.png", "LHF 2.png", "Otohime A.png", "Otohime B1.png", "Otohime B2.png",
-    "Otohime C1.png", "Otohime S1.png", "Otohime S2.png", "Rotemia.png", "rotoffer.png", "Sanocare.png"
+    "Otohime C1.png", "Otohime S1.png", "Otohime S2.png", "Rotemia.png", "rotofier.png", "Sanocare.png"
   ];
 
   const renderCarousel = (images: string[], folder: string) => (
@@ -38,6 +38,7 @@ const Products = () => {
       pagination={{ clickable: true }}
       spaceBetween={16}
       slidesPerView={2}
+      className="pb-12"
       breakpoints={{
         640: { slidesPerView: 3 },
         1024: { slidesPerView: 4 },
@@ -60,7 +61,7 @@ const Products = () => {
   return (
     <Layout
       title="Our Products - Gizi Laut Premium Aquaculture Feed"
-      description="Discover our premium aquaculture feed products including Pakan Benur for shrimp and Pakan Benih Ikan for fish. Quality nutrition for optimal growth."
+      description="Maksimalkan pertumbuhan, kesehatan, dan keberlanjutan budidaya Anda dengan solusi pakan - pakan berkualitas pilihan kami"
       keywords="pakan benur, pakan benih ikan, shrimp feed, fish feed, aquaculture nutrition, marine feed"
     >
       {/* Hero Section */}
@@ -71,7 +72,7 @@ const Products = () => {
               Produk Berkualitas Akuakultur
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Our specialized nutrition solutions are designed to maximize growth, health, and sustainability in your aquaculture operations.
+              Maksimalkan pertumbuhan, kesehatan, dan keberlanjutan budidaya Anda dengan solusi pakan - pakan berkualitas pilihan kami
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
               <Button size="lg" variant="ocean" onClick={() => scrollToSection("pakan-benur")} className="text-lg px-8 py-4">
