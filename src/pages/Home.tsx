@@ -23,12 +23,12 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/products">
                 <Button size="lg" variant="coral" className="text-lg px-8 py-4">
-                  View Our Products
+                  Lihat Produk Kami
                 </Button>
               </Link>
               <Link to="/contact">
                 <Button size="lg" variant="outline" className="text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20">
-                  Contact Us
+                  Hubungi Kami
                 </Button>
               </Link>
             </div>

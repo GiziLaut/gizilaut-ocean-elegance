@@ -1,28 +1,31 @@
 export const blogPosts = [
   {
     id: 1,
-    title: "Optimizing Shrimp Growth with Proper Nutrition",
+    title: "Cara Memaksimalkan Pertumbuhan Benur dengan Nutrisi yang Tepat",
     date: "2024-01-15",
-    summary: "Learn how proper nutrition during the early stages can dramatically improve your shrimp farming success rates and overall yield.",
-    slug: "optimizing-shrimp-growth-nutrition",
+    summary: "Kenali pentingnya nutrisi di tahap awal budidaya udang untuk hasil panen yang maksimal dan pertumbuhan benur yang lebih cepat.",
+    slug: "cara-memaksimalkan-pertumbuhan-benur",
     category: "Shrimp Farming",
     readTime: "5 min read",
     content: `
-# Optimizing Shrimp Growth with Proper Nutrition
+# Cara Memaksimalkan Pertumbuhan Benur dengan Nutrisi yang Tepat
 
-Shrimp farming success starts with **optimal nutrition** during the larval stages.
+Tahapan awal pertumbuhan benur (larva udang) sangat menentukan keberhasilan budidaya secara keseluruhan. Salah satu faktor paling penting adalah pemberian pakan yang tepat.
 
-## Key Benefits
-- Improved survival rates
-- Faster growth
-- Higher feed conversion efficiency
+## Kenapa Nutrisi Itu Penting?
 
-## Recommended Practices
-1. Use high-protein micro feed
-2. Feed small portions frequently
-3. Monitor water quality and stress levels
+Dengan nutrisi yang optimal sejak dini, kamu bisa dapatkan:
+- Tingkat kelangsungan hidup benur yang lebih tinggi
+- Pertumbuhan lebih cepat
+- Efisiensi pakan yang lebih baik
 
-_Nutrition is not just feed—it's strategy._
+## Tips Pemberian Pakan
+
+1. Gunakan pakan mikro berprotein tinggi
+2. Beri makan dalam porsi kecil tapi sering
+3. Pastikan kualitas air tetap terjaga dan benur tidak stres
+
+_Pakan itu bukan cuma soal memberi makan, tapi juga soal strategi yang tepat._
 `
   },
   {

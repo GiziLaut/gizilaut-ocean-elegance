@@ -7,74 +7,74 @@ import { Link } from "react-router-dom";
 const blogPosts = [
   {
     id: 1,
-    title: "Optimizing Shrimp Growth with Proper Nutrition",
+    title: "Cara Memaksimalkan Pertumbuhan Benur dengan Nutrisi yang Tepat",
     date: "2024-01-15",
-    summary:
-      "Learn how proper nutrition during the early stages can dramatically improve your shrimp farming success rates and overall yield.",
-    slug: "optimizing-shrimp-growth-nutrition",
+    summary: 
+      "Kenali pentingnya nutrisi di tahap awal budidaya udang untuk hasil panen yang maksimal dan pertumbuhan benur yang lebih cepat.",
+    slug: "cara-memaksimalkan-pertumbuhan-benur",
     category: "Shrimp Farming",
     readTime: "5 min read",
   },
   {
     id: 2,
-    title: "Fish Fry Feeding Guidelines: Best Practices",
+    title: "Panduan Memberi Pakan Benih Ikan dengan Benar",
     date: "2024-01-10",
-    summary:
-      "Comprehensive guide to feeding fish fry with the right nutrients at the right time for maximum growth and survival rates.",
-    slug: "fish-fry-feeding-guidelines",
+    summary: 
+      "Panduan lengkap memberi pakan benih ikan dengan nutrisi yang tepat di waktu yang tepat untuk pertumbuhan optimal.",
+    slug: "panduan-pakan-benih-ikan",
     category: "Fish Farming",
     readTime: "7 min read",
   },
   {
     id: 3,
-    title: "Sustainable Aquaculture: The Future of Marine Farming",
+    title: "Akuakultur Berkelanjutan: Masa Depan Budidaya Laut",
     date: "2024-01-05",
-    summary:
-      "Explore sustainable practices in aquaculture that benefit both farmers and the environment while maintaining profitability.",
-    slug: "sustainable-aquaculture-future",
+    summary: 
+      "Mengenal praktik akuakultur yang ramah lingkungan untuk keberlanjutan jangka panjang.",
+    slug: "akuakultur-berkelanjutan",
     category: "Sustainability",
     readTime: "6 min read",
   },
   {
     id: 4,
-    title: "Water Quality Management in Aquaculture",
+    title: "Manajemen Kualitas Air dalam Akuakultur",
     date: "2023-12-28",
-    summary:
-      "Understanding the critical role of water quality in aquaculture success and how nutrition affects the aquatic environment.",
-    slug: "water-quality-management-aquaculture",
+    summary: 
+      "Memahami pentingnya kualitas air dalam kesuksesan budidaya dan bagaimana nutrisi turut berpengaruh.",
+    slug: "manajemen-kualitas-air",
     category: "Farm Management",
     readTime: "8 min read",
   },
   {
     id: 5,
-    title: "Choosing the Right Feed for Different Growth Stages",
+    title: "Memilih Pakan yang Tepat Sesuai Tahap Pertumbuhan",
     date: "2023-12-20",
-    summary:
-      "A detailed guide on selecting appropriate feed formulations for various life stages of aquatic species.",
-    slug: "choosing-right-feed-growth-stages",
+    summary: 
+      "Panduan lengkap memilih formulasi pakan yang sesuai untuk tiap tahap kehidupan benur dan ikan.",
+    slug: "memilih-pakan-sesuai-pertumbuhan",
     category: "Nutrition",
     readTime: "6 min read",
   },
   {
     id: 6,
-    title: "Common Diseases in Aquaculture and Prevention",
+    title: "Penyakit Umum dalam Budidaya dan Cara Pencegahannya",
     date: "2023-12-15",
-    summary:
-      "Learn about common diseases affecting farmed fish and shrimp, and how proper nutrition can boost immunity and prevent outbreaks.",
-    slug: "common-diseases-aquaculture-prevention",
+    summary: 
+      "Kenali penyakit umum pada ikan dan udang serta bagaimana nutrisi dapat membantu mencegahnya.",
+    slug: "penyakit-dalam-budidaya",
     category: "Health & Disease",
     readTime: "9 min read",
   },
 ];
 
 const categories = [
-  "All",
-  "Shrimp Farming",
-  "Fish Farming",
-  "Sustainability",
-  "Farm Management",
-  "Nutrition",
-  "Health & Disease",
+  "Semua",
+  "Budidaya Udang",
+  "Budidaya Ikan",
+  "Keberlanjutan",
+  "Manajemen Tambak",
+  "Nutrisi",
+  "Kesehatan & Penyakit",
 ];
 
 const Blog = () => {
