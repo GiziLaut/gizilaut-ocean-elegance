@@ -17,9 +17,11 @@ const BlogDetail = () => {
         <p className="text-sm text-muted-foreground mb-6">{post.date}</p>
 
         {/* Ini bagian isi blog yang akan ditampilkan */}
-        <ReactMarkdown className="prose">
-          {post.content}
-        </ReactMarkdown>
+        <div className="prose">
+          <ReactMarkdown>
+            {post.content}
+          </ReactMarkdown>
+        </div>
       </div>
     </Layout>
   );

@@ -9,67 +9,81 @@ const blogPosts = [
     id: 1,
     title: "Optimizing Shrimp Growth with Proper Nutrition",
     date: "2024-01-15",
-    summary: "Learn how proper nutrition during the early stages can dramatically improve your shrimp farming success rates and overall yield.",
+    summary:
+      "Learn how proper nutrition during the early stages can dramatically improve your shrimp farming success rates and overall yield.",
     slug: "optimizing-shrimp-growth-nutrition",
     category: "Shrimp Farming",
-    readTime: "5 min read"
+    readTime: "5 min read",
   },
   {
     id: 2,
     title: "Fish Fry Feeding Guidelines: Best Practices",
     date: "2024-01-10",
-    summary: "Comprehensive guide to feeding fish fry with the right nutrients at the right time for maximum growth and survival rates.",
+    summary:
+      "Comprehensive guide to feeding fish fry with the right nutrients at the right time for maximum growth and survival rates.",
     slug: "fish-fry-feeding-guidelines",
     category: "Fish Farming",
-    readTime: "7 min read"
+    readTime: "7 min read",
   },
   {
     id: 3,
     title: "Sustainable Aquaculture: The Future of Marine Farming",
     date: "2024-01-05",
-    summary: "Explore sustainable practices in aquaculture that benefit both farmers and the environment while maintaining profitability.",
+    summary:
+      "Explore sustainable practices in aquaculture that benefit both farmers and the environment while maintaining profitability.",
     slug: "sustainable-aquaculture-future",
     category: "Sustainability",
-    readTime: "6 min read"
+    readTime: "6 min read",
   },
   {
     id: 4,
     title: "Water Quality Management in Aquaculture",
     date: "2023-12-28",
-    summary: "Understanding the critical role of water quality in aquaculture success and how nutrition affects the aquatic environment.",
+    summary:
+      "Understanding the critical role of water quality in aquaculture success and how nutrition affects the aquatic environment.",
     slug: "water-quality-management-aquaculture",
     category: "Farm Management",
-    readTime: "8 min read"
+    readTime: "8 min read",
   },
   {
     id: 5,
     title: "Choosing the Right Feed for Different Growth Stages",
     date: "2023-12-20",
-    summary: "A detailed guide on selecting appropriate feed formulations for various life stages of aquatic species.",
+    summary:
+      "A detailed guide on selecting appropriate feed formulations for various life stages of aquatic species.",
     slug: "choosing-right-feed-growth-stages",
     category: "Nutrition",
-    readTime: "6 min read"
+    readTime: "6 min read",
   },
   {
     id: 6,
     title: "Common Diseases in Aquaculture and Prevention",
     date: "2023-12-15",
-    summary: "Learn about common diseases affecting farmed fish and shrimp, and how proper nutrition can boost immunity and prevent outbreaks.",
+    summary:
+      "Learn about common diseases affecting farmed fish and shrimp, and how proper nutrition can boost immunity and prevent outbreaks.",
     slug: "common-diseases-aquaculture-prevention",
     category: "Health & Disease",
-    readTime: "9 min read"
-  }
+    readTime: "9 min read",
+  },
 ];
 
-const categories = ["All", "Shrimp Farming", "Fish Farming", "Sustainability", "Farm Management", "Nutrition", "Health & Disease"];
+const categories = [
+  "All",
+  "Shrimp Farming",
+  "Fish Farming",
+  "Sustainability",
+  "Farm Management",
+  "Nutrition",
+  "Health & Disease",
+];
 
 const Blog = () => {
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', { 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
+    return date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
     });
   };
 
@@ -93,7 +107,7 @@ const Blog = () => {
         </div>
       </section>
 
-      {/* Category Filter - For future implementation */}
+      {/* Category Filter */}
       <section className="py-8 bg-background border-b border-border">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-2 justify-center">
@@ -116,23 +130,30 @@ const Blog = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
-              <Card key={post.id} className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
-                <CardHeader className="space-y-3">
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="text-primary font-medium">{post.category}</span>
-                    <span className="text-muted-foreground">{post.readTime}</span>
-                  </div>
-                  <CardTitle className="text-xl leading-tight group-hover:text-primary transition-colors">
-                    {post.title}
-                  </CardTitle>
-                  <CardDescription className="text-sm text-muted-foreground">
-                    {formatDate(post.date)}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <p className="text-muted-foreground leading-relaxed">
-                    {post.summary}
-                  </p>
+              <Card
+                key={post.id}
+                className="h-full flex flex-col justify-between group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean"
+              >
+                <div>
+                  <CardHeader className="space-y-3">
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="text-primary font-medium">{post.category}</span>
+                      <span className="text-muted-foreground">{post.readTime}</span>
+                    </div>
+                    <CardTitle className="text-xl leading-tight group-hover:text-primary transition-colors">
+                      {post.title}
+                    </CardTitle>
+                    <CardDescription className="text-sm text-muted-foreground">
+                      {formatDate(post.date)}
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="text-muted-foreground leading-relaxed">
+                      {post.summary}
+                    </p>
+                  </CardContent>
+                </div>
+                <CardContent>
                   <Link to={`/blog/${post.slug}`}>
                     <Button variant="wave" className="w-full group-hover:scale-105 transition-transform">
                       Read More
