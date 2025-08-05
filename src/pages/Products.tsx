@@ -38,7 +38,7 @@ const Products = () => {
       pagination={{ clickable: true }}
       spaceBetween={16}
       slidesPerView={2}
-      className="pb-24"
+      className="pb-12"
       breakpoints={{
         640: { slidesPerView: 3 },
         1024: { slidesPerView: 4 },

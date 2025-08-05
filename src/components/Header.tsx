@@ -5,10 +5,10 @@ const Header = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: "Products", href: "/products" },
-    { name: "About Us", href: "/about" },
+    { name: "Produk", href: "/products" },
+    { name: "Tentang Kami", href: "/about" },
     { name: "Blog", href: "/blog" },
-    { name: "Contact Us", href: "/contact" },
+    { name: "Hubungi Kami", href: "/contact" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
