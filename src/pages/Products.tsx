@@ -31,10 +31,42 @@ const Products = () => {
     "Otohime C1.png", "Otohime S1.png", "Otohime S2.png", "Rotemia.png", "rotofier.png", "Sanocare.png"
   ];
 
+  // const renderCarousel = (images: string[], folder: string) => (
+  //   <Swiper
+  //     modules={[Navigation, Pagination]}
+  //     navigation
+  //     pagination={{ clickable: true }}
+  //     spaceBetween={16}
+  //     slidesPerView={2}
+  //     className="pb-12"
+  //     breakpoints={{
+  //       640: { slidesPerView: 3 },
+  //       1024: { slidesPerView: 4 },
+  //     }}
+  //   >
+  //     {images.map((img, index) => (
+  //       <SwiperSlide key={index}>
+  //         <div className="p-2">
+  //           <img
+  //             src={`/${folder}/${img}`}
+  //             alt={img.replace(".png", "")}
+  //             className="rounded-xl shadow-md w-full h-auto"
+  //           />
+  //         </div>
+  //       </SwiperSlide>
+  //     ))}
+  //   </Swiper>
+  // );
+
   const renderCarousel = (images: string[], folder: string) => (
+  <div className="relative">
+    {/* Swiper Carousel */}
     <Swiper
       modules={[Navigation, Pagination]}
-      navigation
+      navigation={{
+        nextEl: `.swiper-button-next-${folder}`,
+        prevEl: `.swiper-button-prev-${folder}`,
+      }}
       pagination={{ clickable: true }}
       spaceBetween={16}
       slidesPerView={2}
@@ -56,7 +88,22 @@ const Products = () => {
         </SwiperSlide>
       ))}
     </Swiper>
-  );
+
+    {/* Tombol panah kiri */}
+    <div
+      className={`swiper-button-prev-${folder} absolute top-1/2 -left-4 z-10 w-10 h-10 bg-white/80 rounded-full flex items-center justify-center shadow-md cursor-pointer`}
+    >
+      <span className="text-black text-lg">&#8592;</span>
+    </div>
+
+    {/* Tombol panah kanan */}
+    <div
+      className={`swiper-button-next-${folder} absolute top-1/2 -right-4 z-10 w-10 h-10 bg-white/80 rounded-full flex items-center justify-center shadow-md cursor-pointer`}
+    >
+      <span className="text-black text-lg">&#8594;</span>
+    </div>
+  </div>
+);
 
   return (
     <Layout
