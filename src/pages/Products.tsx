@@ -3,6 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import React, { useRef, useEffect } from "react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -58,52 +60,74 @@ const Products = () => {
   //   </Swiper>
   // );
 
-  const renderCarousel = (images: string[], folder: string) => (
-  <div className="relative">
-    {/* Swiper Carousel */}
-    <Swiper
-      modules={[Navigation, Pagination]}
-      navigation={{
-        nextEl: `.swiper-button-next-${folder}`,
-        prevEl: `.swiper-button-prev-${folder}`,
-      }}
-      pagination={{ clickable: true }}
-      spaceBetween={16}
-      slidesPerView={2}
-      className="pb-12"
-      breakpoints={{
-        640: { slidesPerView: 3 },
-        1024: { slidesPerView: 4 },
-      }}
-    >
-      {images.map((img, index) => (
-        <SwiperSlide key={index}>
-          <div className="p-2">
-            <img
-              src={`/${folder}/${img}`}
-              alt={img.replace(".png", "")}
-              className="rounded-xl shadow-md w-full h-auto"
-            />
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+  const renderCarousel = (images: string[], folder: string) => {
+  const prevRef = useRef<HTMLDivElement | null>(null);
+  const nextRef = useRef<HTMLDivElement | null>(null);
 
-    {/* Tombol panah kiri */}
-    <div
-      className={`swiper-button-prev-${folder} absolute top-1/2 -left-4 z-10 w-10 h-10 bg-white/80 rounded-full flex items-center justify-center shadow-md cursor-pointer`}
-    >
-      <span className="text-black text-lg">&#8592;</span>
-    </div>
+  useEffect(() => {
+    // Pastikan tombol sudah siap sebelum Swiper pakai
+    if (prevRef.current && nextRef.current) {
+      // Swiper otomatis baca dari ref
+    }
+  }, []);
 
-    {/* Tombol panah kanan */}
-    <div
-      className={`swiper-button-next-${folder} absolute top-1/2 -right-4 z-10 w-10 h-10 bg-white/80 rounded-full flex items-center justify-center shadow-md cursor-pointer`}
-    >
-      <span className="text-black text-lg">&#8594;</span>
+  return (
+    <div className="relative">
+      <Swiper
+        modules={[Navigation, Pagination]}
+        navigation={{
+          prevEl: prevRef.current!,
+          nextEl: nextRef.current!,
+        }}
+        pagination={{ clickable: true }}
+        spaceBetween={16}
+        slidesPerView={2}
+        className="pb-12"
+        onInit={(swiper) => {
+          // Assign ulang tombol agar bisa dikenali
+          // @ts-ignore
+          swiper.params.navigation.prevEl = prevRef.current;
+          // @ts-ignore
+          swiper.params.navigation.nextEl = nextRef.current;
+          swiper.navigation.init();
+          swiper.navigation.update();
+        }}
+        breakpoints={{
+          640: { slidesPerView: 3 },
+          1024: { slidesPerView: 4 },
+        }}
+      >
+        {images.map((img, index) => (
+          <SwiperSlide key={index}>
+            <div className="p-2">
+              <img
+                src={`/${folder}/${img}`}
+                alt={img.replace(".png", "")}
+                className="rounded-xl shadow-md w-full h-auto"
+              />
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+      {/* Prev Button */}
+      <div
+        ref={prevRef}
+        className="absolute top-1/2 -translate-y-1/2 -left-8 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition"
+      >
+        <ArrowLeft className="text-black w-6 h-6" />
+      </div>
+
+      {/* Next Button */}
+      <div
+        ref={nextRef}
+        className="absolute top-1/2 -translate-y-1/2 -right-8 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition"
+      >
+        <ArrowRight className="text-black w-6 h-6" />
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
   return (
     <Layout
