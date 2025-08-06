@@ -33,46 +33,26 @@ const Products = () => {
     "Otohime C1.png", "Otohime S1.png", "Otohime S2.png", "Rotemia.png", "rotofier.png", "Sanocare.png"
   ];
 
-  // const renderCarousel = (images: string[], folder: string) => (
-  //   <Swiper
-  //     modules={[Navigation, Pagination]}
-  //     navigation
-  //     pagination={{ clickable: true }}
-  //     spaceBetween={16}
-  //     slidesPerView={2}
-  //     className="pb-12"
-  //     breakpoints={{
-  //       640: { slidesPerView: 3 },
-  //       1024: { slidesPerView: 4 },
-  //     }}
-  //   >
-  //     {images.map((img, index) => (
-  //       <SwiperSlide key={index}>
-  //         <div className="p-2">
-  //           <img
-  //             src={`/${folder}/${img}`}
-  //             alt={img.replace(".png", "")}
-  //             className="rounded-xl shadow-md w-full h-auto"
-  //           />
-  //         </div>
-  //       </SwiperSlide>
-  //     ))}
-  //   </Swiper>
-  // );
+  interface ProductCarouselProps {
+  images: string[];
+  folder: string;
+}
 
-  const renderCarousel = (images: string[], folder: string) => {
+const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => {
   const prevRef = useRef<HTMLDivElement | null>(null);
   const nextRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {
-    // Pastikan tombol sudah siap sebelum Swiper pakai
-    if (prevRef.current && nextRef.current) {
-      // Swiper otomatis baca dari ref
-    }
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <div className="relative">
+      <div ref={prevRef} className="absolute top-1/2 -translate-y-1/2 -left-12 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition">
+        <ArrowLeft className="text-sky-600 w-6 h-6" />
+      </div>
+      <div ref={nextRef} className="absolute top-1/2 -translate-y-1/2 -right-12 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition">
+        <ArrowRight className="text-sky-600 w-6 h-6" />
+      </div>
+
       <Swiper
         modules={[Navigation, Pagination]}
         navigation={{
@@ -84,7 +64,6 @@ const Products = () => {
         slidesPerView={2}
         className="pb-12"
         onInit={(swiper) => {
-          // Assign ulang tombol agar bisa dikenali
           // @ts-ignore
           swiper.params.navigation.prevEl = prevRef.current;
           // @ts-ignore
@@ -100,31 +79,11 @@ const Products = () => {
         {images.map((img, index) => (
           <SwiperSlide key={index}>
             <div className="p-2">
-              <img
-                src={`/${folder}/${img}`}
-                alt={img.replace(".png", "")}
-                className="rounded-xl shadow-md w-full h-auto"
-              />
+              <img src={`/${folder}/${img}`} alt={img.replace(".png", "")} className="rounded-xl shadow-md w-full h-auto" />
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
-
-      {/* Prev Button */}
-      <div
-        ref={prevRef}
-        className="absolute top-1/2 -translate-y-1/2 -left-8 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition"
-      >
-        <ArrowLeft className="text-black w-6 h-6" />
-      </div>
-
-      {/* Next Button */}
-      <div
-        ref={nextRef}
-        className="absolute top-1/2 -translate-y-1/2 -right-8 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition"
-      >
-        <ArrowRight className="text-black w-6 h-6" />
-      </div>
     </div>
   );
 };
@@ -166,7 +125,7 @@ const Products = () => {
               Premium nutrition for shrimp fry (benur) designed for optimal early-stage development
             </p>
           </div>
-          {renderCarousel(pakanBenurImages, "Pakan Benur")}
+          <ProductCarousel images={pakanBenurImages} folder="Pakan Benur" />
         </div>
       </section>
 
@@ -179,7 +138,7 @@ const Products = () => {
               High-quality fish fry feed formulated for healthy growth and development
             </p>
           </div>
-          {renderCarousel(pakanIkanImages, "Pakan Ikan")}
+          <ProductCarousel images={pakanIkanImages} folder="Pakan Ikan" />
         </div>
       </section>
 
