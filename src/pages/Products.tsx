@@ -46,10 +46,10 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
 
   return (
     <div className="relative">
-      <div ref={prevRef} className="absolute top-1/2 -translate-y-1/2 -left-12 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition">
+      <div ref={prevRef} className="absolute top-[45%] -translate-y-1/2 -left-12 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition">
         <ArrowLeft className="text-sky-600 w-6 h-6" />
       </div>
-      <div ref={nextRef} className="absolute top-1/2 -translate-y-1/2 -right-12 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition">
+      <div ref={nextRef} className="absolute top-[45%] -translate-y-1/2 -right-12 z-10 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg cursor-pointer hover:scale-110 transition">
         <ArrowRight className="text-sky-600 w-6 h-6" />
       </div>
 
