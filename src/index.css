@@ -164,3 +164,12 @@
 .swiper-button-next {
   right: -30px; /* geser ke luar kanan */
 }
+
+@import "tailwindcss/typography";
+
+.prose blockquote {
+  font-style: italic;
+  border-left: 4px solid #38bdf8; /* sky-400 */
+  padding-left: 1rem;
+  color: #475569;
+}

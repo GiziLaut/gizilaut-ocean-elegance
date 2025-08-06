@@ -1,5 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
 
@@ -9,60 +15,60 @@ const blogPosts = [
     id: 1,
     title: "Cara Memaksimalkan Pertumbuhan Benur dengan Nutrisi yang Tepat",
     date: "2024-01-15",
-    summary: 
+    summary:
       "Kenali pentingnya nutrisi di tahap awal budidaya udang untuk hasil panen yang maksimal dan pertumbuhan benur yang lebih cepat.",
     slug: "cara-memaksimalkan-pertumbuhan-benur",
-    category: "Shrimp Farming",
+    category: "Budidaya Udang",
     readTime: "5 min read",
   },
   {
     id: 2,
     title: "Panduan Memberi Pakan Benih Ikan dengan Benar",
     date: "2024-01-10",
-    summary: 
+    summary:
       "Panduan lengkap memberi pakan benih ikan dengan nutrisi yang tepat di waktu yang tepat untuk pertumbuhan optimal.",
     slug: "panduan-pakan-benih-ikan",
-    category: "Fish Farming",
+    category: "Budidaya Ikan",
     readTime: "7 min read",
   },
   {
     id: 3,
     title: "Akuakultur Berkelanjutan: Masa Depan Budidaya Laut",
     date: "2024-01-05",
-    summary: 
+    summary:
       "Mengenal praktik akuakultur yang ramah lingkungan untuk keberlanjutan jangka panjang.",
     slug: "akuakultur-berkelanjutan",
-    category: "Sustainability",
+    category: "Keberlanjutan",
     readTime: "6 min read",
   },
   {
     id: 4,
     title: "Manajemen Kualitas Air dalam Akuakultur",
     date: "2023-12-28",
-    summary: 
+    summary:
       "Memahami pentingnya kualitas air dalam kesuksesan budidaya dan bagaimana nutrisi turut berpengaruh.",
     slug: "manajemen-kualitas-air",
-    category: "Farm Management",
+    category: "Manajemen Tambak",
     readTime: "8 min read",
   },
   {
     id: 5,
     title: "Memilih Pakan yang Tepat Sesuai Tahap Pertumbuhan",
     date: "2023-12-20",
-    summary: 
+    summary:
       "Panduan lengkap memilih formulasi pakan yang sesuai untuk tiap tahap kehidupan benur dan ikan.",
     slug: "memilih-pakan-sesuai-pertumbuhan",
-    category: "Nutrition",
+    category: "Nutrisi",
     readTime: "6 min read",
   },
   {
     id: 6,
     title: "Penyakit Umum dalam Budidaya dan Cara Pencegahannya",
     date: "2023-12-15",
-    summary: 
+    summary:
       "Kenali penyakit umum pada ikan dan udang serta bagaimana nutrisi dapat membantu mencegahnya.",
     slug: "penyakit-dalam-budidaya",
-    category: "Health & Disease",
+    category: "Kesehatan & Penyakit",
     readTime: "9 min read",
   },
 ];
@@ -80,7 +86,7 @@ const categories = [
 const Blog = () => {
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
+    return date.toLocaleDateString("id-ID", {
       year: "numeric",
       month: "long",
       day: "numeric",
@@ -114,7 +120,7 @@ const Blog = () => {
             {categories.map((category) => (
               <Button
                 key={category}
-                variant={category === "All" ? "wave" : "ghost"}
+                variant={category === "Semua" ? "wave" : "ghost"}
                 size="sm"
                 className="text-sm"
               >
@@ -156,7 +162,7 @@ const Blog = () => {
                 <CardContent>
                   <Link to={`/blog/${post.slug}`}>
                     <Button variant="wave" className="w-full group-hover:scale-105 transition-transform">
-                      Read More
+                      Baca Selengkapnya
                     </Button>
                   </Link>
                 </CardContent>
