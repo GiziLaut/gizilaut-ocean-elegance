@@ -1,6 +1,7 @@
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
+import './App.css';
 
 // ✅ Tambahkan redirect logic di sini
 const redirectedPath = sessionStorage.redirect;
