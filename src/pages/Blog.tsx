@@ -14,7 +14,7 @@ const blogPosts = [
   {
     id: 1,
     title: "Cara Memaksimalkan Pertumbuhan Benur dengan Nutrisi yang Tepat",
-    date: "2024-08-01",
+    date: "2025-08-01",
     summary:
       "Kenali pentingnya nutrisi di tahap awal budidaya udang untuk hasil panen yang maksimal dan pertumbuhan benur yang lebih cepat.",
     slug: "cara-memaksimalkan-pertumbuhan-benur",
@@ -63,6 +63,36 @@ const blogPosts = [
   },
   {
     id: 6,
+    title: "Penyakit Umum dalam Budidaya dan Cara Pencegahannya",
+    date: "2023-12-15",
+    summary:
+      "Kenali penyakit umum pada ikan dan udang serta bagaimana nutrisi dapat membantu mencegahnya.",
+    slug: "penyakit-dalam-budidaya",
+    category: "Kesehatan & Penyakit",
+    readTime: "9 min read",
+  },
+  {
+    id: 7,
+    title: "Indonesia Jadi Tuan Rumah APA 2024",
+    date: "2023-12-15",
+    summary:
+      "Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024",
+    slug: "asian-pacific-aquaculture-2024-indonesia",
+    category: "Konferensi",
+    readTime: "5 min read",
+  },
+  {
+    id: 8,
+    title: "Penyakit Umum dalam Budidaya dan Cara Pencegahannya",
+    date: "2023-12-15",
+    summary:
+      "Kenali penyakit umum pada ikan dan udang serta bagaimana nutrisi dapat membantu mencegahnya.",
+    slug: "penyakit-dalam-budidaya",
+    category: "Kesehatan & Penyakit",
+    readTime: "9 min read",
+  },
+  {
+    id: 9,
     title: "Penyakit Umum dalam Budidaya dan Cara Pencegahannya",
     date: "2023-12-15",
     summary:

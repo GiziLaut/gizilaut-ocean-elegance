@@ -212,5 +212,158 @@ Penyakit bisa menjadi mimpi buruk dalam budidaya. Oleh karena itu, deteksi dini 
 
 _Pencegahan lebih murah daripada pengobatan—mulailah dari nutrisi dan manajemen yang baik._
 `
+  },
+  {
+  id: 7,
+    title: "Indonesia Jadi Tuan Rumah APA 2024: Peluang Emas Akuakultur Nasional",
+    date: "2023-12-15",
+    summary:"Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024",
+    slug: "asian-pacific-aquaculture-2024-indonesia",
+    category: "Konferensi",
+    readTime: "5 min read",
+  image: "/Blog Image/penyakit-budidaya.jpg",
+  content: `
+
+Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024, konferensi dan pameran akuakultur terbesar se-Asia Pasifik. Acara ini akan diselenggarakan di Surabaya, Jawa Timur, dan menjadi kali kedua Indonesia menjadi tuan rumah setelah kesuksesan APA 2016.
+
+![Pakan Benur Berkualitas](/BlogImage/pakan-benur.png)
+
+### Kenapa Indonesia Dipilih Lagi?
+
+Menurut Direktur Jenderal Perikanan Budidaya KKP, Tb Haeru Rahayu, pemilihan Indonesia bukan tanpa alasan. Sebagai salah satu produsen akuakultur terbesar di dunia, Indonesia memiliki potensi sumber daya alam yang melimpah dan pasar yang sangat menjanjikan.
+"Indonesia adalah magnet bagi investor luar negeri di sektor perikanan. Potensi budidayanya luar biasa besar," jelasnya.
+Dengan digelarnya APA 2024, diharapkan akan ada peningkatan investasi sekaligus penguatan pasar domestik, yang akhirnya bisa menjadi pengungkit pertumbuhan ekonomi nasional.
+
+### Surabaya Jadi Tuan Rumah
+
+Kota Surabaya kembali dipilih sebagai lokasi penyelenggaraan. Selain memiliki fasilitas lengkap dan akses transportasi yang memadai, Surabaya juga dikenal sebagai pusat budidaya ikan dan rumah bagi banyak perguruan tinggi yang fokus di bidang perikanan.
+Surabaya dinilai mampu menampung ribuan peserta dan pengunjung. Acara ini juga diharapkan menggugah partisipasi masyarakat luas, tidak hanya di Jawa Timur, tetapi juga di seluruh Indonesia.
+
+### Tentang APA 2024: “Aquaculture - Driving the Blue Economy”
+
+APA 2024 akan diselenggarakan oleh World Aquaculture Society bekerja sama dengan Ditjen Perikanan Budidaya KKP dan PT Tirta Anugrah Agung. Tema yang diangkat adalah “Aquaculture - Driving the Blue Economy”, menekankan pentingnya sektor budidaya dalam pembangunan ekonomi berbasis kelautan.
+
+### Apa yang Bisa Diharapkan?
+1. **232 booth pameran dari berbagai negara**
+
+2. **6.000 pengunjung dari dalam dan luar negeri**
+
+3. **Sesi konferensi 3 hari, membahas:**
+- ✅ Teknologi budidaya udang, ikan air tawar, ikan laut, hingga rumput laut
+- ✅ Pakan, sistem budidaya, manajemen penyakit & lingkungan
+- ✅ Tren global dan solusi inovatif industri akuakultur
+
+### Harapan untuk Masa Depan Budidaya Indonesia
+
+Menteri Kelautan dan Perikanan, Sakti Wahyu Trenggono, menyampaikan bahwa Indonesia memiliki visi besar menjadikan komoditas budidaya seperti udang, lobster, kepiting, tilapia, dan rumput laut sebagai penguasa pasar ekspor global dalam 10–20 tahun ke depan.
+APA 2024 akan menjadi panggung strategis untuk memperkuat posisi Indonesia di mata dunia sebagai pusat inovasi dan produksi akuakultur yang berkelanjutan.
+
+### Penutup
+Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatannya di bidang perikanan budidaya, tetapi juga membuka peluang kolaborasi internasional yang luas. Dari teknologi hingga pasar, acara ini akan mempertemukan pelaku industri, akademisi, investor, dan masyarakat untuk membentuk masa depan akuakultur Indonesia.
+
+#GrowWithNutrition #PakanBenur #BudidayaUdang
+`
+  },
+  {
+  id: 8,
+    title: "Indonesia Jadi Tuan Rumah APA 2024: Peluang Emas Akuakultur Nasional",
+    date: "2023-12-15",
+    summary:"Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024",
+    slug: "asian-pacific-aquaculture-2024-indonesia",
+    category: "Konferensi",
+    readTime: "5 min read",
+  image: "/Blog Image/penyakit-budidaya.jpg",
+  content: `
+
+Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024, konferensi dan pameran akuakultur terbesar se-Asia Pasifik. Acara ini akan diselenggarakan di Surabaya, Jawa Timur, dan menjadi kali kedua Indonesia menjadi tuan rumah setelah kesuksesan APA 2016.
+
+![Pakan Benur Berkualitas](/BlogImage/pakan-benur.png)
+
+### Kenapa Indonesia Dipilih Lagi?
+
+Menurut Direktur Jenderal Perikanan Budidaya KKP, Tb Haeru Rahayu, pemilihan Indonesia bukan tanpa alasan. Sebagai salah satu produsen akuakultur terbesar di dunia, Indonesia memiliki potensi sumber daya alam yang melimpah dan pasar yang sangat menjanjikan.
+"Indonesia adalah magnet bagi investor luar negeri di sektor perikanan. Potensi budidayanya luar biasa besar," jelasnya.
+Dengan digelarnya APA 2024, diharapkan akan ada peningkatan investasi sekaligus penguatan pasar domestik, yang akhirnya bisa menjadi pengungkit pertumbuhan ekonomi nasional.
+
+### Surabaya Jadi Tuan Rumah
+
+Kota Surabaya kembali dipilih sebagai lokasi penyelenggaraan. Selain memiliki fasilitas lengkap dan akses transportasi yang memadai, Surabaya juga dikenal sebagai pusat budidaya ikan dan rumah bagi banyak perguruan tinggi yang fokus di bidang perikanan.
+Surabaya dinilai mampu menampung ribuan peserta dan pengunjung. Acara ini juga diharapkan menggugah partisipasi masyarakat luas, tidak hanya di Jawa Timur, tetapi juga di seluruh Indonesia.
+
+### Tentang APA 2024: “Aquaculture - Driving the Blue Economy”
+
+APA 2024 akan diselenggarakan oleh World Aquaculture Society bekerja sama dengan Ditjen Perikanan Budidaya KKP dan PT Tirta Anugrah Agung. Tema yang diangkat adalah “Aquaculture - Driving the Blue Economy”, menekankan pentingnya sektor budidaya dalam pembangunan ekonomi berbasis kelautan.
+
+### Apa yang Bisa Diharapkan?
+1. **232 booth pameran dari berbagai negara**
+
+2. **6.000 pengunjung dari dalam dan luar negeri**
+
+3. **Sesi konferensi 3 hari, membahas:**
+- ✅ Teknologi budidaya udang, ikan air tawar, ikan laut, hingga rumput laut
+- ✅ Pakan, sistem budidaya, manajemen penyakit & lingkungan
+- ✅ Tren global dan solusi inovatif industri akuakultur
+
+### Harapan untuk Masa Depan Budidaya Indonesia
+
+Menteri Kelautan dan Perikanan, Sakti Wahyu Trenggono, menyampaikan bahwa Indonesia memiliki visi besar menjadikan komoditas budidaya seperti udang, lobster, kepiting, tilapia, dan rumput laut sebagai penguasa pasar ekspor global dalam 10–20 tahun ke depan.
+APA 2024 akan menjadi panggung strategis untuk memperkuat posisi Indonesia di mata dunia sebagai pusat inovasi dan produksi akuakultur yang berkelanjutan.
+
+### Penutup
+Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatannya di bidang perikanan budidaya, tetapi juga membuka peluang kolaborasi internasional yang luas. Dari teknologi hingga pasar, acara ini akan mempertemukan pelaku industri, akademisi, investor, dan masyarakat untuk membentuk masa depan akuakultur Indonesia.
+
+#GrowWithNutrition #PakanBenur #BudidayaUdang
+`
+  },
+  {
+  id: 9,
+    title: "Indonesia Jadi Tuan Rumah APA 2024: Peluang Emas Akuakultur Nasional",
+    date: "2023-12-15",
+    summary:"Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024",
+    slug: "asian-pacific-aquaculture-2024-indonesia",
+    category: "Konferensi",
+    readTime: "5 min read",
+  image: "/Blog Image/penyakit-budidaya.jpg",
+  content: `
+
+Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024, konferensi dan pameran akuakultur terbesar se-Asia Pasifik. Acara ini akan diselenggarakan di Surabaya, Jawa Timur, dan menjadi kali kedua Indonesia menjadi tuan rumah setelah kesuksesan APA 2016.
+
+![Pakan Benur Berkualitas](/BlogImage/pakan-benur.png)
+
+### Kenapa Indonesia Dipilih Lagi?
+
+Menurut Direktur Jenderal Perikanan Budidaya KKP, Tb Haeru Rahayu, pemilihan Indonesia bukan tanpa alasan. Sebagai salah satu produsen akuakultur terbesar di dunia, Indonesia memiliki potensi sumber daya alam yang melimpah dan pasar yang sangat menjanjikan.
+"Indonesia adalah magnet bagi investor luar negeri di sektor perikanan. Potensi budidayanya luar biasa besar," jelasnya.
+Dengan digelarnya APA 2024, diharapkan akan ada peningkatan investasi sekaligus penguatan pasar domestik, yang akhirnya bisa menjadi pengungkit pertumbuhan ekonomi nasional.
+
+### Surabaya Jadi Tuan Rumah
+
+Kota Surabaya kembali dipilih sebagai lokasi penyelenggaraan. Selain memiliki fasilitas lengkap dan akses transportasi yang memadai, Surabaya juga dikenal sebagai pusat budidaya ikan dan rumah bagi banyak perguruan tinggi yang fokus di bidang perikanan.
+Surabaya dinilai mampu menampung ribuan peserta dan pengunjung. Acara ini juga diharapkan menggugah partisipasi masyarakat luas, tidak hanya di Jawa Timur, tetapi juga di seluruh Indonesia.
+
+### Tentang APA 2024: “Aquaculture - Driving the Blue Economy”
+
+APA 2024 akan diselenggarakan oleh World Aquaculture Society bekerja sama dengan Ditjen Perikanan Budidaya KKP dan PT Tirta Anugrah Agung. Tema yang diangkat adalah “Aquaculture - Driving the Blue Economy”, menekankan pentingnya sektor budidaya dalam pembangunan ekonomi berbasis kelautan.
+
+### Apa yang Bisa Diharapkan?
+1. **232 booth pameran dari berbagai negara**
+
+2. **6.000 pengunjung dari dalam dan luar negeri**
+
+3. **Sesi konferensi 3 hari, membahas:**
+- ✅ Teknologi budidaya udang, ikan air tawar, ikan laut, hingga rumput laut
+- ✅ Pakan, sistem budidaya, manajemen penyakit & lingkungan
+- ✅ Tren global dan solusi inovatif industri akuakultur
+
+### Harapan untuk Masa Depan Budidaya Indonesia
+
+Menteri Kelautan dan Perikanan, Sakti Wahyu Trenggono, menyampaikan bahwa Indonesia memiliki visi besar menjadikan komoditas budidaya seperti udang, lobster, kepiting, tilapia, dan rumput laut sebagai penguasa pasar ekspor global dalam 10–20 tahun ke depan.
+APA 2024 akan menjadi panggung strategis untuk memperkuat posisi Indonesia di mata dunia sebagai pusat inovasi dan produksi akuakultur yang berkelanjutan.
+
+### Penutup
+Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatannya di bidang perikanan budidaya, tetapi juga membuka peluang kolaborasi internasional yang luas. Dari teknologi hingga pasar, acara ini akan mempertemukan pelaku industri, akademisi, investor, dan masyarakat untuk membentuk masa depan akuakultur Indonesia.
+
+#GrowWithNutrition #PakanBenur #BudidayaUdang
+`
   }
 ];
