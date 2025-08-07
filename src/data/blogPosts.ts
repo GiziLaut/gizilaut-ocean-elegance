@@ -2,11 +2,11 @@ export const blogPosts = [
   {
   id: 1,
   title: "Cara Memaksimalkan Pertumbuhan Benur dengan Nutrisi yang Tepat",
-  date: "2024-01-15",
+  date: "2025-08-01",
   summary: "Kenali pentingnya pakan benur dan strategi pemberian nutrisi di tahap awal budidaya udang untuk hasil panen yang maksimal.",
   slug: "cara-memaksimalkan-pertumbuhan-benur",
   category: "Shrimp Farming",
-  readTime: "5 min read",
+  readTime: "3 min read",
   image: "/BlogImage/Banner toko.png", // ← NAMA IMAGE dari kamu
   content: `
 ## Pentingnya Nutrisi di Tahap Awal Budidaya Benur
