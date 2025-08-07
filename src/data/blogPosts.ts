@@ -375,13 +375,13 @@ Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatanny
     slug: "test2",
     category: "Kesehatan & Penyakit",
     readTime: "1 min read",
-  image: "/BlogImage/pelet ikan.png", // ← NAMA IMAGE dari kamu
+  image: "/BlogImage/pelet-ikan.png", // ← NAMA IMAGE dari kamu
   content: `
 ## Pentingnya Nutrisi di Tahap Awal Budidaya Benur
 
 Tahapan awal dalam budidaya udang, khususnya pada masa benur (larva udang), merupakan fase kritis yang menentukan keberhasilan budidaya secara keseluruhan. Di sinilah peran **pakan benur** berkualitas dan strategi pemberian nutrisi menjadi sangat penting.
 
-![Pakan Benur Berkualitas](/BlogImage/pelet ikan.png)
+![Pakan Benur Berkualitas](/BlogImage/pelet-ikan.png)
 
 ### Kenapa Nutrisi Itu Menentukan?
 
