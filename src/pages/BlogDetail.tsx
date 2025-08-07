@@ -12,7 +12,9 @@ const BlogDetail = () => {
       <Layout title="Blog tidak ditemukan">
         <div className="max-w-3xl mx-auto px-4 py-20 text-center">
           <h1 className="text-3xl font-bold mb-4">Blog tidak ditemukan</h1>
-          <p className="text-gray-500">Maaf, blog yang kamu cari tidak tersedia.</p>
+          <p className="text-gray-500">
+            Maaf, blog yang kamu cari tidak tersedia.
+          </p>
         </div>
       </Layout>
     );
@@ -21,11 +23,15 @@ const BlogDetail = () => {
   return (
     <Layout title={post.title} description={post.summary}>
       <div className="max-w-3xl mx-auto px-4 py-16">
+        {/* Blog Title */}
         <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
-        <p className="text-sm text-gray-500 mb-6">
+
+        {/* Meta Info */}
+        <p className="text-sm text-muted-foreground mb-6">
           {post.category} • {post.readTime} • {post.date}
         </p>
 
+        {/* Optional Featured Image */}
         {post.image && (
           <img
             src={post.image}
@@ -34,6 +40,7 @@ const BlogDetail = () => {
           />
         )}
 
+        {/* Blog Content */}
         <article className="prose prose-blue lg:prose-lg max-w-none">
           <ReactMarkdown>{post.content}</ReactMarkdown>
         </article>

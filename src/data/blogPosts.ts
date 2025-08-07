@@ -7,7 +7,7 @@ export const blogPosts = [
   slug: "cara-memaksimalkan-pertumbuhan-benur",
   category: "Shrimp Farming",
   readTime: "5 min read",
-  image: "/Blog Image/pakan-benur-awal.jpg", // ← NAMA IMAGE dari kamu
+  image: "/Blog Image/pakan-benur.png", // ← NAMA IMAGE dari kamu
   content: `
 ## Pentingnya Nutrisi di Tahap Awal Budidaya Benur
 
