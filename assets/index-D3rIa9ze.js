@@ -186,7 +186,7 @@ Seiring meningkatnya permintaan pangan laut, praktik budidaya berkelanjutan menj
 3. Pilih lokasi budidaya yang minim dampak lingkungan.
 
 _Dengan budidaya yang bertanggung jawab, laut tetap lestari dan bisnis tetap berkelanjutan._
-`},{id:4,title:"Manajemen Kualitas Air dalam Akuakultur",date:"2023-12-28",summary:"Memahami pentingnya kualitas air dalam kesuksesan budidaya dan bagaimana nutrisi turut berpengaruh.",slug:"manajemen-kualitas-air-akuakultur",category:"Farm Management",readTime:"8 min read",image:"/Blog Image/kualitas-air.jpg",content:`
+`},{id:4,title:"Manajemen Kualitas Air dalam Akuakultur",date:"2023-12-28",summary:"Memahami pentingnya kualitas air dalam kesuksesan budidaya dan bagaimana nutrisi turut berpengaruh.",slug:"manajemen-kualitas-air",category:"Farm Management",readTime:"8 min read",image:"/Blog Image/kualitas-air.jpg",content:`
 # Manajemen Kualitas Air dalam Akuakultur
 
 ![Kualitas Air Budidaya](/Blog Image/kualitas-air.jpg)
@@ -207,7 +207,7 @@ Kualitas air adalah fondasi dari akuakultur yang sukses. Air yang bersih dan sta
 - Prebiotik dalam pakan membantu menjaga stabilitas mikroba.
 
 _Semakin stabil air tambak, semakin minim risiko stres dan penyakit._
-`},{id:5,title:"Memilih Pakan yang Tepat Sesuai Tahap Pertumbuhan",date:"2023-12-20",summary:"Panduan lengkap memilih formulasi pakan yang sesuai untuk tiap tahap kehidupan benur dan ikan.",slug:"memilih-pakan-sesuai-tahap",category:"Nutrition",readTime:"6 min read",image:"/Blog Image/pakan-sesuai-tahap.jpg",content:`
+`},{id:5,title:"Memilih Pakan yang Tepat Sesuai Tahap Pertumbuhan",date:"2023-12-20",summary:"Panduan lengkap memilih formulasi pakan yang sesuai untuk tiap tahap kehidupan benur dan ikan.",slug:"memilih-pakan-sesuai-pertumbuhan",category:"Nutrition",readTime:"6 min read",image:"/Blog Image/pakan-sesuai-tahap.jpg",content:`
 # Memilih Pakan yang Tepat Sesuai Tahap Pertumbuhan
 
 ![Formulasi Pakan Tepat](/Blog Image/pakan-sesuai-tahap.jpg)
@@ -227,7 +227,7 @@ Setiap tahap pertumbuhan membutuhkan kebutuhan nutrisi yang berbeda. Pemilihan p
 - Tidak cepat tenggelam (untuk jenis tertentu)
 
 _Memilih pakan bukan sekadar beli—tapi investasi untuk panen yang lebih pasti._
-`},{id:6,title:"Penyakit Umum dalam Budidaya dan Cara Pencegahannya",date:"2023-12-15",summary:"Kenali penyakit umum pada ikan dan udang serta bagaimana nutrisi dapat membantu mencegahnya.",slug:"penyakit-budidaya-dan-pencegahan",category:"Health & Disease",readTime:"9 min read",image:"/Blog Image/penyakit-budidaya.jpg",content:`
+`},{id:6,title:"Penyakit Umum dalam Budidaya dan Cara Pencegahannya",date:"2023-12-15",summary:"Kenali penyakit umum pada ikan dan udang serta bagaimana nutrisi dapat membantu mencegahnya.",slug:"penyakit-dalam-budidaya",category:"Health & Disease",readTime:"9 min read",image:"/Blog Image/penyakit-budidaya.jpg",content:`
 # Penyakit Umum dalam Budidaya dan Cara Pencegahannya
 
 ![Penyakit Budidaya](/Blog Image/penyakit-budidaya.jpg)
