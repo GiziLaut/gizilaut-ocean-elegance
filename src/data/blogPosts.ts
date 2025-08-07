@@ -381,7 +381,7 @@ Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatanny
 
 Tahapan awal dalam budidaya udang, khususnya pada masa benur (larva udang), merupakan fase kritis yang menentukan keberhasilan budidaya secara keseluruhan. Di sinilah peran **pakan benur** berkualitas dan strategi pemberian nutrisi menjadi sangat penting.
 
-![Pakan Benur Berkualitas](/BlogImage/pakan-benur.png)
+![Pakan Benur Berkualitas](/BlogImage/pelet ikan.png)
 
 ### Kenapa Nutrisi Itu Menentukan?
 
