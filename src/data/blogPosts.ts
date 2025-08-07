@@ -7,13 +7,13 @@ export const blogPosts = [
   slug: "cara-memaksimalkan-pertumbuhan-benur",
   category: "Shrimp Farming",
   readTime: "5 min read",
-  image: "/Blog Image/pakan-benur.png", // ← NAMA IMAGE dari kamu
+  image: "/Blog Image/Banner toko.png", // ← NAMA IMAGE dari kamu
   content: `
 ## Pentingnya Nutrisi di Tahap Awal Budidaya Benur
 
 Tahapan awal dalam budidaya udang, khususnya pada masa benur (larva udang), merupakan fase kritis yang menentukan keberhasilan budidaya secara keseluruhan. Di sinilah peran **pakan benur** berkualitas dan strategi pemberian nutrisi menjadi sangat penting.
 
-![Pakan Benur Berkualitas](/Blog Image/pakan-benur-awal.jpg)
+![Pakan Benur Berkualitas](/Blog Image/pakan-benur.png)
 
 ### Kenapa Nutrisi Itu Menentukan?
 
