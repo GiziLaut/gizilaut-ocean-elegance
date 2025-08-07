@@ -368,12 +368,12 @@ APA 2024 akan menjadi panggung strategis untuk memperkuat posisi Indonesia di ma
 Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatannya di bidang perikanan budidaya, tetapi juga membuka peluang kolaborasi internasional yang luas. Dari teknologi hingga pasar, acara ini akan mempertemukan pelaku industri, akademisi, investor, dan masyarakat untuk membentuk masa depan akuakultur Indonesia.
 
 #GrowWithNutrition #PakanBenur #BudidayaUdang
-`},{id:10,title:"Gizi laut",date:"2024-12-15",summary:"testing aja dulu.",slug:"test2",category:"Kesehatan & Penyakit",readTime:"1 min read",image:"/BlogImage/pelet ikan.png",content:`
+`},{id:10,title:"Gizi laut",date:"2024-12-15",summary:"testing aja dulu.",slug:"test2",category:"Kesehatan & Penyakit",readTime:"1 min read",image:"/BlogImage/pelet-ikan.png",content:`
 ## Pentingnya Nutrisi di Tahap Awal Budidaya Benur
 
 Tahapan awal dalam budidaya udang, khususnya pada masa benur (larva udang), merupakan fase kritis yang menentukan keberhasilan budidaya secara keseluruhan. Di sinilah peran **pakan benur** berkualitas dan strategi pemberian nutrisi menjadi sangat penting.
 
-![Pakan Benur Berkualitas](/BlogImage/pelet ikan.png)
+![Pakan Benur Berkualitas](/BlogImage/pelet-ikan.png)
 
 ### Kenapa Nutrisi Itu Menentukan?
 
