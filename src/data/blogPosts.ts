@@ -365,5 +365,56 @@ Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatanny
 
 #GrowWithNutrition #PakanBenur #BudidayaUdang
 `
-  }
+  },
+  {
+  id: 10,
+    title: "Gizi laut",
+    date: "2024-12-15",
+    summary:
+      "testing aja dulu.",
+    slug: "test2",
+    category: "Kesehatan & Penyakit",
+    readTime: "1 min read",
+  image: "/BlogImage/pelet ikan.png", // ← NAMA IMAGE dari kamu
+  content: `
+## Pentingnya Nutrisi di Tahap Awal Budidaya Benur
+
+Tahapan awal dalam budidaya udang, khususnya pada masa benur (larva udang), merupakan fase kritis yang menentukan keberhasilan budidaya secara keseluruhan. Di sinilah peran **pakan benur** berkualitas dan strategi pemberian nutrisi menjadi sangat penting.
+
+![Pakan Benur Berkualitas](/BlogImage/pakan-benur.png)
+
+### Kenapa Nutrisi Itu Menentukan?
+
+Dengan nutrisi yang optimal sejak dini, kamu bisa mendapatkan manfaat seperti:
+
+- ✅ Tingkat kelangsungan hidup benur yang tinggi
+- ✅ Pertumbuhan yang lebih cepat dan merata
+- ✅ Efisiensi pakan yang lebih baik
+- ✅ Daya tahan terhadap penyakit yang lebih tinggi
+
+### Strategi Memberikan Pakan Benur
+
+Berikut adalah beberapa strategi pemberian pakan benur yang terbukti efektif:
+
+1. **Gunakan pakan mikro berkualitas tinggi**  
+   Pilih pakan dengan kandungan protein tinggi dan mudah dicerna untuk mendukung pertumbuhan awal.
+
+2. **Frekuensi pemberian yang konsisten**  
+   Berikan pakan dalam jumlah kecil namun sering (3–5 kali per hari) untuk menghindari overfeeding dan menjaga kualitas air.
+
+3. **Pantau kualitas air dan stres benur**  
+   Nutrisi tidak akan maksimal jika lingkungan tidak mendukung. Pastikan kadar oksigen, suhu, dan amonia terjaga dengan baik.
+
+4. **Kombinasi pakan alami dan buatan**  
+   Untuk fase awal, paduan antara fitoplankton alami dan pakan mikro buatan akan memberikan hasil optimal.
+
+> 💡 _Pakan itu bukan cuma soal memberi makan, tapi juga soal strategi jangka panjang untuk budidaya yang berkelanjutan._
+
+---
+
+Dengan memahami pentingnya pakan benur dan strategi nutrisi sejak dini, kamu dapat meningkatkan hasil panen secara signifikan dan menjaga kualitas pertumbuhan benur hingga tahap juvenil.
+
+#GrowWithNutrition #PakanBenur #BudidayaUdang
+`
+  },
 ];

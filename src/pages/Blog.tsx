@@ -101,6 +101,16 @@ const blogPosts = [
     category: "Kesehatan & Penyakit",
     readTime: "9 min read",
   },
+  {
+    id: 10,
+    title: "Gizi laut",
+    date: "2024-12-15",
+    summary:
+      "testing aja dulu.",
+    slug: "test2",
+    category: "Kesehatan & Penyakit",
+    readTime: "1 min read",
+  },
 ];
 
 const categories = [
