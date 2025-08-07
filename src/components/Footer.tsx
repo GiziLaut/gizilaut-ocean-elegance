@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const Footer = () => {
   return (
     <footer className="bg-gradient-wave border-t border-border">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="container mx-auto px-0 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-4">
@@ -11,7 +11,7 @@ const Footer = () => {
               <img
                 src="/Logo Gizi Laut_no text.png"
                 alt="Gizi Laut Logo"
-                className="w-28 h-10 object-contain animate-float"
+                className="w-20 h-10 object-contain animate-float"
               />
               <span className="text-xl font-bold text-gradient-ocean">Gizi Laut</span>
             </div>

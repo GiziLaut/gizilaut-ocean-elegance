@@ -14,12 +14,12 @@ const blogPosts = [
   {
     id: 1,
     title: "Cara Memaksimalkan Pertumbuhan Benur dengan Nutrisi yang Tepat",
-    date: "2024-01-15",
+    date: "2024-08-01",
     summary:
       "Kenali pentingnya nutrisi di tahap awal budidaya udang untuk hasil panen yang maksimal dan pertumbuhan benur yang lebih cepat.",
     slug: "cara-memaksimalkan-pertumbuhan-benur",
     category: "Budidaya Udang",
-    readTime: "5 min read",
+    readTime: "3 min read",
   },
   {
     id: 2,
