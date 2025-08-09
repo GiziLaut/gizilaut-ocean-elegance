@@ -152,34 +152,115 @@ _Semakin stabil air tambak, semakin minim risiko stres dan penyakit._
   },
   {
   id: 5,
-  title: "Memilih Pakan yang Tepat Sesuai Tahap Pertumbuhan",
-  date: "2023-12-20",
-  summary: "Panduan lengkap memilih formulasi pakan yang sesuai untuk tiap tahap kehidupan benur dan ikan.",
-  slug: "memilih-pakan-sesuai-pertumbuhan",
+  title: "3 Rekomendasi Pakan Benur agar Tumbuh Optimal",
+  date: "2025-08-09",
+  summary: "Panduan memilih pakan benur terbaik dari INVE Series Frippak, Series Lansy, dan Bio-Marine Series Artemac untuk pertumbuhan benur yang sehat dan cepat.",
+  slug: "rekomendasi-pakan-benur-terbaik",
   category: "Nutrition",
-  readTime: "6 min read",
-  image: "/Blog Image/pakan-sesuai-tahap.jpg",
+  readTime: "5 min read",
   content: `
-# Memilih Pakan yang Tepat Sesuai Tahap Pertumbuhan
+# 3 Rekomendasi Pakan Benur untuk budidaya Benur F1, Benur Windu dan Vannamei Lokal
 
-![Formulasi Pakan Tepat](/Blog Image/pakan-sesuai-tahap.jpg)
+Memilih **pakan benur** yang tepat adalah salah satu faktor terpenting dalam keberhasilan budidaya udang, terutama udang vaname. Pakan yang berkualitas membantu benur tumbuh lebih cepat, sehat, dan memiliki daya tahan tinggi terhadap penyakit.
 
-Setiap tahap pertumbuhan membutuhkan kebutuhan nutrisi yang berbeda. Pemilihan pakan yang tepat membantu mencapai hasil budidaya maksimal.
+Pada artikel ini, kami akan membahas **3 rekomendasi seri pakan terbaik** untuk benur, yaitu:
+- **INVE Series Frippak**
+- **Series Lansy**
+- **BioMarine x OSI** (Artemac, Rotemia, Rotofier)
 
-## Tahapan dan Jenis Pakan
+Panduan ini dirancang dengan mengikuti praktik SEO terbaik agar mudah ditemukan di Google ketika Anda mencari kata kunci seperti *"pakan benur terbaik"* atau *"nutrisi untuk benur"*.
 
-- **Benur / Larva:** Micro feed, tinggi protein (> 50%)
-- **Benih:** Crumble pellet, mudah dicerna
-- **Pembesaran:** Pellet floating/sinking sesuai spesies
+---
 
-## Ciri Pakan Berkualitas
+## Pentingnya Pakan Berkualitas untuk Benur
 
-- Kandungan nutrisi lengkap (protein, vitamin, mineral)
-- Warna dan aroma menarik
-- Tidak cepat tenggelam (untuk jenis tertentu)
+Benur adalah tahap awal kehidupan udang yang sangat sensitif terhadap kualitas nutrisi. Pakan yang tepat dapat memberikan:
+- **Pertumbuhan lebih cepat** dan seragam
+- **Daya tahan tubuh kuat**
+- **Kualitas panen lebih baik**
+- **Efisiensi biaya pakan**
 
-_Memilih pakan bukan sekadar beli—tapi investasi untuk panen yang lebih pasti._
-`
+> Pakan yang tidak sesuai kebutuhan benur bisa mengakibatkan pertumbuhan lambat dan tingkat kematian tinggi.
+
+---
+
+## 1. INVE Series Frippak
+
+![INVE Series Frippak](/BlogImage/Inve-FRiPPAK-Series-Banner.png)
+
+**INVE Frippak** adalah salah satu pakan mikro terbaik yang digunakan di berbagai hatchery profesional di dunia.  
+Keunggulan utamanya adalah **kandungan nutrisi lengkap** dan **ukuran partikel yang konsisten** sehingga mudah dicerna oleh benur.
+
+**Keunggulan:**
+- Kandungan **protein tinggi (>55%)**
+- Diperkaya **vitamin dan mineral esensial**
+- Bentuk partikel tidak mudah hancur di air
+- Cocok untuk tahap **nauplius hingga PL** (Post Larva)
+
+**Tips penggunaan:**
+- Gunakan Frippak CAR #1, Frippak CD #2, Frippak PL + 150 dan Froppak PL + 300 sesuai tahap pertumbuhan benur
+- Simpan di tempat kering dan sejuk untuk menjaga kualitas
+
+---
+
+## 2. Series Lansy
+
+![Series Lansy](/BlogImage/Inve-Lansy-Series-Banner.png)
+
+**Series Lansy** dikenal dengan formulasi **high-performance diet** yang dibuat khusus untuk benur dan larva udang.  
+Pakan ini diformulasikan agar mendekati pakan alami baik dari segi tekstur maupun kandungan gizi.
+
+**Keunggulan:**
+- Kandungan **lipid & HUFA** yang mendukung pertumbuhan optimal
+- Formulasi mudah dicerna
+- Mengandung antioksidan untuk meningkatkan kekebalan tubuh
+
+**Tahapan penggunaan:**
+- Lansy ZM, Lansy MPL, dan Lansy PL sesuai ukuran benur
+- Cocok untuk **fase awal hingga akhir larva**
+
+---
+
+## 3. Aquafauna BioMarine x OSI (Artemac, Rotemia, Rotofier)
+
+![BioMarine x OSI](/BlogImage/Biomarine-Artemac-Series.png)
+
+Produk **BioMarine x OSI** menawarkan pakan hidup dan pengganti pakan alami berkualitas tinggi, seperti:
+- **Artemac No 0,1,2**: Pakan berkualitas premium yang berisi pakan bubuk dengan campuran artemia
+
+**Keunggulan:**
+- Pakan alami yang disukai benur
+- Kaya akan **asam lemak esensial**
+- Mendukung perkembangan organ pencernaan
+- Meningkatkan tingkat kelangsungan hidup (survival rate)
+
+**Penggunaan efektif:**
+- Kombinasikan pakan ini dengan pakan buatan untuk hasil terbaik
+- Ideal pada tahap awal larva hingga PL10
+
+---
+
+## Cara Memilih Pakan Benur yang Tepat
+
+Berikut panduan singkat untuk memilih pakan benur berkualitas:
+1. **Perhatikan kandungan protein** minimal 50–55%.
+2. **Pilih pakan sesuai tahap pertumbuhan** benur.
+3. **Periksa tanggal kadaluarsa** dan kondisi kemasan.
+4. Kombinasikan **pakan buatan** dan **pakan alami**.
+
+---
+
+## Kesimpulan
+
+Memilih pakan benur yang tepat seperti **INVE Frippak**, **Series Lansy**, atau **BioMarine Artemac** akan membantu Anda mencapai pertumbuhan optimal dan meningkatkan keberhasilan budidaya.  
+Pastikan selalu mengikuti dosis dan jadwal pemberian yang sesuai agar benur mendapatkan nutrisi yang maksimal.
+
+---
+
+_“Pakan yang baik, diberikan dengan cara yang tepat, adalah kunci panen udang yang sukses.”_
+
+#GrowWithNutrition #PakanBenur #BudidayaUdang
+  `
   },
   {
   id: 6,

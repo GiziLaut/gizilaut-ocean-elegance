@@ -53,13 +53,12 @@ const blogPosts = [
   },
   {
     id: 5,
-    title: "Memilih Pakan yang Tepat Sesuai Tahap Pertumbuhan",
-    date: "2023-12-20",
-    summary:
-      "Panduan lengkap memilih formulasi pakan yang sesuai untuk tiap tahap kehidupan benur dan ikan.",
-    slug: "memilih-pakan-sesuai-pertumbuhan",
-    category: "Nutrisi",
-    readTime: "6 min read",
+    title: "3 Rekomendasi Pakan Benur agar Tumbuh Optimal",
+    date: "2025-08-09",
+    summary: "Panduan memilih pakan benur terbaik untuk budidaya Benur F1, Benur Windu dan Vannamei Lokal.",
+    slug: "rekomendasi-pakan-benur-terbaik",
+    category: "Nutrition",
+    readTime: "5 min read",
   },
   {
     id: 6,
