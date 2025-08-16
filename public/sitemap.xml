@@ -25,4 +25,36 @@
     <lastmod>2025-08-01</lastmod>
     <priority>0.7</priority>
   </url>
+
+  <!-- Detail Blog Posts -->
+  <url>
+    <loc>https://gizilaut.com/blog/cara-memaksimalkan-pertumbuhan-benur</loc>
+    <lastmod>2025-08-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gizilaut.com/blog/panduan-pakan-benih-ikan</loc>
+    <lastmod>2025-08-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gizilaut.com/blog/akuakultur-berkelanjutan</loc>
+    <lastmod>2025-08-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gizilaut.com/blog/manajemen-kualitas-air</loc>
+    <lastmod>2025-08-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gizilaut.com/blog/rekomendasi-pakan-benur-terbaik</loc>
+    <lastmod>2025-08-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gizilaut.com/blog/penyakit-dalam-budidaya</loc>
+    <lastmod>2025-08-01</lastmod>
+    <priority>0.6</priority>
+  </url>
 </urlset>
