@@ -7,7 +7,7 @@ import { blogPosts } from "@/data/blogPosts";
 import Layout from "@/components/Layout";
 
 // Domain untuk canonical & og:image (ubah jika pakai non-www)
-const SITE_URL = "https://www.gizilaut.com";
+const SITE_URL = "https://gizilaut.com";
 
 // Format tanggal ke Indonesia
 function toDateID(d: string) {
