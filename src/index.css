@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "tailwindcss/typography";
+
 
 /* Gizi Laut Design System - Ocean-inspired colors and gradients */
 
@@ -164,8 +166,6 @@
 .swiper-button-next {
   right: -30px; /* geser ke luar kanan */
 }
-
-@import "tailwindcss/typography";
 
 .prose blockquote {
   font-style: italic;

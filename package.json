@@ -6,11 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build:dev": "vite build --mode development",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "postbuild": "node scripts/generate-prerender-list.mjs && react-snap && node scripts/generate-sitemap.mjs",
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -72,18 +70,45 @@
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react-swc": "^3.5.0",
+    "@vitejs/plugin-react-swc": "^3.11.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.9.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
-    "lovable-tagger": "^1.1.7",
     "postcss": "^8.4.47",
+    "react-snap": "^1.23.0",
     "tailwindcss": "^3.4.11",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "vite": "^5.4.19"
+  },
+  "reactSnap": {
+    "source": "dist",
+    "publicPath": "/",
+    "inlineCss": false,
+    "skipThirdPartyRequests": true,
+    "puppeteerArgs": [
+      "--no-sandbox"
+    ],
+    "exclude": [
+      "/404.html"
+    ],
+    "include": [
+      "/",
+      "/products",
+      "/about",
+      "/blog",
+      "/contact",
+      "/blog/cara-memaksimalkan-pertumbuhan-benur",
+      "/blog/panduan-pakan-benih-ikan",
+      "/blog/akuakultur-berkelanjutan",
+      "/blog/manajemen-kualitas-air",
+      "/blog/rekomendasi-pakan-benur-terbaik",
+      "/blog/penyakit-dalam-budidaya",
+      "/blog/asian-pacific-aquaculture-2024-indonesia",
+      "/blog/test2"
+    ]
   }
 }
