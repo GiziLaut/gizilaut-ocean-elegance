@@ -4,7 +4,7 @@ import url from "url";
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
-const SITE_URL = "https://www.gizilaut.com"; // ubah jika pakai non-www
+const SITE_URL = "https://gizilaut.com"; // ubah jika pakai non-www
 
 function extractPairs(source) {
 const slugRegex = /slug:\s*["'](.*?)["']/g;
