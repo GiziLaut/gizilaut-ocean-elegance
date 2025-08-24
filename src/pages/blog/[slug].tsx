@@ -88,7 +88,7 @@ export default function BlogDetail() {
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content={imageAbs} />
         <meta property="og:site_name" content="Gizi Laut" />
-
+        <meta property="og:url" content={canonicalUrl} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />

@@ -16,25 +16,28 @@ return d.toISOString().slice(0, 10);
 
 // Ambil {slug, date} dari src/data/blogPosts.ts
 function extractPairs(source) {
-const slugRegex = /slug:\s*["'](.*?)["']/g;
-const dateRegex = /date:\s*["'](\d{4}-\d{2}-\d{2})["']/g;
+// slug: "nilai" atau 'nilai'
+const slugRegex = /slug:\s*"'["']/g;
+// date: "YYYY-MM-DD" atau 'YYYY-MM-DD'
+const dateRegex = /date:\s*"'["']/g;
+
 const slugs = [];
 const dates = [];
 let m;
 
 while ((m = slugRegex.exec(source)) !== null) {
-slugs.push(m);
+slugs.push(m); // ambil grup 1 = isi di dalam kutip
 }
 while ((m = dateRegex.exec(source)) !== null) {
-dates.push(m);
+dates.push(m); // ambil grup 1 = tanggal
 }
 
 const fallback = todayISO();
 const pairs = [];
 for (let i = 0; i < slugs.length; i++) {
 const slug = slugs[i];
-const date = dates[i] ? dates[i] : fallback;
-pairs.push({ slug: slug, date: date });
+const date = dates[i] || fallback;
+pairs.push({ slug, date });
 }
 return pairs;
 }
@@ -73,7 +76,7 @@ const urls = [
 // Tambahkan artikel blog
 for (let i = 0; i < pairs.length; i++) {
 const p = pairs[i];
-urls.push({ loc: SITE_URL + "/blog/" + p.slug, lastmod: p.date });
+urls.push({ loc: joinUrl(SITE_URL, "blog/" + p.slug), lastmod: toISODate(p.date) });
 }
 
 const xml = buildXml(urls);
@@ -83,6 +86,20 @@ fs.mkdirSync(publicDir, { recursive: true });
 }
 fs.writeFileSync(sitemapPath, xml, "utf-8");
 console.log("[sitemap] generated:", sitemapPath, "with", urls.length, "URLs");
+}
+
+function toISODate(d) {
+try {
+const x = new Date(d);
+return isNaN(x.getTime()) ? todayISO() : x.toISOString().slice(0, 10);
+} catch {
+return todayISO();
+}
+}
+
+function joinUrl(base, p) {
+if (p.startsWith("/")) return base + p;
+return base + "/" + p;
 }
 
 main();
