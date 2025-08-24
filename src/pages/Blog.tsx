@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/card";
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 
 // Blog posts data - easily extensible for future posts
 const blogPosts = [
@@ -123,18 +122,6 @@ const categories = [
   "Kesehatan & Penyakit",
 ];
 
-useEffect(() => {
-if (typeof document === "undefined") return; // guard untuk prerender/SSR
-const href = "https://gizilaut.com/blog";
-let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
-if (!link) {
-link = document.createElement("link");
-link.rel = "canonical";
-document.head.appendChild(link);
-}
-link.href = href;
-}, []);
-
 const Blog = () => {
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -150,6 +137,7 @@ const Blog = () => {
       title="Blog - Gizi Laut Aquaculture Insights & Tips"
       description="Read expert insights, tips, and guides on aquaculture nutrition, fish farming, shrimp farming, and sustainable marine farming practices from Gizi Laut specialists."
       keywords="aquaculture blog, fish farming tips, shrimp farming guide, marine nutrition insights, sustainable aquaculture"
+      canonical="https://gizilaut.com/blog"
     >
       {/* Hero Section */}
       <section className="bg-gradient-wave py-16 lg:py-24">

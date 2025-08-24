@@ -35,6 +35,7 @@ const Layout = ({
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Gizi Laut" />
+        {canonical && <meta property="og:url" content={canonical} />}
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -61,7 +62,7 @@ const Layout = ({
               contactType: "Customer Service",
               availableLanguage: ["Indonesian", "English"],
             },
-            sameAs: ["https://wa.me/6281234567890"],
+            sameAs: ["https://wa.me/6282329653189"],
           })}
         </script>
       </Helmet>
