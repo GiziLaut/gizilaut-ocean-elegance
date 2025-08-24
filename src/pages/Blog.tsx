@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 // Blog posts data - easily extensible for future posts
 const blogPosts = [
@@ -121,6 +122,17 @@ const categories = [
   "Nutrisi",
   "Kesehatan & Penyakit",
 ];
+
+useEffect(() => {
+const href = "https://gizilaut.com/blog";
+let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
+if (!link) {
+link = document.createElement("link");
+link.rel = "canonical";
+document.head.appendChild(link);
+}
+link.href = href;
+}, []);
 
 const Blog = () => {
   const formatDate = (dateString: string) => {

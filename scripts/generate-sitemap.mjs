@@ -43,16 +43,13 @@ return pairs;
 function buildXml(urls) {
 let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
 xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
-for (let i = 0; i < urls.length; i++) {
-const u = urls[i];
-xml += " <url>\n";
-xml += " <loc>" + u.loc + "</loc>\n";
-if (u.lastmod) {
-xml += " <lastmod>" + u.lastmod + "</lastmod>\n";
+for (const u of urls) {
+xml += ' <url>\n';
+xml += ' <loc>' + u.loc + '</loc>\n';
+if (u.lastmod) xml += ' <lastmod>' + u.lastmod + '</lastmod>\n';
+xml += ' </url>\n';
 }
-xml += " </url>\n";
-}
-xml += "</urlset>\n";
+xml += '</urlset>\n';
 return xml;
 }
 
