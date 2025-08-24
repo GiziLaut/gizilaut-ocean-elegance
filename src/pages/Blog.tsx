@@ -124,6 +124,7 @@ const categories = [
 ];
 
 useEffect(() => {
+if (typeof document === "undefined") return; // guard untuk prerender/SSR
 const href = "https://gizilaut.com/blog";
 let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
 if (!link) {
