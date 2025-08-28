@@ -16,8 +16,8 @@ const Home = () => {
               <span className="block text-white/90">Nutrition Solutions</span>
             </h1>
             <p className="text-xl lg:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
-              Kami menyediakan pakan spesialis untuk budidaya udang dan ikan, dengan nutrisi berkualitas 
-              tinggi yang dirancang khusus untuk mendukung pertumbuhan optimal 
+              Kami menyediakan pakan spesialis untuk budidaya udang dan ikan, dengan nutrisi berkualitas
+              tinggi yang dirancang khusus untuk mendukung pertumbuhan optimal
               dan keberlanjutan usaha akuakultur di laut Anda.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -52,11 +52,11 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
               <CardHeader className="text-center pb-4">
-                  <img
-                    src="/Udang Gizi Laut Transparent.png"
-                    alt="Pakan Benur"
-                    className="w-21 h-21 object-cover rounded-full mx-auto mb-4 animate-float"
-                  />
+                <img
+                  src="/Udang Gizi Laut Transparent.png"
+                  alt="Pakan Benur"
+                  className="w-21 h-21 object-cover rounded-full mx-auto mb-4 animate-float"
+                />
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benur</CardTitle>
                 <CardDescription className="text-base">
                   Nutrisi Terbaik Benur Fondasi Tumbuh Kembang Optimal Sejak Dini.
@@ -77,10 +77,10 @@ const Home = () => {
             <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
               <CardHeader className="text-center pb-4">
                 <img
-                    src="/ikan Gizi Laut Transparent.png"
-                    alt="Pakan Benur"
-                    className="w-21 h-21 object-cover rounded-full mx-auto mb-4 animate-float"
-                  />
+                  src="/ikan Gizi Laut Transparent.png"
+                  alt="Pakan Benih Ikan"
+                  className="w-21 h-21 object-cover rounded-full mx-auto mb-4 animate-float"
+                />
                 <CardTitle className="text-2xl text-gradient-ocean">Pakan Benih Ikan</CardTitle>
                 <CardDescription className="text-base">
                   Pakan Benih Ikan Berkualitas serta Rahasia pertumbuhan cepat dan benih sehat!
@@ -98,6 +98,30 @@ const Home = () => {
               </CardContent>
             </Card>
           </div>
+        </div>
+      </section>
+
+      {/* Artikel terbaru (internal links kuat dari homepage) */}
+      <section className="py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-semibold mb-4">Artikel terbaru</h2>
+          <ul className="list-disc ml-6 space-y-2">
+            <li>
+              <Link to="/blog/cara-memaksimalkan-pertumbuhan-benur/" className="text-primary hover:underline">
+                Cara Memaksimalkan Pertumbuhan Benur dengan Nutrisi yang Tepat
+              </Link>
+            </li>
+            <li>
+              <Link to="/blog/rekomendasi-pakan-benur-terbaik/" className="text-primary hover:underline">
+                3 Rekomendasi Pakan Benur agar Tumbuh Optimal
+              </Link>
+            </li>
+            <li>
+              <Link to="/blog/panduan-pakan-benih-ikan/" className="text-primary hover:underline">
+                Panduan Memberi Pakan Benih Ikan dengan Benar
+              </Link>
+            </li>
+          </ul>
         </div>
       </section>
 
