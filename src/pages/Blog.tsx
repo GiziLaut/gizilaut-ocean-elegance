@@ -137,7 +137,7 @@ const Blog = () => {
       title="Blog - Gizi Laut Aquaculture Insights & Tips"
       description="Read expert insights, tips, and guides on aquaculture nutrition, fish farming, shrimp farming, and sustainable marine farming practices from Gizi Laut specialists."
       keywords="aquaculture blog, fish farming tips, shrimp farming guide, marine nutrition insights, sustainable aquaculture"
-      canonical="https://gizilaut.com/blog"
+      canonical="https://gizilaut.com/blog/"
     >
       {/* Hero Section */}
       <section className="bg-gradient-wave py-16 lg:py-24">
@@ -200,7 +200,7 @@ const Blog = () => {
                   </CardContent>
                 </div>
                 <CardContent>
-                  <Link to={`/blog/${post.slug}`}>
+                  <Link to={`/blog/${post.slug}/`}>
                     <Button variant="wave" className="w-full group-hover:scale-105 transition-transform">
                       Baca Selengkapnya
                     </Button>

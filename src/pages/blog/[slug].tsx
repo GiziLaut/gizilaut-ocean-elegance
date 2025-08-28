@@ -1,5 +1,5 @@
 // src/pages/blog/[slug].tsx
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import ReactMarkdown from "react-markdown";
 
@@ -40,7 +40,8 @@ export default function BlogDetail() {
   // Meta & SEO
   const title = `${post.title} | Gizi Laut`;
   const description = (post.summary || post.title).slice(0, 155);
-  const canonicalUrl = `${SITE_URL}/blog/${post.slug}`;
+  // PENTING: canonical pakai trailing slash
+  const canonicalUrl = `${SITE_URL}/blog/${post.slug}/`;
 
   // Pastikan og:image absolut; fallback ke logo jika kosong
   const imageAbs =
@@ -73,6 +74,11 @@ export default function BlogDetail() {
     },
   };
 
+  // Artikel terkait sederhana (3 item, selain artikel sekarang)
+  const related = blogPosts
+    .filter((p) => p.slug !== post.slug)
+    .slice(0, 3);
+
   return (
     <Layout
       title={title}
@@ -88,7 +94,6 @@ export default function BlogDetail() {
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content={imageAbs} />
         <meta property="og:site_name" content="Gizi Laut" />
-        <meta property="og:url" content={canonicalUrl} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
@@ -119,6 +124,22 @@ export default function BlogDetail() {
         <article className="prose lg:prose-lg max-w-none">
           <ReactMarkdown>{post.content}</ReactMarkdown>
         </article>
+
+        {/* Artikel terkait */}
+        <hr className="my-10" />
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-4">Artikel terkait</h2>
+          <ul className="list-disc ml-6 space-y-2">
+            {related.map((r) => (
+              <li key={r.slug}>
+                {/* boleh pakai <Link> atau <a>; pastikan berakhiran "/" */}
+                <Link to={`/blog/${r.slug}/`} className="text-primary hover:underline">
+                  {r.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       </div>
     </Layout>
   );
