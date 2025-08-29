@@ -14,15 +14,15 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-wave">
+    <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-wave pt-px">
       <div className="container mx-auto px-0 sm:px-4 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-0 group">
+          <Link to="/" className="flex items-center gap-2 group m-0">
             <img
               src="/Logo Gizi Laut_no text.png"
               alt="Gizi Laut Logo"
-              className="w-20 h-10 object-contain animate-float"
+              className="w-20 h-10 object-contain"
             />
             <span className="text-xl font-bold text-gradient-ocean">Gizi Laut</span>
           </Link>
