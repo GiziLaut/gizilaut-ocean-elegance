@@ -67,7 +67,7 @@ const Layout = ({
         </script>
       </Helmet>
 
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen flex flex-col pt-px">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
