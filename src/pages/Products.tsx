@@ -90,7 +90,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
 
   return (
     <Layout
-      title="Our Products - Gizi Laut Premium Aquaculture Feed"
+      title="Produk Kami - Gizi Laut Pakan Premium untuk Aquaculture"
       description="Maksimalkan pertumbuhan, kesehatan, dan keberlanjutan budidaya Anda dengan solusi pakan - pakan berkualitas pilihan kami"
       keywords="pakan benur, pakan benih ikan, shrimp feed, fish feed, aquaculture nutrition, marine feed"
     >
@@ -122,7 +122,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">Pakan Benur</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Premium nutrition for shrimp fry (benur) designed for optimal early-stage development
+              Nutrisi premium untuk benur, kunci pertumbuhan maksimal sejak awal
             </p>
           </div>
           <ProductCarousel images={pakanBenurImages} folder="Pakan Benur" />
@@ -135,7 +135,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">Pakan Benih Ikan</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              High-quality fish fry feed formulated for healthy growth and development
+              Pakan benih ikan berkualitas tinggi, dirancang untuk pertumbuhan dan perkembangan yang sehat
             </p>
           </div>
           <ProductCarousel images={pakanIkanImages} folder="Pakan Ikan" />

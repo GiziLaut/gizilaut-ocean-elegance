@@ -134,7 +134,7 @@ const Blog = () => {
 
   return (
     <Layout
-      title="Blog - Gizi Laut Aquaculture Insights & Tips"
+      title="Blog - Gizi Laut Tips dan Berita seputar Aquaculture"
       description="Read expert insights, tips, and guides on aquaculture nutrition, fish farming, shrimp farming, and sustainable marine farming practices from Gizi Laut specialists."
       keywords="aquaculture blog, fish farming tips, shrimp farming guide, marine nutrition insights, sustainable aquaculture"
       canonical="https://gizilaut.com/blog/"
