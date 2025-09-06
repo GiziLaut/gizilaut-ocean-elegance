@@ -184,8 +184,8 @@ const Contact = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 justify-center">
 
               {/* Shopee */}
-              <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
-                <CardHeader className="text-center pb-4">
+              <Card className="group bg-white border border-border rounded-xl shadow-ocean transition-all duration-300 hover:shadow-lg hover:ring-1 hover:ring-border/70">
+                <CardHeader className="text-center pb-4 pt-6">
                   <div className="w-16 h-16 bg-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
                     <img src="/shopee_icon.png" alt="Shopee" className="w-8 h-8" />
                   </div>
@@ -215,8 +215,8 @@ const Contact = () => {
               </Card>
 
               {/* Tokopedia */}
-              <Card className="group hover:shadow-deep transition-all duration-300 border-0 shadow-ocean">
-                <CardHeader className="text-center pb-4">
+              <Card className="group bg-white border border-border rounded-xl shadow-ocean transition-all duration-300 hover:shadow-lg hover:ring-1 hover:ring-border/70">
+                <CardHeader className="text-center pb-4 pt-6">
                   <div className="w-16 h-16 bg-green-600 rounded-full mx-auto mb-4 flex items-center justify-center shadow-wave">
                     <img src="/tokopedia_icon.png" alt="Tokopedia" className="w-10 h-10" />
                   </div>
