@@ -12,8 +12,8 @@ const Home = () => {
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-              Premium Aquaculture
-              <span className="block text-white/90">Nutrition Solutions</span>
+              Solusi Nutrisi
+              <span className="block text-white/90">Premium untuk Pembenihan</span>
             </h1>
             <p className="text-xl lg:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
               Kami menyediakan pakan spesialis untuk budidaya udang dan ikan, dengan nutrisi berkualitas
