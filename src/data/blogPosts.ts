@@ -57,11 +57,11 @@ Dengan memahami pentingnya pakan benur dan strategi nutrisi sejak dini, kamu dap
   slug: "panduan-pakan-benih-ikan",
   category: "Fish Farming",
   readTime: "7 min read",
-  image: "/Blog Image/pakan-benih-ikan.jpg",
+  image: "/BlogImage/pakan-benih-ikan.jpg",
   content: `
 # Panduan Memberi Pakan Benih Ikan dengan Benar
 
-![Pakan Benih Ikan](/Blog Image/pakan-benih-ikan.jpg)
+![Pakan Benih Ikan](/BlogImage/pakan-benih-ikan.jpg)
 
 Memberi pakan benih ikan bukan hanya soal frekuensi, tapi juga tentang kualitas nutrisi dan teknik yang digunakan. Benih ikan yang sehat akan tumbuh lebih cepat dan tahan terhadap penyakit.
 
