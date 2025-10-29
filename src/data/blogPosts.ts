@@ -95,11 +95,11 @@ _“Pakan yang baik, diberikan dengan cara yang tepat, adalah kunci panen ikan y
   slug: "akuakultur-berkelanjutan",
   category: "Sustainability",
   readTime: "6 min read",
-  image: "/Blog Image/akuakultur-berkelanjutan.jpg",
+  image: "/BlogImage/akuakultur-berkelanjutan.jpg",
   content: `
 # Akuakultur Berkelanjutan: Masa Depan Budidaya Laut
 
-![Akuakultur Berkelanjutan](/Blog Image/akuakultur-berkelanjutan.jpg)
+![Akuakultur Berkelanjutan](/BlogImage/akuakultur-berkelanjutan.jpg)
 
 Seiring meningkatnya permintaan pangan laut, praktik budidaya berkelanjutan menjadi semakin penting. Akuakultur berkelanjutan memastikan produksi yang efisien tanpa merusak ekosistem.
 
@@ -126,11 +126,11 @@ _Dengan budidaya yang bertanggung jawab, laut tetap lestari dan bisnis tetap ber
   slug: "manajemen-kualitas-air",
   category: "Farm Management",
   readTime: "8 min read",
-  image: "/Blog Image/kualitas-air.jpg",
+  image: "/BlogImage/kualitas-air.jpg",
   content: `
 # Manajemen Kualitas Air dalam Akuakultur
 
-![Kualitas Air Budidaya](/Blog Image/kualitas-air.jpg)
+![Kualitas Air Budidaya](/BlogImage/kualitas-air.jpg)
 
 Kualitas air adalah fondasi dari akuakultur yang sukses. Air yang bersih dan stabil menjamin kesehatan benur dan benih ikan sepanjang siklus budidaya.
 
@@ -268,11 +268,11 @@ _“Pakan yang baik, diberikan dengan cara yang tepat, adalah kunci panen udang 
   slug: "penyakit-dalam-budidaya",
   category: "Health & Disease",
   readTime: "9 min read",
-  image: "/Blog Image/penyakit-budidaya.jpg",
+  image: "/BlogImage/penyakit-budidaya.jpg",
   content: `
 # Penyakit Umum dalam Budidaya dan Cara Pencegahannya
 
-![Penyakit Budidaya](/Blog Image/penyakit-budidaya.jpg)
+![Penyakit Budidaya](/BlogImage/penyakit-budidaya.jpg)
 
 Penyakit bisa menjadi mimpi buruk dalam budidaya. Oleh karena itu, deteksi dini dan pencegahan adalah hal paling penting.
 
@@ -300,7 +300,7 @@ _Pencegahan lebih murah daripada pengobatan—mulailah dari nutrisi dan manajeme
     slug: "asian-pacific-aquaculture-2024-indonesia",
     category: "Konferensi",
     readTime: "5 min read",
-  image: "/Blog Image/penyakit-budidaya.jpg",
+  image: "/BlogImage/penyakit-budidaya.jpg",
   content: `
 
 Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024, konferensi dan pameran akuakultur terbesar se-Asia Pasifik. Acara ini akan diselenggarakan di Surabaya, Jawa Timur, dan menjadi kali kedua Indonesia menjadi tuan rumah setelah kesuksesan APA 2016.
@@ -345,104 +345,169 @@ Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatanny
   },
   {
   id: 8,
-    title: "Indonesia Jadi Tuan Rumah APA 2024: Peluang Emas Akuakultur Nasional",
-    date: "2023-12-15",
-    summary:"Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024",
-    slug: "asian-pacific-aquaculture-2024-indonesia",
-    category: "Konferensi",
-    readTime: "5 min read",
-  image: "/Blog Image/penyakit-budidaya.jpg",
+  title: "Panduan Lengkap Budidaya Udang Vaname untuk Pemula",
+  date: "2025-10-29",
+  summary: "Langkah memulai budidaya udang vaname dari skala kecil: persiapan kolam, sterilisasi, planktonisasi, tebar benur, pakan, kualitas air, bioflok, serta simulasi keuntungan.",
+  slug: "panduan-budidaya-udang-vaname-pemula",
+  category: "Farming",
+  readTime: "6 min read",
+  image: "/BlogImage/udang-vaname.png",
   content: `
+# Panduan Lengkap Budidaya Udang Vaname untuk Pemula
+Udang vannamei (Litopenaeus vannamei), atau udang putih, kini menjadi primadona dalam dunia akuakultur. Daya tahan tinggi, masa panen singkat, dan harga yang stabil membuat udang ini jadi pilihan utama petambak di Indonesia.
+Tapi bagaimana cara memulai budidaya udang vaname yang efisien, bahkan dari skala kecil? Artikel ini merangkum langkah-langkah penting, tips praktis, dan simulasi keuntungan yang bisa kamu terapkan.
 
-Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024, konferensi dan pameran akuakultur terbesar se-Asia Pasifik. Acara ini akan diselenggarakan di Surabaya, Jawa Timur, dan menjadi kali kedua Indonesia menjadi tuan rumah setelah kesuksesan APA 2016.
+---
 
-![Pakan Benur Berkualitas](/BlogImage/pakan-benur.png)
+## Kenapa Memilih Udang Vaname?
+- ✅ Cepat panen → 100–110 hari sejak tebar benur.
+- ✅Sintasan tinggi → tingkat hidup relatif stabil.
+- ✅Adaptif → mampu bertahan pada suhu dan salinitas yang bervariasi.
+- ✅Permintaan tinggi → pasar lokal & ekspor terus tumbuh.
 
-### Kenapa Indonesia Dipilih Lagi?
+Menurut data BPS, konsumsi udang nasional mengalami peningkatan signifikan dalam beberapa tahun terakhir. Bahkan pemerintah menargetkan Indonesia menjadi eksportir udang nomor 1 dunia. Ini menunjukkan bahwa usaha budidaya udang vannamei adalah peluang bisnis yang menjanjikan.
 
-Menurut Direktur Jenderal Perikanan Budidaya KKP, Tb Haeru Rahayu, pemilihan Indonesia bukan tanpa alasan. Sebagai salah satu produsen akuakultur terbesar di dunia, Indonesia memiliki potensi sumber daya alam yang melimpah dan pasar yang sangat menjanjikan.
-"Indonesia adalah magnet bagi investor luar negeri di sektor perikanan. Potensi budidayanya luar biasa besar," jelasnya.
-Dengan digelarnya APA 2024, diharapkan akan ada peningkatan investasi sekaligus penguatan pasar domestik, yang akhirnya bisa menjadi pengungkit pertumbuhan ekonomi nasional.
+---
 
-### Surabaya Jadi Tuan Rumah
+## Langkah-Langkah Cara Budidaya Udang Vannamei
+### 1. Persiapan Lahan & Kolam
+- ✅ Kolam bisa fleksibel, dari skala kecil hingga besar.
+- ✅Gunakan air laut atau payau dengan salinitas 15–30 ppt.
+- ✅ Sediakan kolam utama, kolam tandon, dan kolam outlet.
+- ✅ Pasang pompa & aerator (jet bubble, kincir, atau nanobubble).
 
-Kota Surabaya kembali dipilih sebagai lokasi penyelenggaraan. Selain memiliki fasilitas lengkap dan akses transportasi yang memadai, Surabaya juga dikenal sebagai pusat budidaya ikan dan rumah bagi banyak perguruan tinggi yang fokus di bidang perikanan.
-Surabaya dinilai mampu menampung ribuan peserta dan pengunjung. Acara ini juga diharapkan menggugah partisipasi masyarakat luas, tidak hanya di Jawa Timur, tetapi juga di seluruh Indonesia.
+### 2. Sterilisasi Kolam
+- ✅ Bersihkan dan sterilisasi dasar kolam serta air sebelum tebar benur.
+- ✅ Gunakan bahan aman, tanpa residu berbahaya.
 
-### Tentang APA 2024: “Aquaculture - Driving the Blue Economy”
+Tujuan: mencegah masuknya bakteri patogen sejak awal.
 
-APA 2024 akan diselenggarakan oleh World Aquaculture Society bekerja sama dengan Ditjen Perikanan Budidaya KKP dan PT Tirta Anugrah Agung. Tema yang diangkat adalah “Aquaculture - Driving the Blue Economy”, menekankan pentingnya sektor budidaya dalam pembangunan ekonomi berbasis kelautan.
+### 3. Tumbuhkan Plankton & Mikroorganisme
+- ✅ Plankton alami jadi pakan awal benur.
+- ✅ Bakteri dekomposer membantu menjaga kualitas air.
+- ✅ Proses planktonisasi dilakukan ±5–7 hari sebelum tebar.
 
-### Apa yang Bisa Diharapkan?
-1. **232 booth pameran dari berbagai negara**
+---
 
-2. **6.000 pengunjung dari dalam dan luar negeri**
+## Tebar Benur: Tahap Kritis Budidaya
+### Ciri Benur Berkualitas
+- ✅ Ukuran minimal 0,8 cm
+- ✅ Gerak aktif & responsif
+- ✅ Bersertifikat SPF (Specific Pathogen Free)
+- ✅ Lolos uji bolitas & PCR
 
-3. **Sesi konferensi 3 hari, membahas:**
-- ✅ Teknologi budidaya udang, ikan air tawar, ikan laut, hingga rumput laut
-- ✅ Pakan, sistem budidaya, manajemen penyakit & lingkungan
-- ✅ Tren global dan solusi inovatif industri akuakultur
+### Padat Tebar Ideal
+- ✅ Intensif: 75–100 ekor/m²
+- ✅ Tradisional: 5–8 ekor/m²
+- ✅ Sesuaikan dengan sistem tambak & manajemen yang tersedia.
 
-### Harapan untuk Masa Depan Budidaya Indonesia
+---
 
-Menteri Kelautan dan Perikanan, Sakti Wahyu Trenggono, menyampaikan bahwa Indonesia memiliki visi besar menjadikan komoditas budidaya seperti udang, lobster, kepiting, tilapia, dan rumput laut sebagai penguasa pasar ekspor global dalam 10–20 tahun ke depan.
-APA 2024 akan menjadi panggung strategis untuk memperkuat posisi Indonesia di mata dunia sebagai pusat inovasi dan produksi akuakultur yang berkelanjutan.
+## Pakan & Manajemen Kesehatan
+### Jenis Pakan
+- ✅ 0–15 hari → pakan tepung
+- ✅ 16–45 hari → crumble
+- ✅ 45 hari → pelet
 
-### Penutup
-Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatannya di bidang perikanan budidaya, tetapi juga membuka peluang kolaborasi internasional yang luas. Dari teknologi hingga pasar, acara ini akan mempertemukan pelaku industri, akademisi, investor, dan masyarakat untuk membentuk masa depan akuakultur Indonesia.
+Gunakan pakan berkualitas tinggi, stabil di air, dan bebas patogen. Atur jumlah pakan sesuai umur & berat udang untuk mencegah limbah berlebih.
 
-#GrowWithNutrition #PakanBenur #BudidayaUdang
-`
+### Pemantauan Kualitas Air
+- ✅ Parameter penting: DO, pH, suhu, salinitas, kecerahan.
+- ✅ Gunakan alat: DO meter, pH meter, refraktometer.
+
+
+### Probiotik & Sistem Bioflok
+- ✅ Bioflok → meningkatkan efisiensi pakan & menjaga kualitas air.
+- ✅ Probiotik → menekan bakteri jahat & mempercepat dekomposisi limbah.
+
+---
+
+## Panen & Simulasi Keuntungan
+### Contoh Simulasi (Kolam 1 Ha, Sistem Tradisional)
+- ✅ Padat tebar: 80.000 ekor
+- ✅ Tingkat hidup (70–80%): 56.000–64.000 ekor
+- ✅ Berat rata-rata: ±12–15 g → total biomassa 700–900 kg
+- ✅ Harga jual (size kecil): Rp35.000–40.000/kg
+- ✅ Omzet kotor: ±Rp25–36 juta
+- ✅ Modal (kolam + operasional): ±Rp20 juta
+
+Dengan manajemen yang baik, budidaya masih berpotensi balik modal bahkan memberikan keuntungan pada siklus pertama.
+(Catatan: hasil panen sangat bergantung pada kualitas benur, pakan, manajemen air, dan kondisi lingkungan. Angka di atas hanya contoh perhitungan sederhana.)
+
+---
+
+## Penutup
+Budidaya udang vaname bisa dimulai dari skala kecil hingga skala industri. Kuncinya ada pada manajemen air, pakan, dan kesehatan benur. Dengan penerapan teknologi modern seperti bioflok dan probiotik, hasil panen bisa lebih maksimal sekaligus menjaga ekosistem tambak tetap sehat.
+Ingin mulai budidaya? Mulailah dengan benur sehat, pakan berkualitas, dan manajemen yang konsisten.
+_Disclaimer: Informasi ini bersifat edukasi dan bukan jaminan hasil. Keberhasilan budidaya sangat dipengaruhi faktor teknis dan lingkungan._
+#Vaname #Akuakultur #BudidayaUdang
+  `
   },
+
   {
   id: 9,
-    title: "Indonesia Jadi Tuan Rumah APA 2024: Peluang Emas Akuakultur Nasional",
-    date: "2023-12-15",
-    summary:"Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024",
-    slug: "asian-pacific-aquaculture-2024-indonesia",
-    category: "Konferensi",
-    readTime: "5 min read",
-  image: "/Blog Image/penyakit-budidaya.jpg",
+  title: "Uji Bolitas dan PCR: Standar Kualitas Benur Udang",
+  date: "2025-10-29",
+  summary: "Pentingnya uji bolitas dan PCR untuk memastikan benur udang sehat, bebas patogen, dan siap tebar di tambak dengan risiko penyakit rendah.",
+  slug: "uji-bolitas-pcr-benur-udang",
+  category: "Quality Control",
+  readTime: "5 min read",
+  image: "/BlogImage/zoea-phase.png",
   content: `
+# Uji Bolitas dan PCR: Standar Kualitas Benur Udang
+Salah satu tahap krusial sebelum menebar benur udang ke tambak adalah memastikan kondisinya benar-benar sehat. Benur yang tampak baik secara fisik belum tentu bebas dari masalah internal atau infeksi tersembunyi. Karena itu, hatchery maupun petambak biasanya menggunakan dua metode pemeriksaan: uji bolitas dan PCR (Polymerase Chain Reaction). Keduanya memberikan gambaran menyeluruh mengenai kondisi fisiologis dan potensi penyakit pada benur.
 
-Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024, konferensi dan pameran akuakultur terbesar se-Asia Pasifik. Acara ini akan diselenggarakan di Surabaya, Jawa Timur, dan menjadi kali kedua Indonesia menjadi tuan rumah setelah kesuksesan APA 2016.
+---
 
-![Pakan Benur Berkualitas](/BlogImage/pakan-benur.png)
+## Apa Itu Bolitas dan Mengapa Perlu Dicek?
+Bolitas adalah kondisi abnormal pada hepatopankreas benur (organ pencernaan utama), ditandai dengan adanya gumpalan kecil berbentuk bulat. Gumpalan ini terbentuk akibat akumulasi sel epitel yang terlepas dari jaringan.
+Kenapa ini penting? Karena munculnya bolitas sering menjadi indikasi awal adanya masalah metabolisme atau stres pada benur. Jika dibiarkan, hal ini dapat memengaruhi pencernaan, daya tahan tubuh, dan nafsu makan, yang pada akhirnya menurunkan tingkat kelangsungan hidup.
+Gejala umum yang sering diamati pada benur dengan bolitas adalah:
+- Aktivitas berenang yang melemah
+- Nafsu makan berkurang
+- Kerentanan lebih tinggi terhadap penyakit
 
-### Kenapa Indonesia Dipilih Lagi?
+---
 
-Menurut Direktur Jenderal Perikanan Budidaya KKP, Tb Haeru Rahayu, pemilihan Indonesia bukan tanpa alasan. Sebagai salah satu produsen akuakultur terbesar di dunia, Indonesia memiliki potensi sumber daya alam yang melimpah dan pasar yang sangat menjanjikan.
-"Indonesia adalah magnet bagi investor luar negeri di sektor perikanan. Potensi budidayanya luar biasa besar," jelasnya.
-Dengan digelarnya APA 2024, diharapkan akan ada peningkatan investasi sekaligus penguatan pasar domestik, yang akhirnya bisa menjadi pengungkit pertumbuhan ekonomi nasional.
+## Jenis Uji Bolitas
+Secara umum, terdapat dua jenis pemeriksaan bolitas yang dilakukan di hatchery:
+**BHP (Bolitas Hepatopankreas)**: fokus pada organ hepatopankreas, yaitu pusat pencernaan dan metabolisme.
+**BGI (Bolitas Gastrointestinal)**: memeriksa bagian saluran usus.
+Standar ideal benur sehat biasanya adalah 0% bolitas, karena organ pencernaan harus berfungsi optimal. Bila hasil pemeriksaan menunjukkan persentase bolitas tinggi (misalnya lebih dari 50%), benur tersebut sebaiknya tidak digunakan untuk penebaran karena berisiko gagal tumbuh.
 
-### Surabaya Jadi Tuan Rumah
+---
 
-Kota Surabaya kembali dipilih sebagai lokasi penyelenggaraan. Selain memiliki fasilitas lengkap dan akses transportasi yang memadai, Surabaya juga dikenal sebagai pusat budidaya ikan dan rumah bagi banyak perguruan tinggi yang fokus di bidang perikanan.
-Surabaya dinilai mampu menampung ribuan peserta dan pengunjung. Acara ini juga diharapkan menggugah partisipasi masyarakat luas, tidak hanya di Jawa Timur, tetapi juga di seluruh Indonesia.
+## PCR: Deteksi Patogen Lebih Dalam
+Jika uji bolitas menilai kondisi fisik organ, PCR (Polymerase Chain Reaction) bekerja di tingkat molekuler. Dengan metode ini, materi genetik dari patogen dapat diperbanyak dan dideteksi, bahkan pada jumlah yang sangat kecil.
+Teknologi qPCR (quantitative PCR) kini banyak digunakan di hatchery modern karena mampu mendeteksi keberadaan patogen sebelum benur menunjukkan gejala klinis. Beberapa patogen yang umum diuji antara lain:
+- Bakteri Vibrio sp.
+- Bakteri mirip ricketsia (RLB)
+- Virus atau mikroorganisme lain yang berpotensi menginfeksi benur
+Pemeriksaan PCR tetap direkomendasikan meskipun benur sudah memiliki sertifikat SPF (Specific Pathogen Free) atau SPR (Specific Pathogen Resistant). Hal ini untuk memastikan tidak ada kontaminasi silang yang mungkin terjadi selama proses pemeliharaan di hatchery.
 
-### Tentang APA 2024: “Aquaculture - Driving the Blue Economy”
+---
 
-APA 2024 akan diselenggarakan oleh World Aquaculture Society bekerja sama dengan Ditjen Perikanan Budidaya KKP dan PT Tirta Anugrah Agung. Tema yang diangkat adalah “Aquaculture - Driving the Blue Economy”, menekankan pentingnya sektor budidaya dalam pembangunan ekonomi berbasis kelautan.
+## Keunggulan PCR Dibanding Uji Fisik Saja
+**Lebih presisi**: PCR mampu mengidentifikasi keberadaan patogen secara spesifik, bukan hanya gejala umum.
+**Deteksi dini**: Patogen bisa terdeteksi bahkan sebelum benur tampak sakit.
+**Data kuantitatif**: Dengan qPCR, hasil bisa menunjukkan seberapa banyak kontaminasi yang ada, bukan hanya "positif" atau "negatif".
+Dengan keunggulan ini, petambak bisa membuat keputusan lebih cepat dan akurat untuk mencegah kerugian lebih besar.
 
-### Apa yang Bisa Diharapkan?
-1. **232 booth pameran dari berbagai negara**
+---
 
-2. **6.000 pengunjung dari dalam dan luar negeri**
+## Kombinasi Keduanya untuk Hasil Maksimal
+Uji bolitas dan PCR bukan metode yang saling menggantikan, melainkan saling melengkapi.
+**Bolitas** memberikan gambaran visual mengenai kondisi organ pencernaan benur.
+**PCR** memastikan benur bebas dari patogen berbahaya yang mungkin tidak terlihat dari luar.
+Dengan menggabungkan keduanya, petambak bisa memilih benur yang tidak hanya terlihat sehat, tetapi juga benar-benar siap tumbuh optimal di tambak dengan risiko penyakit yang lebih rendah.
 
-3. **Sesi konferensi 3 hari, membahas:**
-- ✅ Teknologi budidaya udang, ikan air tawar, ikan laut, hingga rumput laut
-- ✅ Pakan, sistem budidaya, manajemen penyakit & lingkungan
-- ✅ Tren global dan solusi inovatif industri akuakultur
+---
 
-### Harapan untuk Masa Depan Budidaya Indonesia
+## Kesimpulan
+Memastikan benur berkualitas adalah investasi awal yang menentukan keberhasilan budidaya. Uji bolitas membantu menilai kesehatan organ pencernaan, sementara PCR memberikan kepastian bahwa benur bebas dari patogen berbahaya.
+Keduanya bersama-sama memberikan data yang dapat diandalkan untuk mengurangi risiko, meningkatkan survival rate, dan menunjang produktivitas tambak. Dengan langkah seleksi yang tepat sejak awal, petambak bisa memulai budidaya dengan lebih percaya diri dan berpeluang besar mencapai hasil panen yang optimal.
 
-Menteri Kelautan dan Perikanan, Sakti Wahyu Trenggono, menyampaikan bahwa Indonesia memiliki visi besar menjadikan komoditas budidaya seperti udang, lobster, kepiting, tilapia, dan rumput laut sebagai penguasa pasar ekspor global dalam 10–20 tahun ke depan.
-APA 2024 akan menjadi panggung strategis untuk memperkuat posisi Indonesia di mata dunia sebagai pusat inovasi dan produksi akuakultur yang berkelanjutan.
-
-### Penutup
-Dengan menjadi tuan rumah APA 2024, Indonesia tidak hanya menunjukkan kekuatannya di bidang perikanan budidaya, tetapi juga membuka peluang kolaborasi internasional yang luas. Dari teknologi hingga pasar, acara ini akan mempertemukan pelaku industri, akademisi, investor, dan masyarakat untuk membentuk masa depan akuakultur Indonesia.
-
-#GrowWithNutrition #PakanBenur #BudidayaUdang
-`
+#QualityControl #BolitasTest #PCR #BenurSehat
+  `
   },
 ];
