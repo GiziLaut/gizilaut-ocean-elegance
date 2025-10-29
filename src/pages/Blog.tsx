@@ -82,33 +82,33 @@ const blogPosts = [
   },
   {
     id: 8,
-    title: "Penyakit Umum dalam Budidaya dan Cara Pencegahannya",
-    date: "2023-12-15",
-    summary:
-      "Kenali penyakit umum pada ikan dan udang serta bagaimana nutrisi dapat membantu mencegahnya.",
-    slug: "penyakit-dalam-budidaya",
-    category: "Kesehatan & Penyakit",
-    readTime: "9 min read",
+    title: "Panduan Lengkap Budidaya Udang Vaname untuk Pemula",
+    date: "2025-10-29",
+    summary: 
+      "Langkah memulai budidaya udang vaname dari skala kecil: persiapan kolam, sterilisasi, planktonisasi...",
+    slug: "panduan-budidaya-udang-vaname-pemula",
+    category: "Farming",
+    readTime: "6 min read",
   },
   {
     id: 9,
-    title: "Penyakit Umum dalam Budidaya dan Cara Pencegahannya",
-    date: "2023-12-15",
-    summary:
-      "Kenali penyakit umum pada ikan dan udang serta bagaimana nutrisi dapat membantu mencegahnya.",
-    slug: "penyakit-dalam-budidaya",
-    category: "Kesehatan & Penyakit",
-    readTime: "9 min read",
+    title: "Uji Bolitas dan PCR: Standar Kualitas Benur Udang",
+    date: "2025-10-29",
+    summary: 
+    "Pentingnya uji bolitas dan PCR untuk memastikan benur udang sehat, bebas patogen, dan siap tebar.",
+    slug: "uji-bolitas-pcr-benur-udang",
+    category: "Quality Control",
+    readTime: "5 min read",
   },
   {
     id: 10,
-    title: "Gizi laut",
-    date: "2024-12-15",
-    summary:
-      "testing aja dulu.",
-    slug: "test2",
-    category: "Kesehatan & Penyakit",
-    readTime: "1 min read",
+    title: "Artemia: Dari Danau Asin hingga Hatchery Anda",
+    date: "2025-10-29",
+    summary: 
+    "Mengenal asal-usul Artemia dari danau hipersalin, siklus hidup, manfaat untuk pembenihan.",
+    slug: "artemia-danau-asin-hatchery",
+    category: "Live Feed",
+    readTime: "5 min read",
   },
 ];
 
