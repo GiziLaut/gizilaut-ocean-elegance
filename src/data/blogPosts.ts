@@ -595,4 +595,88 @@ Dengan pemilihan kualitas yang tepat dan pengelolaan yang baik, Artemia akan ter
   `
   },
 
+  {
+  id: 11,
+  title: "Teknologi RAS: Sistem Air Tertutup",
+  date: "2025-11-3",
+  summary: "Recirculating Aquaculture System merupakan teknologi modern yang membuat air kolam bisa dipakai ulang terus-menerus.",
+  slug: "recirculating-aquaculture-system",
+  category: "Technology",
+  readTime: "3-4 min read",
+  image: "/BlogImage/artemia-osi.jpg",
+  content: `
+
+  `
+  },
+
+  {
+  id: 12,
+  title: "Teknologi Bioflok: Rahasia Kolam Ikan yang Hemat",
+  date: "2025-11-5",
+  summary: "Bioflok adalah sistem budidaya ikan modern yang memanfaatkan mikroorganisme.",
+  slug: "apa-itu-bioflok",
+  category: "Technology",
+  readTime: "3-4 min read",
+  image: "/BlogImage/artemia-osi.jpg",
+  content: `
+
+  `
+  },
+
+  {
+  id: 13,
+  title: "Rahasia Telur Ajaib Artemia: Bisa Tidur Bertahun-tahun!",
+  date: "2025-11-15",
+  summary: "Telur Artemia disebut cyst, yaitu bentuk telur khusus yang punya lapisan luar super keras.",
+  slug: "telur-artemia-cyst",
+  category: "Live Feed",
+  readTime: "2-3 min read",
+  image: "/BlogImage/artemia-osi.jpg",
+  content: `
+
+  `
+  },
+
+  {
+  id: 14,
+  title: "Mengenal Zoea, Mysis, dan PL: Tahapan Penting dalam Hidup Udang",
+  date: "2025-11-18",
+  summary: "Pernah dengar istilah Zoea, Mysis, atau PL di dunia udang? Istilah-istilah ini adalah sebutan untuk fase larva udang,",
+  slug: "fase-benur",
+  category: "Growth",
+  readTime: "3-4 min read",
+  image: "/BlogImage/artemia-osi.jpg",
+  content: `
+
+  `
+  },
+
+  {
+  id: 15,
+  title: "Rahasia di Balik Ganti Baju Udang: Mengenal Proses Molting",
+  date: "2025-12-20",
+  summary: "Beginilah cara udang bertumbuh, Proses ini disebut molting atau moulting.",
+  slug: "apa-itu-molting",
+  category: "Growth",
+  readTime: "5 min read",
+  image: "/BlogImage/artemia-osi.jpg",
+  content: `
+
+  `
+  },
+
+  {
+  id: 16,
+  title: "Ketika Udang Harus Kehilangan Mata Demi Telur: Realitas Ablasi",
+  date: "2025-12-22",
+  summary: "Ablasi adalah metode yang telah dipraktikkan secara rutin di hampir setiap fasilitas pembenihan udang.",
+  slug: "apa-itu-ablasi",
+  category: "Growth",
+  readTime: "5 min read",
+  image: "/BlogImage/artemia-osi.jpg",
+  content: `
+
+  `
+  },
+
 ];
