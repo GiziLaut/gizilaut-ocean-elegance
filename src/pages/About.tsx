@@ -89,14 +89,14 @@ const About = () => {
                   <div className="space-y-4">
                     <h3 className="text-xl font-semibold text-foreground">Kualitas Pakan</h3>
                     <p className="text-muted-foreground">
-                      EKami sangat percaya pada kualitas pakan yang kami jual. Setiap jenis pakan telah teruji ketat di pembenihan seluruh Indonesia, 
+                      Kami sangat percaya pada kualitas pakan yang kami jual. Setiap jenis pakan telah teruji ketat di pembenihan seluruh Indonesia, 
                       memastikan nilai gizi dan keamanan optimal.
                     </p>
                   </div>
                   <div className="space-y-4">
                     <h3 className="text-xl font-semibold text-foreground">Kemudahan Akses & Pilihan Pakan Lengkap</h3>
                     <p className="text-muted-foreground">
-                      kami menyediakan berbagai jenis pakan dari berbagai merek terkemuka, memudahkan anda untuk menemukan semua 
+                      Kami menyediakan berbagai jenis pakan dari berbagai merek terkemuka, memudahkan anda untuk menemukan semua 
                       kebutuhan pakan benur dan benih ikan di satu tempat baik online atau offline.
                     </p>
                   </div>

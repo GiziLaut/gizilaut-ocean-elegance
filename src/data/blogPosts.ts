@@ -95,11 +95,11 @@ _“Pakan yang baik, diberikan dengan cara yang tepat, adalah kunci panen ikan y
   slug: "akuakultur-berkelanjutan",
   category: "Sustainability",
   readTime: "6 min read",
-  image: "/BlogImage/akuakultur-berkelanjutan.jpg",
+  image: "/BlogImage/Hero_cropped-1900x653.jpg",
   content: `
 # Akuakultur Berkelanjutan: Masa Depan Budidaya Laut
 
-![Akuakultur Berkelanjutan](/BlogImage/akuakultur-berkelanjutan.jpg)
+![Akuakultur Berkelanjutan](/BlogImage/tambak-udang-aceh-tamiang-perikanan-budidaya.jpeg)
 
 Seiring meningkatnya permintaan pangan laut, praktik budidaya berkelanjutan menjadi semakin penting. Akuakultur berkelanjutan memastikan produksi yang efisien tanpa merusak ekosistem.
 
@@ -126,11 +126,11 @@ _Dengan budidaya yang bertanggung jawab, laut tetap lestari dan bisnis tetap ber
   slug: "manajemen-kualitas-air",
   category: "Farm Management",
   readTime: "8 min read",
-  image: "/BlogImage/kualitas-air.jpg",
+  image: "/BlogImage/istockphoto-1414455321-612x612.jpg",
   content: `
 # Manajemen Kualitas Air dalam Akuakultur
 
-![Kualitas Air Budidaya](/BlogImage/kualitas-air.jpg)
+![Kualitas Air Budidaya](/BlogImage/istockphoto-1133379498-612x612.jpg)
 
 Kualitas air adalah fondasi dari akuakultur yang sukses. Air yang bersih dan stabil menjamin kesehatan benur dan benih ikan sepanjang siklus budidaya.
 
@@ -268,11 +268,11 @@ _“Pakan yang baik, diberikan dengan cara yang tepat, adalah kunci panen udang 
   slug: "penyakit-dalam-budidaya",
   category: "Health & Disease",
   readTime: "9 min read",
-  image: "/BlogImage/penyakit-budidaya.jpg",
+  image: "/BlogImage/istockphoto-1491029995-612x612.jpg",
   content: `
 # Penyakit Umum dalam Budidaya dan Cara Pencegahannya
 
-![Penyakit Budidaya](/BlogImage/penyakit-budidaya.jpg)
+![Penyakit Budidaya](/BlogImage/istockphoto-1652115952-612x612.jpg)
 
 Penyakit bisa menjadi mimpi buruk dalam budidaya. Oleh karena itu, deteksi dini dan pencegahan adalah hal paling penting.
 
@@ -300,12 +300,12 @@ _Pencegahan lebih murah daripada pengobatan—mulailah dari nutrisi dan manajeme
     slug: "asian-pacific-aquaculture-2024-indonesia",
     category: "Konferensi",
     readTime: "5 min read",
-  image: "/BlogImage/penyakit-budidaya.jpg",
+  image: "/BlogImage/maxresdefault.jpg",
   content: `
 
 Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024, konferensi dan pameran akuakultur terbesar se-Asia Pasifik. Acara ini akan diselenggarakan di Surabaya, Jawa Timur, dan menjadi kali kedua Indonesia menjadi tuan rumah setelah kesuksesan APA 2016.
 
-![Pakan Benur Berkualitas](/BlogImage/pakan-benur.png)
+![Pakan Benur Berkualitas](/BlogImage/hq720.jpg)
 
 ### Kenapa Indonesia Dipilih Lagi?
 
@@ -519,7 +519,7 @@ Keduanya bersama-sama memberikan data yang dapat diandalkan untuk mengurangi ris
   slug: "artemia-danau-asin-hatchery",
   category: "Live Feed",
   readTime: "5 min read",
-  image: "/BlogImage/artemia-osi.jpg",
+  image: "/BlogImage/artemia.png",
   content: `
 # Artemia: Dari Danau Asin hingga Hatchery Anda
 Bagi pembudidaya benur dan ikan, nama Artemia tentu sudah tidak asing lagi. Pakan hidup mungil ini menjadi pilihan utama karena nutrisi yang lengkap dan daya cerna yang tinggi. Tapi, tahukah Anda kalau Artemia bukan berasal dari laut? Mari kita bahas asal-usul, proses pembiakannya, serta mengapa pakan hidup ini begitu penting dalam dunia budidaya.
@@ -603,7 +603,7 @@ Dengan pemilihan kualitas yang tepat dan pengelolaan yang baik, Artemia akan ter
   slug: "recirculating-aquaculture-system",
   category: "Technology",
   readTime: "3-4 min read",
-  image: "/BlogImage/artemia-osi.jpg",
+  image: "/BlogImage/SYSTEM BIG-2.png",
   content: `
   # RAS (Recirculating Aquaculture System): Budidaya Ikan Masa Depan
 Tahukah kamu kalau budidaya ikan kini bisa dilakukan tanpa sering mengganti air kolam? Inilah fungsi dari RAS, atau Recirculating Aquaculture System—teknologi modern yang membuat air kolam bisa dipakai ulang terus-menerus tanpa mencemari lingkungan.
@@ -652,7 +652,7 @@ Teknologi ini membuktikan bahwa dengan inovasi, budidaya ikan kini bisa dilakuka
   slug: "apa-itu-bioflok",
   category: "Technology",
   readTime: "3-4 min read",
-  image: "/BlogImage/artemia-osi.jpg",
+  image: "/BlogImage/biofloc.png",
   content: `
   # Bioflok: Revolusi Budidaya Ikan Hemat dan Ramah Lingkungan
 Pernah dengar istilah bioflok? Teknologi ini sedang naik daun di dunia akuakultur karena bisa membuat budidaya ikan jadi lebih efisien, ramah lingkungan, dan hemat biaya. Tapi apa sebenarnya bioflok itu?
@@ -698,7 +698,7 @@ Budidaya hemat, hasil maksimal—itulah kekuatan sesungguhnya di balik flok keci
   slug: "telur-artemia-cyst",
   category: "Live Feed",
   readTime: "2-3 min read",
-  image: "/BlogImage/artemia-osi.jpg",
+  image: "/BlogImage/cysts.png",
   content: `
   # Cyst Artemia: Telur Ajaib yang Bisa Tidur Bertahun-Tahun
 Tahukah kamu kalau ada hewan laut mini yang telurnya bisa hidup meski sudah bertahun-tahun "tidur"? Yup, itu adalah Artemia, si udang kecil air asin yang sering disebut brine shrimp. Dan bagian paling ajaibnya—telurnya bisa disimpan dalam keadaan kering hingga 10 tahun dan tetap hidup!
@@ -738,7 +738,7 @@ Menakjubkan, bukan? Artemia adalah contoh sempurna adaptasi alam. Ia bisa bertah
   slug: "fase-benur",
   category: "Growth",
   readTime: "3-4 min read",
-  image: "/BlogImage/artemia-osi.jpg",
+  image: "/BlogImage/siklus hidup udang.png",
   content: `
   # Zoea, Mysis, dan PL: Fase-Fase Larva Udang yang Menakjubkan
 Pernah dengar istilah Zoea, Mysis, atau PL di dunia udang? Istilah-istilah ini adalah sebutan untuk fase larva udang—tahapan awal dalam siklus hidupnya sebelum tumbuh menjadi udang muda hingga dewasa. Dalam industri tambak, memahami setiap fase ini penting untuk menghasilkan benur (bibit udang) yang sehat dan kuat.
@@ -782,7 +782,7 @@ Dalam waktu kurang dari tiga minggu, udang mengalami metamorfosis luar biasa: da
   slug: "apa-itu-molting",
   category: "Growth",
   readTime: "5 min read",
-  image: "/BlogImage/artemia-osi.jpg",
+  image: "/BlogImage/shrimp-molt.png",
   content: `
 # Molting: Proses Ganti Baju Udang yang Menentukan Hidup Mati
 Pernah lihat udang ganti baju? Mungkin terdengar aneh, tapi inilah cara udang bertumbuh. Proses ini disebut molting atau moulting—sebuah fenomena alami di mana udang melepaskan cangkang atau kulit lamanya supaya bisa tumbuh lebih besar. Berbeda dengan manusia yang kulitnya elastis dan ikut membesar seiring pertumbuhan tubuh, udang memiliki eksoskeleton (kulit luar) yang keras dan kaku, sehingga tidak bisa ikut membesar ketika tubuhnya tumbuh.
@@ -900,7 +900,7 @@ Proses "ganti baju" ini mungkin terlihat sederhana dari luar, tetapi di baliknya
   slug: "apa-itu-ablasi",
   category: "Growth",
   readTime: "5 min read",
-  image: "/BlogImage/artemia-osi.jpg",
+  image: "/BlogImage/ablasi.png",
   content: `
 # Ablasi Tangkai Mata Udang: Praktik Kontroversial dan Alternatif Etis
 Bayangkan jika manusia harus kehilangan matanya demi bisa lebih gampang punya anak. Kedengarannya seperti cerita fiksi ilmiah yang mengerikan, bukan? Tapi sayangnya, ini adalah realitas nyata yang dialami jutaan udang setiap harinya melalui sebuah teknik bernama ablasi tangkai mata atau eyestalk ablation.
