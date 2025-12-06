@@ -64,7 +64,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
         pagination={{ clickable: true }}
         spaceBetween={16}
         slidesPerView={2}
-        className="pb-24 [&.swiper-pagination]:!bottom-0 [&.swiper-pagination]:!w-full [&_.swiper-pagination]:!left-0 [&_.swiper-pagination-bullet]:!bg-sky-600 [&_.swiper-pagination-bullet-active]:!bg-sky-700"
+        className="!pb-32 [&.swiper-pagination]:!bottom-2 [&.swiper-pagination]:!flex [&.swiper-pagination]:!justify-center [&.swiper-pagination]:!gap-2 [&.swiper-pagination-bullet]:!w-2.5 [&.swiper-pagination-bullet]:!h-2.5 [&.swiper-pagination-bullet]:!bg-gray-300 [&.swiper-pagination-bullet-active]:!bg-sky-600"
         onInit={(swiper) => {
           // @ts-ignore
           swiper.params.navigation.prevEl = prevRef.current;
@@ -125,6 +125,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">Pakan Benur</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Nutrisi premium untuk benur, kunci pertumbuhan maksimal sejak awal
+              Kunjungi "Gizi Laut" di Shopee dan Tokopedia / Tiktok Shop untuk melihat keseluruhan produk
             </p>
           </div>
           <ProductCarousel images={pakanBenurImages} folder="Pakan Benur" />
@@ -138,6 +139,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">Pakan Benih Ikan</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Pakan benih ikan berkualitas tinggi, dirancang untuk pertumbuhan dan perkembangan yang sehat
+              Kunjungi "Gizi Laut" di Shopee dan Tokopedia / Tiktok Shop untuk melihat keseluruhan produk
             </p>
           </div>
           <ProductCarousel images={pakanIkanImages} folder="Pakan Ikan" />
