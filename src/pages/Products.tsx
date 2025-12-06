@@ -19,18 +19,20 @@ const Products = () => {
   };
 
   const pakanBenurImages = [
+    "Frippak 1 CAR.png", "Frippak 2 CD.png", "Frippak PL + 150.png", "Frippak PL + 300.png",
     "Algamac.png", "Aqua plus mysis 1.png", "Aqua Plus PL 150 1.png", "Aqua plus zoea1.png", "Artemac No 0.png",
     "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia Mackay.png", "Artemia Sanders.png",
-    "Eguchi BP.png", "Elbazin 1 box.png", "Epac No 0.png", "ET-600 (1 Bag).png", "Frippak 1 CAR.png",
-    "Frippak 2 CD.png", "Frippak PL + 150.png", "Frippak PL + 300.png", "Japonicus 0.png", "Lansy MPL FINAL.png",
+    "Eguchi BP.png", "Elbazin 1 box.png", "Epac No 0.png", "ET-600 (1 Bag).png",  "Japonicus 0.png", "Lansy MPL FINAL.png",
     "Lansy PL.png", "Lansy ZM.png", "LHF 2.png", "Mackay Spirulina.png", "Micro feed no 3.png",
-    "RDN Ultra diet 0.png", "Rotemia.png", "rotofier.png", "Sanocare.png"
+    "RDN Ultra diet 0.png", "Rotemia.png", "rotofier.png", "Sanocare.png", "TOP Spirulina.png", "BP Yuh Huei.png",
+    "Fishery Shrimp Flake.png", "Hei Chen Chu.png", "King Spirulina.png"
   ];
 
   const pakanIkanImages = [
-    "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia Mackay.png", "Artemia Sanders.png",
-    "Eguchi BP.png", "Elbazin 1 box.png", "LHF 2.png", "Otohime A.png", "Otohime B1.png", "Otohime B2.png",
-    "Otohime C1.png", "Otohime S1.png", "Otohime S2.png", "Rotemia.png", "rotofier.png", "Sanocare.png"
+    "Otohime A.png", "Otohime B1.png", "Otohime B2.png", "Otohime C1.png", "Otohime S1.png", "Otohime S2.png", 
+    "NRD 2 3.png", "NRD 3 5.png", "NRD 5 8.png", "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia Mackay.png", 
+    "Artemia Sanders.png", "Eguchi BP.png", "Elbazin 1 box.png", "LHF 2.png", "Rotemia.png", "rotofier.png", "Sanocare.png",
+    
   ];
 
   interface ProductCarouselProps {
@@ -62,7 +64,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
         pagination={{ clickable: true }}
         spaceBetween={16}
         slidesPerView={2}
-        className="pb-16 [&.swiper-pagination]:!bottom-2 [&.swiper-pagination]:!w-full [&_.swiper-pagination]:!left-0"
+        className="pb-24 [&.swiper-pagination]:!bottom-0 [&.swiper-pagination]:!w-full [&_.swiper-pagination]:!left-0 [&_.swiper-pagination-bullet]:!bg-sky-600 [&_.swiper-pagination-bullet-active]:!bg-sky-700"
         onInit={(swiper) => {
           // @ts-ignore
           swiper.params.navigation.prevEl = prevRef.current;
