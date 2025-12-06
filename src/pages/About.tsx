@@ -2,7 +2,11 @@ import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
 
+
 const About = () => {
+  // ✅ VIDEO ID dari: https://www.youtube.com/watch?v=8IUCNbCbICo
+  const YOUTUBE_VIDEO_ID = "8IUCNbCbICo";
+
   return (
     <Layout
       title="About Us - Gizi Laut Aquaculture Nutrition Specialists"
@@ -23,6 +27,7 @@ const About = () => {
         </div>
       </section>
 
+
       {/* Main Content */}
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,6 +36,22 @@ const About = () => {
               {/* Who We Are */}
               <div className="space-y-6">
                 <h2 className="text-3xl font-bold text-gradient-ocean">Gizi Laut hadir sebagai teman seperjuangan para hatchery di Indonesia.</h2>
+                
+                {/* ✅ YOUTUBE VIDEO EMBED - VIDEO GIZI LAUT */}
+                <div className="flex justify-center my-8">
+                  <iframe
+                    width="100%"
+                    height="480"
+                    src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}`}
+                    title="Kenalan dengan Gizi Laut: Partner Nutrisi untuk Pembudidaya Indonesia"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="rounded-xl shadow-lg max-w-4xl aspect-video"
+                  ></iframe>
+                </div>
+                {/* ✅ AKHIR YOUTUBE VIDEO EMBED */}
+
                 <div className="prose prose-lg max-w-none text-muted-foreground">
                   <p className="text-lg leading-relaxed">
                     Kami percaya bahwa pertumbuhan benur dan ikan yang sehat dimulai dari satu hal paling dasar: gizi yang tepat.
@@ -45,6 +66,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
+
 
               {/* What We Offer */}
               <div className="space-y-6">
@@ -81,6 +103,7 @@ const About = () => {
                 </div>
               </div>
 
+
               {/* Our Advantage */}
               <div className="bg-gradient-wave rounded-2xl p-8 lg:p-12">
                 <div className="space-y-6">
@@ -99,6 +122,7 @@ const About = () => {
                       </p>
                     </div>
 
+
                     <div className="text-center space-y-4">
                       <div className="w-16 h-16 bg-primary rounded-full mx-auto flex items-center justify-center shadow-ocean">
                         <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -111,6 +135,7 @@ const About = () => {
                         Anda bebas memilih pakan yang paling sesuai dengan kebutuhan budidaya anda.
                       </p>
                     </div>
+
 
                     <div className="text-center space-y-4">
                       <div className="w-16 h-16 bg-primary rounded-full mx-auto flex items-center justify-center shadow-ocean">
@@ -127,6 +152,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
+
 
               {/* Mission & Vision */}
               <div className="grid md:grid-cols-2 gap-12">
@@ -151,6 +177,7 @@ const About = () => {
           </div>
         </div>
       </section>
+
 
       {/* CTA Section */}
       <section className="py-16 lg:py-24 bg-gradient-ocean text-white">
@@ -180,5 +207,6 @@ const About = () => {
     </Layout>
   );
 };
+
 
 export default About;

@@ -140,7 +140,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">Pakan Benih Ikan</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Pakan benih ikan berkualitas tinggi, dirancang untuk pertumbuhan dan perkembangan yang sehat
+              Pakan benih ikan berkualitas yang memiliki nutrisi baik untuk pertumbuhan ikan yang sehat
             </p>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Kunjungi "Gizi Laut" di Shopee dan Tokopedia / Tiktok Shop untuk melihat keseluruhan produk
