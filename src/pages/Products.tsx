@@ -125,6 +125,8 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">Pakan Benur</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Nutrisi premium untuk benur, kunci pertumbuhan maksimal sejak awal
+            </p>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Kunjungi "Gizi Laut" di Shopee dan Tokopedia / Tiktok Shop untuk melihat keseluruhan produk
             </p>
           </div>
@@ -139,6 +141,8 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient-ocean">Pakan Benih Ikan</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Pakan benih ikan berkualitas tinggi, dirancang untuk pertumbuhan dan perkembangan yang sehat
+            </p>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Kunjungi "Gizi Laut" di Shopee dan Tokopedia / Tiktok Shop untuk melihat keseluruhan produk
             </p>
           </div>
