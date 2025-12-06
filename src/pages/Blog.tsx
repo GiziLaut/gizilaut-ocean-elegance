@@ -73,7 +73,7 @@ const blogPosts = [
   {
     id: 7,
     title: "Indonesia Jadi Tuan Rumah APA 2024",
-    date: "2023-12-15",
+    date: "2024-7-10",
     summary:
       "Indonesia kembali dipercaya sebagai tuan rumah ajang akbar Asian Pacific Aquaculture (APA) 2024",
     slug: "asian-pacific-aquaculture-2024-indonesia",
