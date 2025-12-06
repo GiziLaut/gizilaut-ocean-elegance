@@ -64,7 +64,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({ images, folder }) => 
         pagination={{ clickable: true }}
         spaceBetween={16}
         slidesPerView={2}
-        className="!pb-32 [&.swiper-pagination]:!bottom-2 [&.swiper-pagination]:!flex [&.swiper-pagination]:!justify-center [&.swiper-pagination]:!gap-2 [&.swiper-pagination-bullet]:!w-2.5 [&.swiper-pagination-bullet]:!h-2.5 [&.swiper-pagination-bullet]:!bg-gray-300 [&.swiper-pagination-bullet-active]:!bg-sky-600"
+        className="!pb-16 [&.swiper-pagination]:!bottom-1 [&.swiper-pagination]:!flex [&.swiper-pagination]:!justify-center [&.swiper-pagination]:!gap-2 [&.swiper-pagination-bullet]:!w-2.5 [&.swiper-pagination-bullet]:!h-2.5 [&.swiper-pagination-bullet]:!bg-gray-300 [&.swiper-pagination-bullet-active]:!bg-sky-600"
         onInit={(swiper) => {
           // @ts-ignore
           swiper.params.navigation.prevEl = prevRef.current;
