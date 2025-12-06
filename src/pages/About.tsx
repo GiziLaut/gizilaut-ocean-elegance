@@ -38,30 +38,30 @@ const About = () => {
                 <h2 className="text-3xl font-bold text-gradient-ocean">Gizi Laut hadir sebagai teman seperjuangan para hatchery di Indonesia.</h2>
                 
                 {/* ✅ YOUTUBE VIDEO EMBED - VIDEO GIZI LAUT */}
-                <div className="flex justify-center my-8">
-                  <iframe
-                    width="100%"
-                    height="480"
-                    src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}`}
-                    title="Kenalan dengan Gizi Laut: Partner Nutrisi untuk Pembudidaya Indonesia"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="rounded-xl shadow-lg max-w-4xl aspect-video"
-                  ></iframe>
-                </div>
+                <div className="flex justify-center my-3">
+                <iframe
+                  width="100%"
+                  height="480"
+                  src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}`}
+                  title="Kenalan dengan Gizi Laut: Partner Nutrisi untuk Pembudidaya Indonesia"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="rounded-xl shadow-lg max-w-4xl aspect-video"
+                ></iframe>
+  </div>
                 {/* ✅ AKHIR YOUTUBE VIDEO EMBED */}
 
                 <div className="prose prose-lg max-w-none text-muted-foreground">
                   <p className="text-lg leading-relaxed">
                     Kami percaya bahwa pertumbuhan benur dan ikan yang sehat dimulai dari satu hal paling dasar: gizi yang tepat.
                     Dengan menyediakan pakan benur dan pakan ikan berkualitas tinggi dan harga yang bersaing, 
-                    kami ingin membantu Anda menghasilkan udang dan ikan terbaik—dari awal yang kecil hingga panen yang besar.  
+                    kami ingin membantu Anda menghasilkan udang dan ikan terbaik dari awal yang kecil hingga panen yang besar.  
                   </p>
                   <p className="text-lg leading-relaxed">
                     Produk kami lengkap, pelayanan kami tanggap, dan visi kami jelas:
                     menjadi penyedia pakan benur dan ikan terbesar di Indonesia.
-                    Di tengah industri yang menuntut ketepatan dan ketahanan, Gizi Laut bukan sekadar penjual—kami rekan seperjalanan Anda. 
+                    Di tengah industri yang menuntut ketepatan dan ketahanan, Gizi Laut bukan sekadar penjual, kami rekan seperjalanan Anda. 
                     Karena kami pun sedang bertumbuh, sama seperti Anda.
                   </p>
                 </div>
