@@ -170,6 +170,16 @@ const blogPosts = [
     category: "Growth",
     readTime: "5 min read",
   },
+  {
+    id: 17,
+    title: "Artemia Terbaik untuk Pembenihan Benur dan Ikan",
+    date: "2026-5-20",
+    summary: 
+      "Artemia merupakan organime hidup yang seringkali di gunakan sebagai pakan benur, udang dan ikan karena sangat bergizi.",
+    slug: "artemia-terbaik-untuk-benur",
+    category: "Growth",
+    readTime: "5 min read",
+  },
 ];
 
 const categories = [
