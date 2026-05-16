@@ -172,11 +172,11 @@ const blogPosts = [
   },
   {
     id: 17,
-    title: "Artemia Terbaik untuk Pembenihan Benur dan Ikan",
+    title: "Artemia Standar vs SEP-Art Artemia",
     date: "2026-5-20",
     summary: 
-      "Artemia merupakan organime hidup yang seringkali di gunakan sebagai pakan benur, udang dan ikan karena sangat bergizi.",
-    slug: "artemia-terbaik-untuk-benur",
+      "Mengenal perbedaan Artemia standar dan SEP-Art Artemia, termasuk cara kerja, keunggulan, dan brand yang umum digunakan di hatchery.",
+    slug: "artemia-standar-vs-separt-artemia",
     category: "Growth",
     readTime: "5 min read",
   },
