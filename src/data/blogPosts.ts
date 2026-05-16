@@ -981,22 +981,29 @@ Perubahan ini memerlukan kolaborasi antara peneliti, produsen, pemerintah, dan k
 # Artemia Standar vs SEP-Art Artemia
 
 
+
 Artemia adalah pakan hidup penting di hatchery karena ukurannya kecil, mudah dicerna, dan cocok untuk larva udang maupun ikan. Di lapangan, Artemia umumnya digunakan dalam dua pendekatan: Artemia standar dan SEP-Art Artemia.
+
 
 
 ---
 
 
+
 ## Artemia Standar
+
 
 
 ![Artemia Standar](/BlogImage/artemiastandar.png)
 
 
+
 Artemia standar adalah Artemia cyst yang ditetaskan dengan metode biasa. Proses ini paling umum dipakai karena sederhana, praktis, dan cocok untuk kebutuhan harian hatchery.
 
 
+
 Dalam pemakaian standar, kualitas hasil sangat dipengaruhi oleh mutu cyst, salinitas, suhu, aerasi, dan kebersihan media penetasan. Karena itu, meski prosesnya mudah, hasil nauplii tetap perlu dikelola dengan baik agar kebersihannya tetap terjaga.
+
 
 
 Brand dan merk yang umum dipakai:
@@ -1006,6 +1013,7 @@ Brand dan merk yang umum dipakai:
 - GSLA - Artemia Mackay
 
 
+
 Kelebihannya:
 - Mudah digunakan.
 - Praktis untuk kultur rutin.
@@ -1013,25 +1021,32 @@ Kelebihannya:
 - Banyak tersedia di pasaran.
 
 
+
 ---
+
 
 
 ## SEP-Art Artemia
 
 
+
 ![SEP-Art Artemia](/BlogImage/ArtemiaSepart.png)
+
 
 
 SEP-Art Artemia adalah Artemia cyst dengan teknologi magnetik yang membuat hasil penetasan lebih mudah dipisahkan dari shell dan partikel pengotor. Teknologi ini dirancang untuk menghasilkan nauplii yang lebih bersih, lebih aktif, dan lebih efisien dipanen.
 
 
+
 Pada prosesnya, cyst dilapisi material magnetik non-toksik, lalu saat penetasan selesai, shell yang belum menetas bisa ditarik atau ditahan oleh magnet separator. Hasilnya, nauplii yang didapat lebih bersih dan lebih siap digunakan untuk kebutuhan hatchery yang butuh kontrol kualitas lebih tinggi.
+
 
 
 Brand dan merk yang umum dipakai:
 - GSLA - Artemia Supreme Plus / Golden West (Sep-Art)
 - GSLA - Artemia Mackay (Sep-Art)
 - INVE - Artemia EG (Sep-Art)
+
 
 
 Kelebihannya:
@@ -1041,7 +1056,9 @@ Kelebihannya:
 - Cocok untuk hatchery yang mengejar kualitas pakan hidup yang lebih konsisten.
 
 
+
 ---
+
 
 
 ## Perbedaan Singkat
@@ -1049,11 +1066,19 @@ Kelebihannya:
 - SEP-Art Artemia: memakai teknologi magnetik, hasil lebih bersih, dan lebih cocok untuk hatchery yang mengutamakan efisiensi serta kebersihan hasil panen.
 
 
+
+Kalau kamu mau beli Artemia, kamu bisa cek toko online kami di Gizi Laut melalui [Shopee](https://shopee.co.id/gizilaut). 
+Kamu juga bisa hubungi kami langsung via WhatsApp di [0823-2965-3189](https://wa.me/6282329653189) untuk info produk dan pemesanan.
+
+
+
 ---
+
 
 
 ## Kesimpulan
 Kalau kebutuhanmu adalah pakan hidup harian yang praktis, Artemia standar sudah cukup. Tapi kalau kamu ingin hasil yang lebih bersih dan lebih mudah dipisahkan, SEP-Art Artemia lebih unggul karena memakai teknologi magnetik yang memang dirancang untuk meningkatkan efisiensi hatchery.
+
 
 
 #Artemia #SEPArt #LiveFeed #Hatchery
