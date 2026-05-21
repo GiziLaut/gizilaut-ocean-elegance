@@ -20,7 +20,7 @@ const Products = () => {
 
   const pakanBenurImages = [
     "Frippak 1 CAR.png", "Frippak 2 CD.png", "Frippak PL + 150.png", "Frippak PL + 300.png",
-    "Algamac.png", "Aqua plus mysis 1.png", "Aqua Plus PL 150 1.png", "Aqua plus zoea1.png", "Artemac No 0.png",
+    "Algamac.png", "Aqua plus zoea1.png", "Aqua plus mysis 1.png", "Aqua Plus PL 150 1.png", "Artemac No 0.png",
     "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia Mackay.png", "Artemia Sanders.png",
     "Eguchi BP.png", "Elbazin 1 box.png", "Epac No 0.png", "ET-600 (1 Bag).png",  "Japonicus 0.png", "Lansy MPL FINAL.png",
     "Lansy PL.png", "Lansy ZM.png", "LHF 2.png", "Mackay Spirulina.png", "Micro feed no 3.png",
@@ -30,7 +30,7 @@ const Products = () => {
 
   const pakanIkanImages = [
     "Otohime A.png", "Otohime B1.png", "Otohime B2.png", "Otohime C1.png", "Otohime S1.png", "Otohime S2.png", 
-    "NRD 2 3.png", "NRD 3 5.png", "NRD 5 8.png", "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia Mackay.png", 
+    "NRD 2 3.png", "NRD 3 5.png", "NRD 5 8.png", "Artemia Crystal.png", "Artemia GoldenWest.png", "Artemia EG.png", "Artemia Mackay.png", 
     "Artemia Sanders.png", "Eguchi BP.png", "Elbazin 1 box.png", "LHF 2.png", "Rotemia.png", "rotofier.png", "Sanocare.png",
     
   ];

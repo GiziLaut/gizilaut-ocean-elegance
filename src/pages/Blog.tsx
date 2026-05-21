@@ -177,7 +177,27 @@ const blogPosts = [
     summary: 
       "Mengenal perbedaan Artemia standar dan SEP-Art Artemia, termasuk cara kerja, keunggulan, dan brand yang umum digunakan di hatchery.",
     slug: "artemia-standar-vs-separt-artemia",
-    category: "Growth",
+    category: "Live Feed",
+    readTime: "5 min read",
+  },
+  {
+    id: 18,
+    title: "Artemia Standar: Contoh Artemia Crystal O.S.I",
+    date: "2026-5-30",
+    summary: 
+      "Penjelasan singkat tentang Artemia standar dengan contoh Artemia Crystal dari O.S.I Amerika sebagai pakan hidup untuk larva udang dan ikan.",
+    slug: "artemia-crystal-untuk-benur",
+    category: "Live Feed",
+    readTime: "5 min read",
+  },
+  {
+    id: 19,
+    title: "Artemia SEP-Art: Contoh Artemia EG INVE",
+    date: "2026-5-30",
+    summary: 
+      "Mengenal Artemia SEP-Art dengan contoh Artemia EG INVE sebagai pilihan Artemia berkualitas tinggi dengan pemanenan lebih bersih dan efisien untuk hatchery.",
+    slug: "artemia-separt-eg-inve",
+    category: "Live Feed",
     readTime: "5 min read",
   },
 ];

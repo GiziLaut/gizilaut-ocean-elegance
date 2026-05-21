@@ -974,7 +974,7 @@ Perubahan ini memerlukan kolaborasi antara peneliti, produsen, pemerintah, dan k
   date: "2026-05-20",
   summary: "Mengenal perbedaan Artemia standar dan SEP-Art Artemia, termasuk cara kerja, keunggulan, dan brand yang umum digunakan di hatchery.",
   slug: "artemia-standar-vs-separt-artemia",
-  category: "Growth",
+  category: "Live Feed",
   readTime: "5 min read",
   image: "/BlogImage/artemia.png",
   content: `
@@ -1042,6 +1042,118 @@ Kamu juga bisa hubungi kami langsung via WhatsApp di [0823-2965-3189](https://wa
 Kalau kebutuhanmu adalah pakan hidup harian yang praktis, Artemia standar sudah cukup. Tapi kalau kamu ingin hasil yang lebih bersih dan lebih mudah dipisahkan, SEP-Art Artemia lebih unggul karena memakai teknologi magnetik yang memang dirancang untuk meningkatkan efisiensi hatchery.
 
 #Artemia #SEPArt #LiveFeed #Hatchery
+  `
+},
+
+{
+  id: 18,
+  title: "Artemia Standar: Contoh Artemia Crystal O.S.I",
+  date: "2026-05-30",
+  summary: "Penjelasan singkat tentang Artemia standar dengan contoh Artemia Crystal dari O.S.I Amerika sebagai pakan hidup untuk larva udang dan ikan.",
+  slug: "artemia-crystal-untuk-benur",
+  category: "Live Feed",
+  readTime: "5 min read",
+  image: "/BlogImage/artemia.png",
+  content: `
+# Mengenal Artemia Standar: Contoh Artemia Crystal O.S.I
+
+Artemia adalah pakan hidup yang sangat populer di hatchery karena ukurannya kecil, gerakannya aktif, dan mudah dicerna oleh larva udang maupun ikan. Artemia standar merujuk pada Artemia cyst (telur kering) yang ditetaskan dengan metode biasa tanpa teknologi magnetik atau proses khusus lainnya.
+
+---
+
+## Apa Itu Artemia Standar?
+
+Artemia standar berasal dari cyst yang dikeringkan dan bisa disimpan dalam waktu lama, lalu sewaktu-waktu ditetaskan menjadi nauplii (larva Artemia) di air asin. Proses ini disukai banyak pembudidaya karena praktis: cukup siapkan air bersalinitas sesuai, aerasi kuat, dan pencahayaan yang cukup, maka nauplii akan menetas dalam beberapa belas jam saja.
+
+Dalam pemakaian harian, kualitas Artemia standar sangat dipengaruhi oleh mutu cyst (asal dan grade), cara penyimpanan, serta kebersihan selama proses penetasan. Kalau faktor-faktor ini dijaga, hasil nauplii bisa stabil, bersih, dan aman diberikan ke larva tanpa banyak kotoran ikut terbawa.
+
+---
+
+## Contoh Produk: Artemia Crystal O.S.I Amerika
+
+![Artemia Crystal O.S.I](/BlogImage/crystal.png)
+
+Salah satu contoh Artemia standar terbaik yang banyak dipakai adalah Artemia Crystal dari O.S.I (Ocean Star International, Inc.), Amerika. Produk ini berisi Artemia cyst yang dipanen dari Great Salt Lake di Utah, kemudian dicuci, dikeringkan, dan dikemas vakum untuk menjaga kesegaran serta daya tetasnya.
+
+Artemia Crystal dikenal punya tingkat penetasan yang tinggi dengan nauplii berwarna oranye kemerahan yang aktif, sehingga sangat menarik bagi larva. Nauplii yang dihasilkan kaya protein dan lemak esensial, sehingga membantu pertumbuhan cepat, warna lebih cerah, dan daya tahan tubuh yang lebih baik pada larva ikan maupun udang.
+
+---
+
+## Kenapa Hatchery Suka Artemia Crystal?
+
+Untuk hatchery, keunggulan utama Artemia Crystal adalah konsistensi: satu kaleng bisa digunakan bertahap, dan selama penyimpanan dijaga dengan baik, daya tetas tetap stabil dari satu batch ke batch berikutnya. Hal ini memudahkan perencanaan pakan hidup harian tanpa khawatir kualitas turun drastis.
+
+Selain itu, karena berasal dari sumber yang jelas dan diproses dengan kontrol mutu ketat, Artemia Crystal membantu mengurangi risiko masalah kualitas pakan hidup yang bisa berpengaruh ke performa benur. Ditambah lagi, cara penetasannya sederhana dan bisa diadaptasi di berbagai skala, mulai dari akuarium hobi sampai hatchery komersial.
+
+---
+
+## Tips Singkat Menggunakan Artemia Standar
+
+Untuk mendapatkan hasil maksimal dari Artemia standar seperti Artemia Crystal, ada beberapa hal dasar yang perlu dijaga:
+- Gunakan air dengan salinitas dan pH yang sesuai, serta aerasi kuat agar cyst selalu tersuspensi.
+- Jaga suhu penetasan stabil sesuai rekomendasi (umumnya kisaran suhu tropis hangat).
+- Simpan kaleng atau kemasan dalam kondisi kering dan sejuk lebih baik lagi jika masuk kedalam freezer, sebaiknya tertutup rapat setelah dibuka.
+
+Dengan mengikuti langkah-langkah dasar ini, Artemia standar bisa menjadi pakan hidup yang andal dan ekonomis untuk mendukung pertumbuhan larva di hatchery.
+
+#Artemia #ArtemiaStandar #ArtemiaCrystal #LiveFeed #Hatchery
+  `
+},
+
+{
+  id: 19,
+  title: "Artemia SEP-Art: Contoh Artemia EG INVE",
+  date: "2026-05-30",
+  summary: "Mengenal Artemia SEP-Art dengan contoh Artemia EG INVE sebagai pilihan Artemia berkualitas tinggi dengan pemanenan lebih bersih dan efisien untuk hatchery.",
+  slug: "artemia-separt-eg-inve",
+  category: "Live Feed",
+  readTime: "5 min read",
+  image: "/BlogImage/artemia.png",
+  content: `
+# Artemia SEP-Art: Contoh Artemia EG INVE
+
+Di hatchery, tantangan utama saat memakai Artemia adalah bukan cuma menetas banyak, tapi juga bagaimana memanen nauplii yang benar-benar bersih dari shell dan cyst yang tidak menetas. Di sinilah Artemia dengan teknologi SEP-Art masuk sebagai solusi yang membuat proses panen jadi jauh lebih rapi dan efisien.
+
+---
+
+## Apa Itu Artemia SEP-Art?
+
+Artemia SEP-Art pada dasarnya adalah Artemia cyst biasa yang diberi lapisan magnetik non-toksik di bagian shell-nya. Lapisan ini membuat shell dan cyst yang belum menetas bisa ditarik oleh alat dengan magnet saat panen, sementara nauplii yang aktif tetap bebas di air.
+
+Keuntungannya, setelah penetasan kamu bisa memisahkan nauplii dari kotoran secara jauh lebih bersih hanya dengan alat separator berbasis magnet, tanpa perlu proses kimia yang rumit. Hasil akhirnya adalah suspensi nauplii yang lebih murni, lebih aman, dan siap diberikan ke larva udang maupun ikan di hatchery.
+
+---
+
+## Contoh Produk: Artemia EG INVE (SEP-Art)
+
+![Artemia EG INVE SEP-Art](/BlogImage/eg.png)
+
+Artemia EG dari INVE adalah salah satu contoh Artemia SEP-Art yang banyak dipakai di hatchery modern. Produk ini menggunakan cyst berkualitas tinggi dengan karakter penetasan yang seragam, kemudian diproses dengan teknologi SEP-Art sehingga shell-nya bisa ditarik oleh magnet saat panen.
+
+Bagi pembudidaya, ini berarti dua hal penting: pertama, nauplii yang dipanen jauh lebih bersih karena hampir tidak ada shell yang ikut; kedua, hampir semua nauplii yang menetas bisa diambil, sehingga hasil nyata per kaleng Artemia terasa lebih maksimal. Kombinasi kualitas cyst EG dan teknologi SEP-Art membuat Artemia ini cocok untuk hatchery yang mengejar standar pakan hidup yang lebih konsisten.
+
+---
+
+## Keunggulan Artemia SEP-Art untuk Hatchery
+
+Dibandingkan Artemia standar, Artemia SEP-Art seperti Artemia EG INVE menawarkan beberapa keunggulan praktis untuk operasional harian:
+
+- Pemanenan nauplii jauh lebih bersih karena shell dan cyst yang tidak menetas tertahan di magnet.
+- Efisiensi lebih tinggi, karena hampir semua nauplii bisa dipanen tanpa takut kotoran ikut terbawa.
+- Tidak perlu proses decapsulation dengan bahan kimia keras, sehingga lebih aman untuk pekerja dan lingkungan.
+- Menghemat waktu dan tenaga, sehingga tim di hatchery bisa fokus ke pengelolaan larva dan kualitas air.
+
+Dengan kombinasi faktor-faktor ini, Artemia EG SEP-Art membantu hatchery menjaga kualitas pakan hidup sambil menekan potensi masalah dari kotoran dan sisa shell yang berlebihan di bak larva.
+
+---
+
+## Tips Singkat Menggunakan Artemia EG SEP-Art
+
+Secara umum, cara menetas Artemia EG SEP-Art mirip dengan Artemia cyst biasa: gunakan air dengan salinitas sesuai, aerasi kuat, dan suhu hangat yang stabil. Perbedaannya ada di tahap panen, di mana kamu menggunakan alat separator dengan magnet untuk menahan shell dan cyst di satu sisi, sementara nauplii yang aktif tetap bebas di air dan siap diambil.
+
+Yang penting, pastikan peralatan penetasan dan separator selalu bersih, dan ikuti petunjuk pemakaian dari pabrik (waktu penetasan, dosis per liter, serta cara menggunakan magnet). Dengan begitu, kamu bisa menikmati semua keunggulan teknologi SEP-Art: nauplii lebih bersih, panen lebih mudah, dan hasil yang lebih efisien untuk hatchery.
+
+#Artemia #SEPArt #ArtemiaEG #INVE #LiveFeed #Hatchery
   `
 },
 
