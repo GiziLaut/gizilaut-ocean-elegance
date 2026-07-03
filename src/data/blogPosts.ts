@@ -1157,4 +1157,59 @@ Yang penting, pastikan peralatan penetasan dan separator selalu bersih, dan ikut
   `
 },
 
+{
+  id: 20,
+    title: "Udang Vaname Diam di Dasar: Normal atau Tanda Masalah?",
+    date: "2026-7-3",
+    summary: 
+      "Udang vaname yang berada di dasar kolam bukan berarti selalu sakit. Perilaku tersebut merupakan bagian dari kebiasaan alaminya.",
+    slug: "perilaku-udang-vaname",
+    category: "Behavior",
+    readTime: "5 min read",
+  image: "/BlogImage/udang-diam.png",
+  content: `
+# Pernah melihat udang vaname lebih banyak diam di dasar kolam?
+
+Kondisi ini belum tentu menunjukkan adanya masalah. Udang vaname memang memiliki kebiasaan hidup di dasar perairan (benthic) dan umumnya lebih aktif mencari makan pada sore hingga malam hari. Karena itu, berada di dasar kolam merupakan perilaku yang normal.
+
+Namun, jika udang yang sebelumnya aktif tiba-tiba menjadi sangat pasif, bergerombol, atau menunjukkan perubahan perilaku yang tidak biasa, kondisi tersebut patut diperhatikan. Dalam budidaya, perubahan perilaku sering menjadi salah satu tanda awal bahwa lingkungan kolam sedang mengalami gangguan.
+
+---
+
+## Apa yang Bisa Menyebabkan Udang Lebih Pasif?
+
+Salah satu penyebab yang paling umum adalah penurunan kadar oksigen terlarut (DO). Saat oksigen berkurang, udang dapat menjadi kurang aktif, berkumpul di area yang memiliki sirkulasi air lebih baik, atau mendekati titik aerasi.
+
+Selain itu, kualitas air yang menurun akibat tingginya amonia, nitrit, atau penumpukan bahan organik juga dapat memicu stres. Dalam kondisi tersebut, aktivitas udang biasanya berkurang dan respons terhadap pakan dapat ikut menurun.
+
+Perubahan suhu yang terjadi secara tiba-tiba juga dapat memengaruhi metabolisme udang sehingga gerakannya menjadi lebih lambat. Di sisi lain, udang yang sedang mengalami pergantian kulit (molting) memang cenderung bersembunyi dan mengurangi aktivitas untuk sementara waktu. Gangguan dari predator atau aktivitas di sekitar kolam juga dapat membuat udang menjadi lebih waspada dan tidak banyak bergerak.
+
+---
+
+## Perhatikan Perubahan Polanya
+
+Hal yang paling penting bukan hanya melihat posisi udang di dasar kolam, tetapi membandingkan perilakunya dengan kondisi pada hari-hari sebelumnya.
+
+Jika udang yang biasanya aktif mencari pakan tiba-tiba lebih banyak diam, respons makannya menurun, atau berkumpul di lokasi tertentu, sebaiknya segera lakukan pemeriksaan kualitas air. Perubahan kecil seperti ini sering kali muncul lebih awal sebelum masalah yang lebih serius terjadi.
+
+---
+
+## Apa yang Perlu Dicek?
+
+Saat menemukan perubahan perilaku, lakukan pemeriksaan terhadap kadar oksigen terlarut, pH, suhu, amonia, dan nitrit. Kondisi dasar kolam juga perlu diperhatikan, terutama jika terdapat penumpukan bahan organik atau lumpur yang dapat memengaruhi kualitas air.
+
+Selain itu, amati respons makan udang pada setiap waktu pemberian pakan. Penurunan konsumsi pakan sering menjadi indikator awal bahwa kondisi lingkungan atau kesehatan udang sedang terganggu.
+
+---
+
+## Kesimpulan
+
+Udang vaname yang berada di dasar kolam bukan berarti selalu sakit. Perilaku tersebut merupakan bagian dari kebiasaan alaminya. Namun, jika pola aktivitas berubah secara tiba-tiba, berlangsung terus-menerus, atau disertai penurunan nafsu makan dan perubahan kualitas air, kondisi tersebut perlu segera dievaluasi.
+
+Dalam budidaya, keberhasilan sering ditentukan oleh kemampuan membaca perubahan kecil sejak dini. Semakin cepat penyebabnya ditemukan, semakin besar peluang untuk menjaga kesehatan udang dan mempertahankan produktivitas tambak.
+
+#Artemia #SEPArt #ArtemiaEG #INVE #LiveFeed #Hatchery
+  `
+},
+
 ];

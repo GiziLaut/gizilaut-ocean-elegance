@@ -200,6 +200,26 @@ const blogPosts = [
     category: "Live Feed",
     readTime: "5 min read",
   },
+  {
+    id: 19,
+    title: "Artemia SEP-Art: Contoh Artemia EG INVE",
+    date: "2026-5-30",
+    summary: 
+      "Mengenal Artemia SEP-Art dengan contoh Artemia EG INVE sebagai pilihan Artemia berkualitas tinggi dengan pemanenan lebih bersih dan efisien untuk hatchery.",
+    slug: "artemia-separt-eg-inve",
+    category: "Live Feed",
+    readTime: "5 min read",
+  },
+  {
+    id: 20,
+    title: "Udang Vaname Diam di Dasar: Normal atau Tanda Masalah?",
+    date: "2026-7-3",
+    summary: 
+      "Udang vaname yang berada di dasar kolam bukan berarti selalu sakit. Perilaku tersebut merupakan bagian dari kebiasaan alaminya.",
+    slug: "perilaku-udang-vaname",
+    category: "Behavior",
+    readTime: "5 min read",
+  },
 ];
 
 const categories = [
