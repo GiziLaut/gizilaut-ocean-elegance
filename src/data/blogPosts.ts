@@ -1164,7 +1164,7 @@ Yang penting, pastikan peralatan penetasan dan separator selalu bersih, dan ikut
     summary: 
       "Udang vaname yang berada di dasar kolam bukan berarti selalu sakit. Perilaku tersebut merupakan bagian dari kebiasaan alaminya.",
     slug: "perilaku-udang-vaname",
-    category: "Behavior",
+    category: "Manajemen Tambak",
     readTime: "5 min read",
   image: "/BlogImage/udang-diam.png",
   content: `
