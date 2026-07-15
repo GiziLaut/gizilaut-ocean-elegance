@@ -1212,4 +1212,57 @@ Dalam budidaya, keberhasilan sering ditentukan oleh kemampuan membaca perubahan 
   `
 },
 
+{
+  id: 21,
+    title: "Kenapa Ikan Tetap Butuh Oksigen?",
+    date: "2026-7-15",
+    summary: 
+      "Ikan memang hidup di dalam air, tetapi tetap membutuhkan oksigen untuk bernapas.",
+    slug: "kebutuhan-oksigen-pada-ikan",
+    category: "Growth",
+    readTime: "5 min read",
+  image: "/BlogImage/nafas-ikan.png",
+  content: `
+# Bagaimana Ikan Bernapas?
+
+Saat berenang, air masuk melalui mulut ikan lalu mengalir melewati insang. Di dalam insang terdapat banyak pembuluh darah halus yang memungkinkan oksigen terlarut berpindah dari air ke dalam darah, sementara karbon dioksida dilepaskan kembali ke air.
+
+Proses ini sangat efisien, tetapi hanya dapat berlangsung dengan baik jika kadar oksigen terlarut (DO) di dalam air tetap mencukupi.
+
+---
+
+## Kenapa Ikan Sering Megap di Permukaan?
+
+Ketika kadar oksigen terlarut mulai menurun, ikan biasanya akan menunjukkan tanda-tanda stres. Salah satu gejala yang paling mudah dikenali adalah ikan sering naik ke permukaan dan membuka-tutup mulut dengan cepat atau terlihat "megap".
+
+Perilaku ini terjadi karena lapisan permukaan air umumnya memiliki kandungan oksigen yang sedikit lebih tinggi akibat kontak langsung dengan udara. Jika banyak ikan berkumpul di permukaan atau di dekat aerator, kondisi tersebut dapat menjadi tanda bahwa kadar oksigen di kolam perlu segera diperiksa.
+
+---
+
+## Berapa Kadar Oksigen yang Baik?
+
+Kebutuhan oksigen berbeda pada setiap spesies, tetapi secara umum kadar oksigen terlarut di atas **5 mg/L** dianggap baik untuk banyak jenis ikan budidaya. Ketika kadar oksigen turun hingga sekitar **3–5 mg/L**, beberapa spesies mulai mengalami stres. Jika turun di bawah **3 mg/L**, banyak ikan akan menunjukkan gangguan pernapasan, dan kondisi yang lebih rendah lagi dapat meningkatkan risiko kematian apabila berlangsung terlalu lama.
+
+Karena itu, aerasi yang memadai dan pengelolaan kualitas air menjadi bagian penting dalam budidaya maupun pemeliharaan ikan.
+
+---
+
+## Tidak Semua Ikan Memiliki Kemampuan yang Sama
+
+Beberapa ikan memiliki adaptasi khusus untuk menghadapi kondisi oksigen rendah. Cupang, misalnya, memiliki organ labirin yang memungkinkan mereka mengambil oksigen langsung dari udara. Lele juga relatif lebih toleran terhadap kadar oksigen yang rendah dibandingkan banyak spesies lainnya.
+
+Meski begitu, kemampuan tersebut bukan berarti ikan dapat dipelihara dalam kondisi kualitas air yang buruk. Lingkungan dengan oksigen yang cukup tetap dibutuhkan agar ikan dapat tumbuh sehat dan optimal.
+
+---
+
+## Kesimpulan
+
+Ikan memang hidup di dalam air, tetapi tetap membutuhkan oksigen untuk bernapas. Oksigen tersebut diperoleh dari air melalui insang, sehingga kualitas air dan kadar oksigen terlarut menjadi faktor penting dalam menjaga kesehatan ikan.
+
+Jika ikan mulai sering megap di permukaan, jangan abaikan tanda tersebut. Bisa jadi, ikan sedang memberi sinyal bahwa kondisi air perlu segera diperiksa sebelum masalah berkembang menjadi lebih serius.
+
+#Oksigen #Aerasi #IkanBernafas #LiveFeed #Hatchery
+  `
+},
+
 ];
