@@ -1265,4 +1265,49 @@ Jika ikan mulai sering megap di permukaan, jangan abaikan tanda tersebut. Bisa j
   `
 },
 
+{
+  id: 22,
+    title: "Hujan Deras dan Ikan Megap: Mengapa Ini Bisa Terjadi?",
+    date: "2026-7-20",
+    summary: 
+      "Hujan deras bukan selalu menjadi penyebab langsung ikan mengalami kematian.",
+    slug: "ikan-megap-saat-hujan",
+    category: "Growth",
+    readTime: "5 min read",
+  image: "/BlogImage/hujan-ikan-megap.png",
+  content: `
+# Mengapa Hujan Deras Bisa Memengaruhi Ikan?
+
+Air hujan dapat mengubah kondisi kolam dalam waktu relatif singkat. Selain menurunkan suhu permukaan, hujan juga dapat memengaruhi pH, mengencerkan salinitas pada tambak air payau, serta menyebabkan pencampuran lapisan air. Perubahan ini dapat memengaruhi kadar oksigen terlarut dan membuat lingkungan menjadi kurang stabil bagi ikan.
+
+Akibatnya, ikan mungkin terlihat lebih lambat bergerak, berkumpul di dekat sumber aerasi, atau sesekali naik ke permukaan ketika kadar oksigen mulai menurun. Gejala seperti ini menjadi sinyal bahwa kondisi kolam perlu segera diperiksa.
+
+---
+
+## Risiko Gangguan Kesehatan
+
+Stres akibat perubahan lingkungan dapat membuat ikan lebih rentan terhadap gangguan kesehatan. Di kolam budidaya, berbagai bakteri oportunistik seperti Aeromonas, dan pada sistem air payau atau laut juga Vibrio, memang dapat ditemukan secara alami. Mikroorganisme tersebut umumnya baru menjadi masalah ketika kondisi ikan melemah atau kualitas air memburuk.
+
+Karena itu, menjaga kestabilan lingkungan sering kali menjadi langkah pencegahan yang lebih efektif dibanding hanya mengobati ikan setelah sakit.
+
+---
+
+## Cara Mengurangi Risiko Saat Musim Hujan
+
+Selama musim hujan, kualitas air sebaiknya dipantau lebih rutin, terutama suhu, oksigen terlarut, dan pH. Pastikan sistem aerasi bekerja dengan baik agar kebutuhan oksigen ikan tetap terpenuhi, terutama pada malam hingga dini hari.
+
+Pemberian pakan juga perlu disesuaikan dengan respons makan ikan. Jika nafsu makan menurun, hindari pemberian pakan berlebihan karena sisa pakan dapat memperburuk kualitas air. Apabila diperlukan pergantian air, lakukan secara bertahap agar ikan tidak mengalami perubahan lingkungan yang terlalu drastis.
+
+---
+
+## Kesimpulan
+
+Hujan deras bukan selalu menjadi penyebab langsung ikan mengalami kematian. Yang lebih sering menjadi pemicu adalah perubahan kualitas air yang berlangsung secara tiba-tiba dan membuat ikan sulit beradaptasi.
+
+Dalam budidaya, menjaga kestabilan lingkungan merupakan salah satu kunci utama untuk mempertahankan kesehatan ikan. Dengan pemantauan kualitas air yang rutin dan respons yang cepat terhadap perubahan cuaca, risiko stres dan gangguan kesehatan dapat dikurangi sehingga peluang keberhasilan budidaya menjadi lebih besar.
+
+#Oksigen #Aerasi #IkanBernafas #LiveFeed #Hatchery
+  `
+},
+
 ];

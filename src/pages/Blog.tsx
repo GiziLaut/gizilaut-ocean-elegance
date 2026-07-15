@@ -210,13 +210,23 @@ const blogPosts = [
     category: "Manajemen Tambak",
     readTime: "5 min read",
   },
-    {
+  {
     id: 21,
     title: "Kenapa Ikan Tetap Butuh Oksigen?",
     date: "2026-7-15",
     summary: 
       "Ikan memang hidup di dalam air, tetapi tetap membutuhkan oksigen untuk bernapas.",
     slug: "kebutuhan-oksigen-pada-ikan",
+    category: "Growth",
+    readTime: "5 min read",
+  },
+  {
+    id: 22,
+    title: "Hujan Deras dan Ikan Megap: Mengapa Ini Bisa Terjadi?",
+    date: "2026-7-20",
+    summary: 
+      "Hujan deras bukan selalu menjadi penyebab langsung ikan mengalami kematian.",
+    slug: "ikan-megap-saat-hujan",
     category: "Growth",
     readTime: "5 min read",
   },
