@@ -230,6 +230,36 @@ const blogPosts = [
     category: "Growth",
     readTime: "5 min read",
   },
+  {
+    id: 23,
+    title: "Hubungan Antara Ikan dan Kesehatan Jantung",
+    date: "2026-7-21",
+    summary: 
+      "Makan ikan secara rutin bukan jaminan seseorang bebas dari penyakit jantung?",
+    slug: "makan-ikan-jaga-kesehatan-jantung",
+    category: "Kesehatan & Penyakit",
+    readTime: "3-4 min read",
+  },
+  {
+    id: 24,
+    title: "Pakan Berjamur: Masalah yang Sering Terlambat Disadari",
+    date: "2026-7-23",
+    summary: 
+      "Pakan yang berjamur bukan hanya menurunkan kualitas nutrisi, tetapi juga berpotensi membawa risiko",
+    slug: "pakan-ikan-berjamur",
+    category: "Growth",
+    readTime: "3-4 min read",
+  },
+  {
+    id: 25,
+    title: "Plankton Bloom: Sahabat yang Bisa Berubah Menjadi Ancaman",
+    date: "2026-7-24",
+    summary: 
+      "Plankton merupakan bagian penting dari ekosistem budidaya. Tapi ada hal-hal yang perlu di perhatikan",
+    slug: "plankton-bloom",
+    category: "Growth",
+    readTime: "5 min read",
+  },
 ];
 
 const categories = [
