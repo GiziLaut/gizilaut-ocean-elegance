@@ -260,6 +260,36 @@ const blogPosts = [
     category: "Growth",
     readTime: "5 min read",
   },
+  {
+    id: 26,
+    title: "Ikan yang Cocok untuk Aquascape: Bukan Sekadar Cantik, tetapi Juga Serasi",
+    date: "2026-7-29",
+    summary: 
+      "Aquascape yang indah bukan hanya ditentukan oleh desain hardscape atau tanaman yang rimbun",
+    slug: "aquascape",
+    category: "Growth",
+    readTime: "3-4 min read",
+  },
+  {
+    id: 27,
+    title: "Cahaya Berlebih di Akuarium: Indah Dilihat, Belum Tentu Baik untuk Ekosistem",
+    date: "2026-7-30",
+    summary: 
+      "Pencahayaan merupakan salah satu faktor penting dalam menjaga keseimbangan akuarium.",
+    slug: "pencahayaan-aquarium",
+    category: "Growth",
+    readTime: "3-4 min read",
+  },
+  {
+    id: 28,
+    title: "Cara Mendapatkan Hatching Artemia yang Cepat dan Stabil",
+    date: "2026-7-31",
+    summary: 
+      "Keberhasilan hatching artemia bergantung pada kombinasi berbagai faktor, mulai dari kualitas cyst, suhu, salinitas, pH, aerasi, hingga kualitas air selama proses penetasan.",
+    slug: "hatching-artemia",
+    category: "Growth",
+    readTime: "4-5 min read",
+  },
 ];
 
 const categories = [

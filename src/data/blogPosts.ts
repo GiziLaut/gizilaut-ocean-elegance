@@ -1481,4 +1481,196 @@ Karena itu, kunci keberhasilan budidaya bukan menghilangkan plankton, melainkan 
   `
 },
 
+{
+  id: 26,
+    title: "Ikan yang Cocok untuk Aquascape: Bukan Sekadar Cantik, tetapi Juga Serasi",
+    date: "2026-7-29",
+    summary: 
+      "Aquascape yang indah bukan hanya ditentukan oleh desain hardscape atau tanaman yang rimbun",
+    slug: "aquascape",
+    category: "Growth",
+    readTime: "3-4 min read",
+  image: "/BlogImage/co-harmony.png",
+  content: `
+# Ikan yang Cocok untuk Aquascape: Bukan Sekadar Cantik, tetapi Juga Serasi
+
+Aquascape bukan hanya tentang batu, kayu, tanaman, dan pencahayaan. Penghuni di dalamnya juga memegang peranan penting dalam menjaga keseimbangan ekosistem. Karena itu, memilih ikan untuk aquascape tidak cukup hanya berdasarkan warna atau bentuk tubuhnya, tetapi juga perilaku dan kecocokannya dengan tanaman air.
+
+Ikan yang tepat akan membuat aquascape terlihat lebih hidup tanpa merusak susunan tanaman maupun mengganggu penghuni lainnya.
+
+---
+
+## Pilih Ikan yang Tenang dan Bersahabat
+
+Sebagian besar aquascaper memilih ikan berukuran kecil yang aktif berenang tetapi tidak memiliki kebiasaan menggali substrat atau merusak tanaman.
+
+Beberapa pilihan yang populer antara lain neon tetra, cardinal tetra, harlequin rasbora, dan ember tetra. Ikan-ikan ini hidup berkelompok (schooling fish), memiliki sifat yang relatif damai, dan mampu memberikan kesan alami saat berenang di antara tanaman.
+
+Untuk membantu mengendalikan alga, banyak penghobi juga memelihara Otocinclus atau Siamese algae eater (SAE). Namun, Otocinclus umumnya lebih cocok ditempatkan pada akuarium yang sudah stabil karena cukup sensitif terhadap perubahan kualitas air, sedangkan SAE biasanya lebih efektif memakan alga saat masih berukuran muda.
+
+Selain ikan, udang seperti Amano shrimp dan Red Cherry Shrimp juga sering dipelihara karena membantu memakan biofilm, alga halus, dan sisa pakan di dalam akuarium.
+
+---
+
+## Ikan yang Perlu Dipertimbangkan
+
+Tidak semua ikan cocok untuk aquascape yang dipenuhi tanaman.
+
+Goldfish dan koi, misalnya, sering mengaduk substrat saat mencari makan sehingga tanaman dapat tercabut atau rusak. Beberapa jenis cichlid juga memiliki kebiasaan menggali dasar akuarium atau mempertahankan wilayahnya, sehingga kurang sesuai untuk aquascape dengan tanaman yang rapuh.
+
+Betta, termasuk betta plakat, sebenarnya dapat dipelihara dalam aquascape. Namun, pemilihan teman satu akuarium perlu dilakukan dengan hati-hati karena sebagian individu memiliki sifat teritorial atau agresif terhadap ikan tertentu.
+
+Karena itu, karakter setiap spesies sebaiknya dipertimbangkan sebelum dicampurkan dalam satu akuarium.
+
+---
+
+## Sesuaikan dengan Kondisi Akuarium
+
+Selain memilih jenis ikan, ukuran akuarium, suhu, pH, dan tata letak tanaman juga perlu diperhatikan. Akuarium yang terlalu padat dapat membuat ikan stres, sedangkan tanaman yang terlalu rapat dapat membatasi ruang berenang bagi beberapa spesies.
+
+Keseimbangan antara jumlah ikan, tanaman, sistem filtrasi, dan pencahayaan akan membantu menciptakan ekosistem yang lebih stabil dalam jangka panjang.
+
+---
+
+## Kesimpulan
+
+Aquascape yang indah bukan hanya ditentukan oleh desain hardscape atau tanaman yang rimbun, tetapi juga oleh pemilihan penghuni yang sesuai.
+
+Ikan yang damai, tidak merusak tanaman, dan memiliki kebutuhan lingkungan yang serupa umumnya menjadi pilihan terbaik. Dengan memahami karakter setiap spesies, aquascape tidak hanya menjadi indah dipandang, tetapi juga menjadi ekosistem yang sehat dan nyaman bagi seluruh penghuninya.
+
+#Aquascape #coharmony #aquarium #KolamSehat
+  `
+},
+
+{
+  id: 27,
+    title: "Cahaya Berlebih di Akuarium: Indah Dilihat, Belum Tentu Baik untuk Ekosistem",
+    date: "2026-7-30",
+    summary: 
+      "Pencahayaan merupakan salah satu faktor penting dalam menjaga keseimbangan akuarium.",
+    slug: "pencahayaan-aquarium",
+    category: "Growth",
+    readTime: "3-4 min read",
+  image: "/BlogImage/aquarium.png",
+  content: `
+# Pencahayaan dalam Aquarium perlu dibatasi?
+
+Akuarium yang terang memang terlihat lebih menarik. Warna ikan tampak lebih hidup dan tanaman terlihat lebih segar. Namun, pencahayaan yang terlalu lama atau terlalu kuat justru dapat mengganggu keseimbangan ekosistem di dalam akuarium.
+
+Lampu bukan hanya berfungsi sebagai penerangan, tetapi juga memengaruhi pertumbuhan tanaman, alga, dan bahkan perilaku ikan. Karena itu, pengaturan cahaya menjadi salah satu bagian penting dalam perawatan akuarium.
+
+---
+
+## Mengapa Cahaya Perlu Diatur?
+
+Tanaman air membutuhkan cahaya untuk melakukan fotosintesis dan tumbuh dengan baik. Namun, jika intensitas atau durasi pencahayaan terlalu tinggi, alga juga akan memperoleh kondisi yang menguntungkan untuk berkembang.
+
+Akibatnya, alga dapat tumbuh lebih cepat pada kaca, batu, dekorasi, maupun daun tanaman. Selain mengurangi keindahan akuarium, pertumbuhan alga yang berlebihan juga dapat mengganggu keseimbangan ekosistem, terutama jika disertai kelebihan nutrisi di dalam air.
+
+Karena itu, pencahayaan sebaiknya disesuaikan dengan kebutuhan tanaman dan kondisi akuarium secara keseluruhan.
+
+---
+
+## Dampaknya pada Tanaman
+
+Ketika alga tumbuh berlebihan, tanaman air dapat mengalami persaingan dalam memperoleh cahaya dan nutrisi. Pada beberapa kondisi, alga yang menutupi permukaan daun juga dapat mengurangi efisiensi fotosintesis sehingga pertumbuhan tanaman menjadi kurang optimal.
+
+Namun, ledakan alga biasanya bukan hanya dipicu oleh cahaya. Keseimbangan nutrisi, kadar karbon dioksida (CO₂), serta perawatan akuarium juga memiliki peran yang sama pentingnya.
+
+---
+
+## Pengaruh Cahaya terhadap Ikan
+
+Selain tanaman, ikan juga membutuhkan siklus terang dan gelap yang teratur. Pergantian siang dan malam membantu mengatur ritme biologis serta perilaku alami ikan.
+
+Jika lampu menyala terlalu lama tanpa periode gelap yang cukup, sebagian spesies ikan dapat mengalami stres, perubahan perilaku, atau penurunan aktivitas. Dalam jangka panjang, kondisi tersebut berpotensi memengaruhi kesehatan ikan, terutama jika disertai faktor stres lainnya.
+
+Karena itu, memberikan waktu gelap setiap hari sama pentingnya dengan menyediakan pencahayaan yang cukup.
+
+---
+
+## Berapa Lama Lampu Sebaiknya Menyala?
+
+Pada banyak akuarium, pencahayaan sekitar 6–10 jam per hari umumnya sudah cukup untuk mendukung pertumbuhan tanaman sekaligus membantu mengendalikan pertumbuhan alga. Durasi yang ideal dapat berbeda tergantung jenis tanaman, intensitas lampu, dan sistem akuarium yang digunakan.
+
+Penggunaan timer juga dapat membantu menjaga jadwal pencahayaan tetap konsisten setiap hari.
+
+---
+
+## Kesimpulan
+
+Pencahayaan merupakan salah satu faktor penting dalam menjaga keseimbangan akuarium. Cahaya yang cukup membantu tanaman tumbuh dengan baik, tetapi pencahayaan yang berlebihan dapat meningkatkan risiko pertumbuhan alga dan mengganggu ritme alami ikan.
+
+Dengan mengatur intensitas dan durasi cahaya secara tepat, serta didukung manajemen nutrisi dan perawatan rutin, ekosistem akuarium dapat tetap sehat, stabil, dan nyaman bagi seluruh penghuninya. Akuarium yang baik bukanlah yang paling terang, melainkan yang memiliki keseimbangan lingkungan yang terjaga.
+
+#LampuAquarium #Pencahayaan #aquarium #KolamSehat
+  `
+},
+
+{
+  id: 28,
+    title: "Cara Mendapatkan Hatching Artemia yang Cepat dan Stabil",
+    date: "2026-7-31",
+    summary: 
+      "Keberhasilan hatching artemia bergantung pada kombinasi berbagai faktor, mulai dari kualitas cyst, suhu, salinitas, pH, aerasi, hingga kualitas air selama proses penetasan.",
+    slug: "hatching-artemia",
+    category: "Growth",
+    readTime: "4-5 min read",
+  image: "/BlogImage/hatching-artemia.png",
+  content: `
+# Umumnya bagaimana proses kultur Artemia?
+
+Artemia merupakan salah satu pakan hidup yang banyak digunakan dalam hatchery udang maupun ikan karena memiliki ukuran yang sesuai untuk larva dan kaya akan nutrisi. Namun, keberhasilan penetasan artemia tidak hanya ditentukan oleh kualitas cyst, tetapi juga oleh kondisi lingkungan selama proses hatching berlangsung.
+
+Dengan suhu, salinitas, aerasi, dan kualitas air yang terjaga, artemia umumnya dapat menetas dalam waktu sekitar 18–30 jam, tergantung jenis cyst dan kondisi penetasan.
+
+---
+
+## Mengapa Kondisi Lingkungan Sangat Penting?
+
+Artemia cyst merupakan embrio dalam kondisi dorman. Ketika dimasukkan ke dalam lingkungan yang sesuai, embrio akan kembali aktif dan melanjutkan proses perkembangan hingga menetas menjadi nauplius.
+
+Karena itu, perubahan suhu, salinitas, pH, maupun aerasi selama proses penetasan dapat memengaruhi persentase hatching dan kualitas nauplius yang dihasilkan.
+
+Semakin stabil kondisi penetasan, umumnya hasil yang diperoleh juga akan semakin konsisten.
+
+---
+
+## Faktor yang Perlu Diperhatikan
+
+Suhu merupakan salah satu faktor yang paling berpengaruh terhadap kecepatan penetasan. Pada banyak hatchery, suhu penetasan biasanya dipertahankan sekitar 28–30°C agar perkembangan embrio berlangsung optimal.
+
+Selain itu, salinitas dan pH juga perlu dijaga tetap stabil sesuai kebutuhan penetasan. Aerasi yang memadai berfungsi menjaga cyst tetap tersuspensi di dalam air sekaligus menyediakan oksigen yang dibutuhkan selama proses perkembangan embrio.
+
+Pencahayaan yang cukup juga sering digunakan untuk membantu memperoleh hasil penetasan yang lebih seragam.
+
+---
+
+## Tanda Hatching Berjalan Baik
+
+Penetasan yang berhasil biasanya ditandai dengan banyaknya nauplius yang aktif berenang dan tersebar merata di dalam wadah penetasan. Setelah aerasi dihentikan sesaat, cangkang kosong umumnya akan mengapung, sedangkan nauplius berkumpul pada bagian tertentu sehingga lebih mudah dipanen.
+
+Sebaliknya, jika banyak cyst tidak menetas atau mengendap di dasar wadah, kondisi penetasan perlu dievaluasi. Penyebabnya dapat berupa kualitas cyst yang kurang baik maupun kondisi lingkungan yang belum optimal.
+
+---
+
+## Perhatikan Waktu Panen
+
+Nauplius yang baru menetas masih memiliki cadangan kuning telur (*yolk reserve*) yang menjadi sumber energi alami. Oleh karena itu, banyak hatchery memanen dan menggunakan nauplius sesegera mungkin agar kandungan nutrisinya masih optimal saat diberikan kepada larva.
+
+Jika diperlukan, nauplius juga dapat diperkaya (enrichment) terlebih dahulu untuk meningkatkan kandungan nutrisi sebelum digunakan sebagai pakan.
+
+---
+
+## Kesimpulan
+
+Keberhasilan hatching artemia bergantung pada kombinasi berbagai faktor, mulai dari kualitas cyst, suhu, salinitas, pH, aerasi, hingga kualitas air selama proses penetasan.
+
+Dengan menjaga kondisi tersebut tetap stabil dan melakukan pengamatan secara rutin, peluang memperoleh nauplius yang sehat dan tingkat penetasan yang konsisten akan menjadi lebih besar. Dalam hatchery, perhatian terhadap detail kecil selama proses hatching sering kali memberikan dampak besar terhadap kualitas pakan hidup yang dihasilkan.
+
+#HatchingArtemia #Artemia #KulturArtemia #cystartemia #cyst
+  `
+},
+
+
 ];
